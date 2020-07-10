@@ -9,18 +9,21 @@
         <div class="carousel-item active">
             <img class="d-block w-100 img-adjust img-adjust-h500" src="{{asset('assets/img/carousel-ms.jpg')}}" alt="First slide">
             <div class="container">
-                <div class="carousel-caption " style="background-color: rgba(0,0,0,0.5); border-radius: 15px; ">
-                    <img src="{{asset('assets/img/microsoft.png')}}" alt="" class="Microsoft" style="height: 120px; width: auto;">
-                    <h5 class="display-4">Licencias por volumen para </h5>
-                    <h5 class="display-4"><span id="typed" class="text-twitter"></span></h5>
-                    <div id="typed-strings">
-                        <p>empresas.</p>
-                        <p>gobierno.</p>
-                        <p>escuelas.</p>
+                <div class="row align-items-start">
+                    <div class="carousel-caption " style="background-color: rgba(0,0,0,0.5); border-radius: 15px; ">
+                        <img src="{{asset('assets/img/microsoft.png')}}" alt="" class="Microsoft" style="height: 100px; width: auto;">
+                        <h1 class=>Licencias por volumen para
+                        <span id="typed" class="text-warning"></span></h1>
+                        <div id="typed-strings">
+                            <p>empresas.</p>
+                            <p>gobierno.</p>
+                            <p>escuelas.</p>
+                        </div>
+                        <br>
+                        <a href="{{ url('/microsoft') }}" class="btn btn-success btn-sm">Más información</a>
                     </div>
-                    <br>
-                    <a href="./contacto.html" class="btn btn-success btn-lg">Más información</a>
                 </div>
+
             </div>
         </div>
         <div class="carousel-item">
@@ -31,7 +34,7 @@
                         <h5 class="display-4 text-dark">Contamos con toda la línea de productos </h5>
                         <img src="{{asset('assets/img/autodesk.png')}}" alt="Autodesk" class="" style="height: 80px; width: auto;">
                         <br>
-                        <a href="./contacto.html" class="btn btn-dark btn-lg">Más información</a>
+                        <a href="./contacto.html" class="btn btn-skype btn-lg">Más información</a>
                     </div>
                 </div>
             </div>
