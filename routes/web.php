@@ -17,48 +17,48 @@ Route::get('/', function () {
     return view('main');
 });
 Route::get('/controldeacceso', function () {
-    return view('acceso');
+    return view('main');
 });
 Route::get('/videovigilancia', function () {
-    return view('video');
+    return view('main');
 });
 Route::get('/redesinalambricas', function () {
-    return view('inalámbricas');
+    return view('main');
 });
 Route::get('/networking', function () {
-    return view('networking');
+    return view('main');
 });
 Route::get('/cableadoestructurado', function () {
-    return view('estructurado');
+    return view('main');
 });
 Route::get('/fibraoptica', function () {
-    return view('fibra');
+    return view('main');
 });
 Route::get('/microsoft', function () {
-    return view('microsoft');
+    return view('main');
 });
 Route::get('/antivirus', function () {
-    return view('antivirus');
+    return view('main');
 });
 Route::get('/computo', function () {
-    return view('computo');
+    return view('main');
 });
 Route::get('/almacenamiento', function () {
-    return view('almacenamiento');
+    return view('main');
 });
 Route::get('/polizas', function () {
-    return view('polizas');
+    return view('main');
 });
 Route::get('/financieros', function () {
-    return view('financieros');
+    return view('main');
 });
 Route::get('/foros', function () {
-    return view('foros');
+    return view('main');
 });
 Route::get('/contacto', function () {
-    return view('contacto');
+    return view('main');
 });
 Route::get('/nuevanormalidad', function () {
-    return view('nuevanormalidad');
+    return view('main');
 });
 

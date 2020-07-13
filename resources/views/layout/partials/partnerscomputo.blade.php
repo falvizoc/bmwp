@@ -1,11 +1,12 @@
+<div class="container-fluid">
+
 <div class="row align-items-center">
     <div class="col">
-        <h3 class="pl-2">Nuestros Partners</h3>
+        <h3 class="pl-2 pt-2 "><strong class="">Nuestros Partners</strong></h3>
     </div>
 </div>
-<div class="tab-pane show active" id="component-1-1" role="tabpanel" aria-labelledby="component-1-1">
-    <div class="component-example">
-        <div class="row">
+
+        <div class="row" data-aos="zoom-in">
             <div class="col partners align-items-center">
                 <div class="owl-carousel" data-items="[6,4,2]" data-loop="true" data-autoplay="true">
                     <div class="logo">
@@ -88,4 +89,4 @@
             </div>
         </div>
     </div>
-</div>
+
