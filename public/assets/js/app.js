@@ -67,8 +67,18 @@
           startDelay: 200,
           loop: true
         });
-      }
-    },
+      } if( $('#typed2').length){
+            var typed2 = new Typed("#typed2",{
+                stringsElement: '#typed2-strings',
+                typeSpeed: 100,
+                backSpeed: 50,
+                backDelay: 2000,
+                startDelay: 200,
+                loop: true
+            });
+        }
+      },
+
 
     Masonry: function() {
       var $grid = $('.masonry').masonry({

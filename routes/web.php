@@ -61,4 +61,3 @@ Route::get('/contacto', function () {
 Route::get('/nuevanormalidad', function () {
     return view('main');
 });
-
