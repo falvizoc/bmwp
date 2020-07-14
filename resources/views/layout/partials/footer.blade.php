@@ -35,18 +35,18 @@
                     </div>
                     <div class="col col-lg-2">
                         <ul class="list-group bg-blue-bm list-group-minimal">
-                            <li class="list-group-item"><a href="">CCTV Manager</a></li>
-                            <li class="list-group-item"><a href="">Catálogos</a></li>
-                            <li class="list-group-item"><a href="">Oportunidades de mejora</a></li>
-                            <li class="list-group-item"><a href="">Eventos</a></li>
-                            <li class="list-group-item"><a href=""></a></li>
+                            <li class="list-group-item"><a href="{{url('/')}}">CCTV Manager</a></li>
+                            <li class="list-group-item"><a href="{{url('/')}}">Catálogos</a></li>
+                            <li class="list-group-item"><a href="{{url('/')}}">Oportunidades de mejora</a></li>
+                            <li class="list-group-item"><a href="{{url('/')}}">Eventos</a></li>
+                            <li class="list-group-item"><a href="{{url('/')}}"></a></li>
                         </ul>
                     </div>
                     <div class="col col-lg-2">
                         <ul class="list-group list-group-minimal">
-                            <li class="list-group-item"><a href="">Contacto</a></li>
-                            <li class="list-group-item"><a href="">Nosotros</a></li>
-                            <li class="list-group-item"><a href="">Aviso de privacidad</a></li>
+                            <li class="list-group-item"><a href="{{url('/')}}">Contacto</a></li>
+                            <li class="list-group-item"><a href="{{url('/')}}">Nosotros</a></li>
+                            <li class="list-group-item"><a href="{{url('/')}}">Aviso de privacidad</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-4 text-lg-right">
