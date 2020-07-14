@@ -30,8 +30,8 @@
                                 <!-- Seguridad -->
                                 <li><span><ion-icon name="lock-closed-outline"></ion-icon> Seguridad</span></li>
                                 <div class="dropdown-divider"></div>
-                                <li><a class="text-dark" href="{{ url('/controldeacceso') }}">Control de acceso <p>Comentarios</p></a></li>
-                                <li><a class="text-dark" href="{{ url('/videovigilancia') }}">Videovigilancia <p>Comentarios</p></a></li>
+                                <li><a class="text-dark" href="{{ url('/controldeacceso') }}">Control de acceso <p>Torniquetes | Chapas | Biométricos</p></a></li>
+                                <li><a class="text-dark" href="{{ url('/videovigilancia') }}">Videovigilancia <p>Cámaras | Video Wall | VMS </p></a></li>
                             </ul>
                         </div>
                         <div class="col">
@@ -39,8 +39,8 @@
                                 <!-- Redes -->
                                 <li><span><ion-icon name="git-network-outline"></ion-icon> Redes</span></li>
                                 <div class="dropdown-divider"></div>
-                                <li><a class="text-dark" href="{{ url('/redesinalambricas') }}">Redes inalámbricas<p>Comentarios</p></a></li>
-                                <li><a class="text-dark" href="{{ url('/networking') }}">Networking<p>Comentarios</p></a></li>
+                                <li><a class="text-dark" href="{{ url('/redesinalambricas') }}">Redes inalámbricas<p> Redes unificadas | Enlaces </p></a></li>
+                                <li><a class="text-dark" href="{{ url('/networking') }}">Networking<p>Switches | Routers | Firewalls</p></a></li>
                             </ul>
                         </div>
                         <div class="col">
@@ -48,10 +48,20 @@
                                 <!-- Cableado -->
                                 <li><span><ion-icon name="analytics-outline"></ion-icon> Cableado</span></li>
                                 <div class="dropdown-divider"></div>
-                                <li><a class="text-dark" href="{{ url('/cableadoestructurado') }}">Cableado Estructurado<p>Comentarios</p></a></li>
-                                <li><a class="text-dark" href="{{ url('/fibra') }}">Fibra óptica <p>Comentarios</p></a></li>
+                                <li><a class="text-dark" href="{{ url('/cableadoestructurado') }}">Cableado Estructurado<p>Cat 5e | Cat 6 | Cat 6A</p></a></li>
+                                <li><a class="text-dark" href="{{ url('/fibra') }}">Fibra óptica <p>Para servicios de Video, Voz y Datos</p></a></li>
                             </ul>
                         </div>
+                        <div class="col">
+                            <ul class="mega-list">
+                                <!-- Energía -->
+                                <li><span><ion-icon name="analytics-outline"></ion-icon> Energía </span></li>
+                                <div class="dropdown-divider"></div>
+                                <li><a class="text-dark" href="{{ url('/cableadoestructurado') }}">Sistemas de respaldo<p>UPS On Line | Bancos de baterías</p></a></li>
+                                <li><a class="text-dark" href="{{ url('/fibra') }}">Plantas automatizadas <p>Tableros de transferencia</p></a></li>
+                            </ul>
+                        </div>
+
                     </div>
                 </div>
             </li>
@@ -63,12 +73,12 @@
                 <div class="dropdown-menu " aria-labelledby="navbarDropdown">
                     <a href="{{ url('/microsoft') }}" class="dropdown-item">
                         <span><ion-icon name="logo-windows"></ion-icon> Microsoft</span>
-                        <p>Licenciamiento para Empresas y Hogares</p>
+                        <p>Licenciamiento para Empresas, Escuelas y Hogares</p>
                     </a>
                     <div class="dropdown-divider"></div>
                     <a href="{{ url('/antivirus') }}" class="dropdown-item">
                         <span><ion-icon name="bug"></ion-icon> Antivirus</span>
-                        <p>Mensaje</p>
+                        <p>Contra Virus o Malware</p>
                     </a>
                 </div>
 
