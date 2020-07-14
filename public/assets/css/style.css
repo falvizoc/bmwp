@@ -15918,9 +15918,11 @@ img {
     font-size: 20px;
     background-color: #e5e5e5; }
   .phone:hover {
-    border-color: #4829B2 !important; }
+    /* border-color: #4829B2 !important; }*/
+    border-color: #54AF5D !important; }
     .phone:hover::before {
-      background-color: #4829B2 !important;
+      /*background-color: #4829B2 !important;*/
+      background-color: #54AF5D !important;
       color: #fff; }
 
 .text-white .phone::before {
