@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f30076d9-25aa-4d66-ae3b-0a5d583d7620" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/layout/partials/engineering.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout/partials/engeeniering.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout/partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/partials/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/mainlayout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mainlayout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/partials/engineering.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/partials/engineering.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/partials/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/partials/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/partials/partnerscomputo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/partials/partnerscomputo.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,11 +20,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layout/partials/footer.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layout/partials/partnerscomputo.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="78" selection-start-line="5" selection-start-column="78" selection-end-line="5" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/layout/partials/engineering.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="16" column="121" selection-start-line="16" selection-start-column="121" selection-end-line="16" selection-end-column="121" />
+            <state relative-caret-position="279">
+              <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
               </folding>
@@ -56,6 +72,7 @@
       <find>phone</find>
       <find>.phone</find>
       <find>icomoon</find>
+      <find>text-google-plus</find>
     </findStrings>
     <replaceStrings>
       <replace>aset/img/</replace>
@@ -65,6 +82,7 @@
       <replace>{{asset('assets/img/partners/computo/')}}</replace>
       <replace>{{asset('assets/img/partners/computo/</replace>
       <replace>/</replace>
+      <replace>text-warning</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -84,14 +102,14 @@
         <option value="$PROJECT_DIR$/resources/views/layout/partials/slider.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layout/partials/footer-scripts.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/main.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layout/partials/partnerscomputo.blade.php" />
         <option value="$PROJECT_DIR$/public/assets/js/app.js" />
         <option value="$PROJECT_DIR$/resources/views/layout/partials/nav.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layout/partials/footer.blade.php" />
         <option value="$PROJECT_DIR$/public/assets/css/style.css" />
         <option value="$PROJECT_DIR$/resources/views/layout/partials/engeeniering.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layout/partials/header.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/mainlayout.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layout/partials/footer.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layout/partials/partnerscomputo.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layout/partials/engineering.blade.php" />
       </list>
     </option>
@@ -326,7 +344,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33309000" />
+    <option name="totallyTimeSpent" value="36912000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -334,9 +352,9 @@
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" sideWeight="0.5005612" side_tool="true" weight="0.16613418" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.4988764" weight="0.2584814" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.4988764" visible="true" weight="0.2584814" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.18662675" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.18559557" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32934132" />
@@ -356,15 +374,15 @@
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" sideWeight="0.5005612" side_tool="true" weight="0.16613418" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.4988764" weight="0.17039403" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.4988764" visible="true" weight="0.2584814" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.18662675" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.18559557" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32934132" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
-      <window_info active="true" anchor="bottom" id="Find" order="6" visible="true" weight="0.32934132" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32934132" />
       <window_info anchor="bottom" id="Run" order="7" weight="0.32934132" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
@@ -449,13 +467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layout/partials/partnerscomputo.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1911">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layout/partials/footer-scripts.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -494,13 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layout/partials/footer.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="52" column="67" selection-start-line="52" selection-start-column="62" selection-end-line="52" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/img/ingenieria.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -521,10 +525,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layout/partials/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layout/partials/partnerscomputo.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="78" selection-start-line="5" selection-start-column="78" selection-end-line="5" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layout/partials/engineering.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="16" column="121" selection-start-line="16" selection-start-column="121" selection-end-line="16" selection-end-column="121" />
+        <state relative-caret-position="279">
+          <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
           </folding>
