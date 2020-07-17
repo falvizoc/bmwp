@@ -1,12 +1,11 @@
-<div class="container-fluid">
-
-<div class="row align-items-center">
-    <div class="col">
-        <h3 class="pl-2 pt-2 "><strong class="">Nuestros Partners</strong></h3>
-        <p>Integramos soluciones de los fabricantes mas importantes del mundo.</p>
-    </div>
-</div>
-
+<section class="separator-top">
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-md-6 text-center">
+                <h4 class=" mb-2 "><strong class="text-success">Partners</strong> </h4>
+                <h4>Integramos las soluciones de los fabricantes mas importantes del mundo.</h4>
+            </div>
+        </div>
         <div class="row" data-aos="zoom-in">
             <div class="col partners align-items-center">
                 <div class="owl-carousel" data-items="[6,4,2]" data-loop="true" data-autoplay="true">
@@ -71,7 +70,7 @@
                         <img src="{{asset('assets/img/partners/logo-20.png')}}" alt="Logo">
                     </div>
                     <div class="logo">
-                        <img src="{{asset('assets/img/partners/logo-21.png')}}" alt="Logo">
+                        <img src="{{asset('assets/img/partners/logo-21git.png')}}" alt="Logo">
                     </div>
                     <div class="logo">
                         <img src="{{asset('assets/img/partners/logo-22.png')}}" alt="Logo">
@@ -85,9 +84,14 @@
                     <div class="logo">
                         <img src="{{asset('assets/img/partners/logo-25.png')}}" alt="Logo">
                     </div>
+                    <div class="logo">
+                        <img src="{{asset('assets/img/partners/logo-26.png')}}" alt="Logo">
+                    </div>
 
                 </div>
             </div>
         </div>
     </div>
+</section>
+
 
