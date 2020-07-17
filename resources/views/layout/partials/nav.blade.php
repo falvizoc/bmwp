@@ -10,7 +10,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto right">
             <li class="nav-item">
-                <a href="{{ url('/gi') }}" class="nav-link btn btn-google-plus " style="
+                <a href="{{ url('/nuevanormalidad') }}" class="nav-link btn btn-google-plus " style="
                     position: relative;
                     top: 10px;
                     padding-top: 1px;

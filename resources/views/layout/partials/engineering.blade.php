@@ -5,7 +5,7 @@
             <div class="col-lg-6">
                 <div class="row">
                     <div class="col">
-                        <h1 ><b class="text-danger">Ingeniería</b> <br>nuestra fuente generadora <br><b class="text-danger">valor.</b></h1>
+                        <h1 ><b class="text-danger">Ingeniería</b> <br>nuestra propuesta <br><b class="text-danger">valor.</b></h1>
                     </div>
                 </div>
 
@@ -15,7 +15,7 @@
                             <i class="icon-check-circle2 fs-30 text-twitter mr-2"></i>
                             <div class="media-body">
                                 <h5 class="mt-0 text-uppercase font-weight-bold fs-14 letter-spacing">Enfoque estrategico</h5>
-                                <p>Desarrollamos proyectos que sostienen las operaciones centrales de nuestros clientes.</p>
+                                <p>Integramos proyectos que sostienen las operaciones críticas de nuestros clientes.</p>
                             </div>
                         </div>
                     </div>
@@ -24,8 +24,8 @@
                         <div class="media">
                             <i class="icon-award fs-30 text-twitter mr-2"></i>
                             <div class="media-body">
-                                <h5 class="mt-0 text-uppercase font-weight-bold fs-14 letter-spacing">Normas y estándares</h5>
-                                <p>Diseñamos soluciones bajo las normas y estándares más exigentes de la industria TI.</p>
+                                <h5 class="mt-0 text-uppercase font-weight-bold fs-14 letter-spacing">Alineación a Normas</h5>
+                                <p>Diseñamos soluciones bajo lo estándares más exigentes de la industria TI.</p>
                             </div>
                         </div>
                     </div>
