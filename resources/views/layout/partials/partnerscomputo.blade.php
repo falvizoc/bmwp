@@ -3,6 +3,7 @@
 <div class="row align-items-center">
     <div class="col">
         <h3 class="pl-2 pt-2 "><strong class="">Nuestros Partners</strong></h3>
+        <p>Integramos soluciones de los fabricantes mas importantes del mundo.</p>
     </div>
 </div>
 
