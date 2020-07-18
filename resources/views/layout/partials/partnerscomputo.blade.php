@@ -70,7 +70,7 @@
                         <img src="{{asset('assets/img/partners/logo-20.png')}}" alt="Logo">
                     </div>
                     <div class="logo">
-                        <img src="{{asset('assets/img/partners/logo-21git.png')}}" alt="Logo">
+                        <img src="{{asset('assets/img/partners/logo-21.png')}}" alt="Logo">
                     </div>
                     <div class="logo">
                         <img src="{{asset('assets/img/partners/logo-22.png')}}" alt="Logo">
