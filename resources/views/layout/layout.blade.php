@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     @include('layout.partials.head')
+    @yield('recaptcha')
+    <!-- IMPORTANT!!! remember CSRF token -->
+        <meta name="csrf-token" content="{{ csrf_token() }}">
 </head>
 <body>
     @include('layout.partials.nav')

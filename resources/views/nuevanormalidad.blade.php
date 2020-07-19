@@ -1,5 +1,10 @@
 @extends('layout.layout')
 @section('title', 'Nueva Normalidad') <!--Personaliza el título del conenido de la página-->
+
+@section('recaptcha')
+    {!! htmlScriptTagJsApi(['action' => 'homepage']) !!}
+@endsection
+
 @section('content')
     <section class="bg-light mt-3">
         <div class="container-fluid separator-bottom">
