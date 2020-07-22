@@ -131,18 +131,15 @@
                 <div class="modal-body text-center">
                     <h3>¡Contáctanos!</h3>
                 </div>
-                <div class="form-group container ">
                     <!-- <label for="nombre">Nombre</label> -->
-                    <input type="text" class="form-control form-control-sm" id="nombre" placeholder="Nombre">
-                    <br>
-                    <input type="email" class="form-control form-control-sm" id="correo" placeholder="nombre@micorreo.com">
-                    <br>
-                    <input type="tel" class="form-control form-control-sm" id="tel" placeholder="Teléfono">
-                    <br>
-                    <input type="text" class="form-control form-control-sm" id="empresa" placeholder="Empresa">
-                    <br>
-                    <textarea class="form-control form-control-sm" id="comentarios" rows="3" placeholder="Comentarios"></textarea>
-                </div>
+                    <x-form method="post" class="form-group container" :action="url('/')">
+                        <x-field name="nombre"></x-field>
+                        <x-field name="correo_electronico" type="email" help="No compartiremos tu correo electrónico"></x-field>
+                        <x-field name="teléfono" type="tel"></x-field>
+                        <x-field name="empresa"></x-field>
+                        <x-textarea rows="3" id="comentarios"></x-textarea>
+
+                    </x-form>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-success btn-sm btn-block">Enviar</button>
                 </div>
