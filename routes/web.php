@@ -62,4 +62,8 @@ Route::get('/nuevanormalidad', function () {
     /*return view('main');*/
     return view('nuevanormalidad');
 });
+Route::post('contacto','MessagesController@store');
 
+Route::get('/formulario', function () {
+    return view('prueba');
+});

@@ -132,17 +132,15 @@
                     <h3>¡Contáctanos!</h3>
                 </div>
                     <!-- <label for="nombre">Nombre</label> -->
-                    <x-form method="post" class="form-group container" :action="url('/')">
+                    <x-form method="POST" class="form-group container" :action="url('contacto')">
                         <x-field name="nombre"></x-field>
                         <x-field name="correo_electronico" type="email" help="No compartiremos tu correo electrónico"></x-field>
                         <x-field name="teléfono" type="tel"></x-field>
                         <x-field name="empresa"></x-field>
                         <x-textarea rows="3" id="comentarios"></x-textarea>
-
+                        <br>
+                        <button class="btn btn-success btn-sm btn-block">Enviar</button>
                     </x-form>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-success btn-sm btn-block">Enviar</button>
-                </div>
             </div>
         </div>
     </div>
