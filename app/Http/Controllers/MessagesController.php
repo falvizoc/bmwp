@@ -2,12 +2,15 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 
 class MessagesController extends Controller
 {
     //
-    public function store(Request $request){
-        return $request;
+    public function store(){
+        request()->validate([
+            'nombre' => 'required',
+            'correo_electronico' => 'required|email',
+            'teléfono' => 'required',
+        ]);
     }
 }

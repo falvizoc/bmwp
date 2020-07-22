@@ -6,6 +6,7 @@ use Illuminate\View\Component;
 
 class Textarea extends Component
 {
+    public $name;
     public $rows;
     public $help;
     public $id;
@@ -16,9 +17,10 @@ class Textarea extends Component
      *
      * @return void
      */
-    public function __construct(string $rows = null, $help = null, string $id, string $label = null )
+    public function __construct(string $name = null, string $rows = null, string $help = null, string $id, string $label = null )
     {
         //
+        $this->name = $name;
         $this->rows = $rows;
         $this->help = $help;
         $this->id = $id;

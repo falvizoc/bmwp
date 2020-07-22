@@ -131,15 +131,24 @@
                 <div class="modal-body text-center">
                     <h3>¡Contáctanos!</h3>
                 </div>
-                    <!-- <label for="nombre">Nombre</label> -->
+                    <!-- <label for="nombre">Nombre</label>
+                    @if($errors->any())
+                        @foreach($errors->all() as $error)
+                            <p>{{ $error }}</p>
+                        @endforeach
+                    @endif-->
                     <x-form method="POST" class="form-group container" :action="url('contacto')">
-                        <x-field name="nombre"></x-field>
-                        <x-field name="correo_electronico" type="email" help="No compartiremos tu correo electrónico"></x-field>
-                        <x-field name="teléfono" type="tel"></x-field>
-                        <x-field name="empresa"></x-field>
-                        <x-textarea rows="3" id="comentarios"></x-textarea>
+                        <x-field name="nombre" value="{{ old('nombre') }}"></x-field>
+                        {!! $errors->first('nombre','<small>:message</small>') !!}
+                        <x-field name="correo_electronico" type="email" help="No compartiremos tu correo electrónico" value="{{ old('correo_electronico') }}" ></x-field>
+                        {!! $errors->first('correo_electronico','<small>:message</small>') !!}
+                        <x-field name="teléfono" type="tel" value="{{ old('teléfono') }}" ></x-field>
+                        {!! $errors->first('teléfono','<small>:message</small>') !!}
+                        <x-field name="empresa" value="{{ old('empresa') }}"></x-field>
+                        <x-textarea name="comentarios" rows="3" id="comentarios"></x-textarea>
+
                         <br>
-                        <button class="btn btn-success btn-sm btn-block">Enviar</button>
+                        <button class="btn btn-success btn-sm btn-block" >Enviar</button>
                     </x-form>
             </div>
         </div>

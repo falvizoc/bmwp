@@ -1,5 +1,6 @@
 <?php
 
+App::setLocale('es');
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -62,8 +63,8 @@ Route::get('/nuevanormalidad', function () {
     /*return view('main');*/
     return view('nuevanormalidad');
 });
+
+//  -->  POST
 Route::post('contacto','MessagesController@store');
 
-Route::get('/formulario', function () {
-    return view('prueba');
-});
+

@@ -23,18 +23,20 @@ class Field extends Component
      * @var string
      */
     private $label;
+    public $value;
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct(string $name, string $type = 'text', string $help = null, string $label = null)
+    public function __construct(string $name, string $type = 'text', string $help = null, string $label = null, string $value=null)
     {
         //
         $this->name = $name;
         $this->type = $type;
         $this->help = $help;
         $this->label = $label;
+        $this->value = $value;
     }
 
     public function label(){
