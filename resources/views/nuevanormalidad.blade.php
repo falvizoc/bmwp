@@ -131,27 +131,22 @@
                 <div class="modal-body text-center">
                     <h3>¡Contáctanos!</h3>
                 </div>
-                    <!-- <label for="nombre">Nombre</label>
-                    @if($errors->any())
-                        @foreach($errors->all() as $error)
-                            <p>{{ $error }}</p>
-                        @endforeach
-                    @endif-->
-                    <x-form method="POST" class="form-group container" :action="url('contacto')">
-                        <x-field name="nombre" value="{{ old('nombre') }}"></x-field>
-                        {!! $errors->first('nombre','<small>:message</small>') !!}
-                        <x-field name="correo_electrónico" type="email" help="No compartiremos tu correo electrónico" value="{{ old('correo_electrónico') }}" ></x-field>
-                        {!! $errors->first('correo_electronico','<small>:message</small>') !!}
-                        <x-field name="teléfono" type="tel" value="{{ old('teléfono') }}" ></x-field>
-                        {!! $errors->first('teléfono','<small>:message</small>') !!}
-                        <x-field name="empresa" value="{{ old('empresa') }}"></x-field>
-                        {!! $errors->first('empresa','<small>:message</small>') !!}
-                        <x-field name="comentarios" value="{{ old('comentarios') }}" ></x-field>
-                        {!! $errors->first('comentarios','<small>:message</small>') !!}
-                        <br>
-                        <button class="btn btn-success btn-sm btn-block" >Enviar</button>
-                    </x-form>
+                <x-form method="POST" class="form-group container" :action="url('contacto')">
+                    <x-field name="nombre" value="{{ old('nombre') }}" ></x-field>
+                    {!! $errors->first('nombre','<small>:message</small>') !!}
+                    <x-field name="correo_electrónico" type="email" value="{{ old('correo_electrónico') }}" ></x-field>
+                    {!! $errors->first('correo_electrónico','<small>:message</small>') !!}
+                    <x-field name="teléfono" type="tel" value="{{ old('teléfono') }}" ></x-field>
+                    {!! $errors->first('teléfono','<small>:message</small>') !!}
+                    <x-field name="empresa" value="{{ old('empresa') }}"></x-field>
+                    {!! $errors->first('empresa','<small>:message</small>') !!}
+                    <x-field name="comentarios" value="{{ old('comentarios') }}" ></x-field>
+                    {!! $errors->first('comentarios','<small>:message</small>') !!}
+                    <br>
+                    <button id="bsubmit"class="btn btn-success btn-sm btn-block" >Enviar</button>
+                </x-form>
             </div>
         </div>
     </div>
+
 @endsection
