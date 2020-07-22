@@ -140,13 +140,14 @@
                     <x-form method="POST" class="form-group container" :action="url('contacto')">
                         <x-field name="nombre" value="{{ old('nombre') }}"></x-field>
                         {!! $errors->first('nombre','<small>:message</small>') !!}
-                        <x-field name="correo_electronico" type="email" help="No compartiremos tu correo electrónico" value="{{ old('correo_electronico') }}" ></x-field>
+                        <x-field name="correo_electrónico" type="email" help="No compartiremos tu correo electrónico" value="{{ old('correo_electrónico') }}" ></x-field>
                         {!! $errors->first('correo_electronico','<small>:message</small>') !!}
                         <x-field name="teléfono" type="tel" value="{{ old('teléfono') }}" ></x-field>
                         {!! $errors->first('teléfono','<small>:message</small>') !!}
                         <x-field name="empresa" value="{{ old('empresa') }}"></x-field>
-                        <x-textarea name="comentarios" rows="3" id="comentarios"></x-textarea>
-
+                        {!! $errors->first('empresa','<small>:message</small>') !!}
+                        <x-field name="comentarios" value="{{ old('comentarios') }}" ></x-field>
+                        {!! $errors->first('comentarios','<small>:message</small>') !!}
                         <br>
                         <button class="btn btn-success btn-sm btn-block" >Enviar</button>
                     </x-form>

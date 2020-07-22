@@ -66,5 +66,3 @@ Route::get('/nuevanormalidad', function () {
 
 //  -->  POST
 Route::post('contacto','MessagesController@store');
-
-
