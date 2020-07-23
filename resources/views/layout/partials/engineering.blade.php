@@ -54,7 +54,7 @@
                 </div>
             </div>
             <div class="col-12 col-lg-6 presentation presentation-responsive">
-                <img class="left-0 vertical-align" src="{{asset('assets/img/ingenieria.jpg')}}" style="height: 700px; width: auto; " alt="Image">
+                <img class="left-0 vertical-align" src="{{ asset('assets/img/ingenieria.jpg' )}}" style="height: 700px; width: auto; " alt="Image">
             </div>
         </div>
     </div>

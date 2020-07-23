@@ -15,7 +15,7 @@
                                 <li><a href="{{url('https://bitmovil.mx')}}" target="_blank" class="icon-facebook fs-20"></a></li>
                                 <!-- <li><a href="" class="icon-instagram fs-20"></a></li>
                                 <li><a href="" class="icon-twitter fs-20"></a></li> -->
-                                <li><a href="{{url('https://linkedin.com/company/bitmovil')}}" target="_blank" class="icon-linkedin fs-20"></a></li>
+                                <li><a href="{{url('https://linkedin.com/company/bitmovil')}}" target="_blank" class="icon-linkedin fs-20"></a> </li>
                             </ul>
                         </div>
                     </div>
