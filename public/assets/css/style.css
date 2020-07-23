@@ -8153,6 +8153,11 @@ a.text-dark:hover, a.text-dark:focus {
 .bg-blue-bm {
     background-color: #0A4C98 !important; }
 
+a.bg-blue-bm:hover, a.bg-blue-bm:focus,
+button.bg-blue;hover,
+button.bg-blue;focus,{
+    background-color: #0a81da !important;}
+
 .bg-blue {
   background-color: #0030AE !important; }
 
@@ -8308,14 +8313,17 @@ button.bg-transparent-black:focus {
     bottom: -2.5rem;
     left: -2.5rem; }
 
-.text-blue {
-  color: #0030AE !important; }
-
 .text-blue-bm {
     color: #0A4C98 !important; }
 
+a.text-blue-bm:hover, a.text-blue-bm:focus {
+    color: #0a81da !important; }
+
+.text-blue {
+  color: #0030AE !important; }
+
 a.text-blue:hover, a.text-blue:focus {
-  color: #001b62 !important; }
+    color: #001b62 !important; }
 
 .text-indigo {
   color: #6610f2 !important; }
@@ -15918,7 +15926,11 @@ img {
     font-size: 20px;
     background-color: #e5e5e5; }
   .phone:hover {
+<<<<<<< HEAD
   /*border-color: #4829B2 !important; }*/
+=======
+    /* border-color: #4829B2 !important; }*/
+>>>>>>> development
     border-color: #54AF5D !important; }
     .phone:hover::before {
       /*background-color: #4829B2 !important;*/
@@ -17240,8 +17252,8 @@ footer {
     background: transparent;
     border: 0; }
     .accordion-group-steps .accordion.open .accordion-control::before {
-      background: #4829B2;
-      border-color: #4829B2;
+      background: #0a4c98;
+      border-color: #0a4c98;
       color: #fff;
       -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.05);
       -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.05);
@@ -17250,7 +17262,7 @@ footer {
       -moz-transform: scale(1.4);
       transform: scale(1.4); }
     .accordion-group-steps .accordion:hover .accordion-control::before {
-      border-color: #4829B2; }
+      border-color: #0a81da; }
     .accordion-group-steps .accordion:not(:first-child) {
       margin: 0; }
       .accordion-group-steps .accordion:not(:first-child)::before {

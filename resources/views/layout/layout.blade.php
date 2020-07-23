@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
     @include('layout.partials.head')
+    @yield('recaptcha')
+    <!-- IMPORTANT!!! remember CSRF token -->
+        <meta name="csrf-token" content="{{ csrf_token() }}">
 </head>
 <body>
     @include('layout.partials.nav')
-    @include('layout.partials.header')
     @yield('content')
-    @include('layout.partials.partnerscomputo')
     @include('layout.partials.footer')
     @include('layout.partials.footer-scripts')
- </body>
+</body>
 </html>
