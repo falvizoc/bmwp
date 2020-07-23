@@ -42,7 +42,7 @@
                         <ul class="list-group list-group-minimal">
                             <li class="list-group-item"><a href="">Contacto</a></li>
                             <li class="list-group-item"><a href="">Nosotros</a></li>
-                            <li class="list-group-item"><a href="{{ ('/docs/AvisoPrivacidad.pdf') }}" target="_blank">Aviso de privacidad</a></li>
+                            <li class="list-group-item"><a href="{{ ('/assets/docs/AvisoPrivacidad.pdf') }}" target="_blank">Aviso de privacidad</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-4 text-lg-right">
