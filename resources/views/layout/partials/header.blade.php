@@ -34,11 +34,7 @@
                         <h5 class="display-4 text-dark">Contamos con toda la línea de productos </h5>
                         <img src="{{asset('assets/img/autodesk.png')}}" alt="Autodesk" class="" style="height: 80px; width: auto;">
                         <br>
-<<<<<<< HEAD
-                        <a href="{{url('/contacto')}}" class="btn btn-skype btn-sm">Más información</a>
-=======
                         <a href="./contacto.html" class="btn btn-skype btn-sm">Más información</a>
->>>>>>> development
                     </div>
                 </div>
             </div>
@@ -67,11 +63,7 @@
                         </div>
                     </div>
                     <div class="row justify-content-center">
-<<<<<<< HEAD
-                        <a href="{{url('/contacto')}}" class="btn btn-google-plus btn-sm">Más información</a>
-=======
                         <a href="./contacto.html" class="btn btn-google-plus btn-sm">Más información</a>
->>>>>>> development
                     </div>
                 </div>
             </div>

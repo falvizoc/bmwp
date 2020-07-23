@@ -15926,11 +15926,7 @@ img {
     font-size: 20px;
     background-color: #e5e5e5; }
   .phone:hover {
-<<<<<<< HEAD
-  /*border-color: #4829B2 !important; }*/
-=======
     /* border-color: #4829B2 !important; }*/
->>>>>>> development
     border-color: #54AF5D !important; }
     .phone:hover::before {
       /*background-color: #4829B2 !important;*/

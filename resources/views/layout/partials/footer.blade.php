@@ -12,11 +12,7 @@
                         </div>
                         <div class="col-md-6 text-md-right">
                             <ul class="socials">
-                                <li><a href="{{url('https://facebook.com/bitmovil.mx')}}" target="_blank" class="icon-facebook fs-20"></a></li>
-                                <!--
-                                <li><a href="" class="icon-instagram fs-20"></a></li>
-                                <li><a href="" class="icon-twitter fs-20"></a></li>
-                                -->
+                                <li><a href="{{url('https://bitmovil.mx')}}" target="_blank" class="icon-facebook fs-20"></a></li>
                                 <!-- <li><a href="" class="icon-instagram fs-20"></a></li>
                                 <li><a href="" class="icon-twitter fs-20"></a></li> -->
                                 <li><a href="{{url('https://linkedin.com/company/bitmovil')}}" target="_blank" class="icon-linkedin fs-20"></a></li>
@@ -35,18 +31,15 @@
                     </div>
                     <div class="col col-lg-2">
                         <ul class="list-group bg-blue-bm list-group-minimal">
-                            <li class="list-group-item"><a href="{{url('/')}}">CCTV Manager</a></li>
-                            <li class="list-group-item"><a href="{{url('/')}}">Catálogos</a></li>
-                            <li class="list-group-item"><a href="{{url('/')}}">Oportunidades de mejora</a></li>
-                            <li class="list-group-item"><a href="{{url('/')}}">Eventos</a></li>
-                            <li class="list-group-item"><a href="{{url('/')}}"></a></li>
+                            <li class="list-group-item"><a href="">CCTV Manager</a></li>
+                            <li class="list-group-item"><a href="">Catálogos</a></li>
+                            <li class="list-group-item"><a href="">Oportunidades de mejora</a></li>
+                            <li class="list-group-item"><a href="">Eventos</a></li>
+                            <li class="list-group-item"><a href=""></a></li>
                         </ul>
                     </div>
                     <div class="col col-lg-2">
                         <ul class="list-group list-group-minimal">
-                            <li class="list-group-item"><a href="{{url('/')}}">Contacto</a></li>
-                            <li class="list-group-item"><a href="{{url('/')}}">Nosotros</a></li>
-                            <li class="list-group-item"><a href="{{url('/')}}">Aviso de privacidad</a></li>
                             <li class="list-group-item"><a href="">Contacto</a></li>
                             <li class="list-group-item"><a href="">Nosotros</a></li>
                             <li class="list-group-item"><a href="{{ ('/docs/AvisoPrivacidad.pdf') }}" target="_blank">Aviso de privacidad</a></li>
