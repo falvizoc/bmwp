@@ -20,6 +20,6 @@ class MessagesController extends Controller
 
         Mail::to('falvizo@bitmovil.mx') -> queue(new MessageReceived($msg));
 
-        return '/nuevanormalidad';
+        return '/nnormalidad';
     }
 }
