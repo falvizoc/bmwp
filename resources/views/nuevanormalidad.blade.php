@@ -49,9 +49,25 @@
                             </div>
                             <div class="accordion-content" data-content>
                                 <div class="accordion-content-wrapper">
-                                    <p>Diseñemos juntos la mejor solución que cumpla con la autoridad y se ajuste a las necesidades de tu empresa.</p>
-                                    <button type="button" class="btn btn-skype btn-sm" data-toggle="modal" data-target="#contacto">Mas información</button>
+                                    <!--
 
+                                    <button type="button" class="btn btn-skype btn-sm" data-toggle="modal" data-target="#contacto" >Mas información</button>
+                                    -->
+                                    <p>Diseñemos juntos la mejor solución que cumpla con la autoridad y se ajuste a las necesidades de tu empresa.</p>
+                                    <x-form method="POST" class="form-group container" :action="url('contacto')">
+                                        <x-field name="nombre" value="{{ old('nombre') }}" ></x-field>
+                                        {!! $errors->first('nombre','<small class="text-red">:message</small>') !!}
+                                        <x-field name="correo_electrónico" type="email" value="{{ old('correo_electrónico') }}" ></x-field>
+                                        {!! $errors->first('correo_electrónico','<small class="text-red">:message</small>') !!}
+                                        <x-field name="teléfono" type="tel" value="{{ old('teléfono') }}" ></x-field>
+                                        {!! $errors->first('teléfono','<small class="text-red">:message</small>') !!}
+                                        <x-field name="empresa" value="{{ old('empresa') }}"></x-field>
+                                        {!! $errors->first('empresa','<small class="text-red">:message</small>') !!}
+                                        <x-field name="comentarios" value="{{ old('comentarios') }}" ></x-field>
+                                        {!! $errors->first('comentarios','<small class="text-red">:message</small>') !!}
+                                        <br>
+                                        <button type="submit" id="btnenviar" class="btn btn-skype btn-sm btn-block" >Enviar</button>
+                                    </x-form>
                                 </div>
                             </div>
                         </div>
@@ -63,7 +79,6 @@
         <div class="container-fluid pb-5 ">
                         <div class="row justify-content-center">
                             <h2 class="pb-3 text-center">Mas que vender productos, diseñamos soluciones</h2>
-
                             <div class="col-md-10">
                                 <ul class="feature-list gutter-4 align-self-center">
                                     <li>
@@ -110,7 +125,7 @@
                                         <div class="media bordered rounded p-2 align-items-center badge-green">
                                             <i class="icon-users fs-24 text-black mr-2"></i>
                                             <div class="media-body">
-                                                <span class="mt-0 text-uppercase  fs-14 letter-spacing">Detección masiva</span>
+                                                <span class="mt-0 text-uppercase fs-14 letter-spacing">Detección masiva</span>
                                             </div>
                                         </div>
                                     </li>
@@ -129,24 +144,18 @@
                     </button>
                 </div>
                 <div class="modal-body text-center">
-                    <h3>¡Contáctanos!</h3>
+                    <h3 id="modal-title"></h3>
+                    <div id="modal-response"></div>
                 </div>
-                <x-form method="POST" class="form-group container" :action="url('contacto')">
-                    <x-field name="nombre" value="{{ old('nombre') }}" ></x-field>
-                    {!! $errors->first('nombre','<small>:message</small>') !!}
-                    <x-field name="correo_electrónico" type="email" value="{{ old('correo_electrónico') }}" ></x-field>
-                    {!! $errors->first('correo_electrónico','<small>:message</small>') !!}
-                    <x-field name="teléfono" type="tel" value="{{ old('teléfono') }}" ></x-field>
-                    {!! $errors->first('teléfono','<small>:message</small>') !!}
-                    <x-field name="empresa" value="{{ old('empresa') }}"></x-field>
-                    {!! $errors->first('empresa','<small>:message</small>') !!}
-                    <x-field name="comentarios" value="{{ old('comentarios') }}" ></x-field>
-                    {!! $errors->first('comentarios','<small>:message</small>') !!}
-                    <br>
-                    <button id="bsubmit"class="btn btn-success btn-sm btn-block" >Enviar</button>
-                </x-form>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success btn-block" data-dismiss="modal">Aceptar</button>
+                </div>
+
             </div>
         </div>
     </div>
+
+
+
 
 @endsection

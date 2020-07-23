@@ -16,11 +16,10 @@ class MessagesController extends Controller
             'teléfono' => 'required',
             'empresa' => 'sometimes',
             'comentarios'  => 'sometimes',
-
         ]);
 
-        Mail::to('falvizo@bitmovil.mx') -> send(new MessageReceived($msg));
+        Mail::to('falvizo@bitmovil.mx') -> queue(new MessageReceived($msg));
 
-        return 'Mensaje enviado';
+        return '/nuevanormalidad';
     }
 }
