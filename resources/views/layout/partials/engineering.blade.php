@@ -1,5 +1,5 @@
 <!-- presentation -->
-<section class="section-lg pt-0">
+<section class="section-lg pt-0 ml-3">
     <div class="container-fluid">
         <div class="row my-10">
             <div class="col-lg-6">

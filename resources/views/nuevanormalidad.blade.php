@@ -6,7 +6,7 @@
 @endsection
 
 @section('content')
-    <section class="bg-light mt-3">
+    <section class="bg-light mt-6">
         <div class="container-fluid separator-bottom">
             <div class="row justify-content-center">
                 <div class="col-md-10 text-center">
@@ -20,6 +20,8 @@
                 </div>
                 <div class="col-md-5 pt-8">
                     <h5><b class="text-center">Sigue estos tres sencillos pasos</b> </h5>
+                    <br>
+                    <small>Da click aquí</small>
                     <div class="accordion-group accordion-group-steps" data-accordion-group>
                         <div class="accordion" data-accordion>
                             <div class="accordion-control" data-control>
@@ -43,7 +45,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion" data-accordion>
+                        <div class="accordion open" data-accordion>
                             <div class="accordion-control" data-control>
                                 <h5>Contáctanos</h5>
                             </div>
