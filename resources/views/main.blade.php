@@ -37,7 +37,7 @@
                         </li>
                         <li class="col-md-4" data-aos="fade-up">
                             <article class="tile">
-                                <div class="tile-image" style="background-image: url(assets/img/educación.jpeg)"></div>
+                                <div class="tile-image" style="background-image: url(assets/img/educacion.jpeg)"></div>
                                 <div class="tile-content">
                                     <div class="tile-footer">
                                         <h3>Educación.</h3>
@@ -59,7 +59,7 @@
                         </li>
                         <li class="col-md-4" data-aos="fade-up">
                             <article class="tile tile-long">
-                                <div class="tile-image" style="background-image: url(assets/img/energía.jpeg)"></div>
+                                <div class="tile-image" style="background-image: url(assets/img/energia.jpeg)"></div>
                                 <div class="tile-content">
                                     <div class="tile-footer">
                                         <h3>Energía.</h3>
