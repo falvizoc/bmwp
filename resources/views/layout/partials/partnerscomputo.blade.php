@@ -1,9 +1,9 @@
 <section class="separator-top">
     <div class="container-fluid">
         <div class="row justify-content-center">
-            <div class="col-md-6 text-center">
-                <h4 class=" mb-2 "><strong class="text-success">Partners</strong> </h4>
-                <h4>Integramos las soluciones de los fabricantes mas importantes del mundo.</h4>
+            <div class="col-md-12 text-center">
+                <h1 class="display-4 mb-2 text-success">Partners</h1>
+                <h3>Integramos las soluciones de los fabricantes mas importantes del mundo.</h3>
             </div>
         </div>
         <div class="row" data-aos="zoom-in">

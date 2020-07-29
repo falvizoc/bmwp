@@ -59,7 +59,7 @@ Route::get('/foros', function () {
 Route::get('/contacto', function () {
     return view('main');
 });
-Route::get('/nuevanormalidad', function () {
+Route::get('/nnormalidad', function () {
     /*return view('main');*/
     return view('nuevanormalidad');
 });

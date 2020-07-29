@@ -1,11 +1,11 @@
 <!-- presentation -->
 <section class="section-lg pt-0 ml-3">
     <div class="container-fluid">
-        <div class="row my-10">
+        <div class="row mt-4">
             <div class="col-lg-6">
                 <div class="row">
                     <div class="col">
-                        <h1 ><b class="text-danger">Ingeniería</b> <br>nuestra propuesta <br><b class="text-danger">valor.</b></h1>
+                        <h1 class="display-4 text-danger">Ingeniería <p class=" display-4 text-dark">nuestra propuesta de </p> valor.</h1>
                     </div>
                 </div>
 
