@@ -54,7 +54,7 @@ Route::get('/financieros', function () {
     return view('main');
 });
 Route::get('/foros', function () {
-    return view('main');
+    return view('foros');
 });
 Route::get('/contacto', function () {
     return view('main');
