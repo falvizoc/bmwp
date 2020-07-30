@@ -25,6 +25,7 @@
   --transparent-white: rgba(255, 255, 255, 0.2);
   --transparent-black: rgba(0, 0, 0, 0.2);
   --primary: #4829B2;
+  --primary-bm: #0A4C98 ;
   --secondary: #e5e5e5;
   --success: #54AF5D;
   --info: #17a2b8;
@@ -136,11 +137,11 @@ sup {
   top: -.5em; }
 
 a {
-  color: #4829B2;
+  color: #0A4C98 ;
   text-decoration: none;
   background-color: transparent; }
   a:hover {
-    color: #2f1b74;
+    color: #0a81da;
     text-decoration: underline; }
 
 a:not([href]):not([tabindex]) {
@@ -7927,10 +7928,10 @@ button.bg-dark:focus {
   color: #fff !important; }
 
 .text-primary {
-  color: #4829B2 !important; }
+  color: #0A4C98 !important; }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #2f1b74 !important; }
+  color: #0a81da !important; }
 
 .text-secondary {
   color: #e5e5e5 !important; }
@@ -8172,7 +8173,7 @@ button.bg-blue:focus {
 a.bg-indigo:hover, a.bg-indigo:focus,
 button.bg-indigo:hover,
 button.bg-indigo:focus {
-  background-color: #510bc4 !important; }
+  background-color: #0a81da !important; }
 
 .bg-purple {
   background-color: #4829B2 !important; }
@@ -8180,7 +8181,7 @@ button.bg-indigo:focus {
 a.bg-purple:hover, a.bg-purple:focus,
 button.bg-purple:hover,
 button.bg-purple:focus {
-  background-color: #371f89 !important; }
+  background-color: #0a81da !important; }
 
 .bg-pink {
   background-color: #e83e8c !important; }
@@ -20295,7 +20296,7 @@ footer {
   transition-delay: 0s;
   color: #000; }
   .card-title a:hover {
-    color: #4829B2; }
+    color: #0a81da; }
 
 .card-header-tabs {
   margin-top: -0.9375rem;

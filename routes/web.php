@@ -57,7 +57,7 @@ Route::get('/foros', function () {
     return view('foros');
 });
 Route::get('/contacto', function () {
-    return view('main');
+    return view('contacto');
 });
 Route::get('/nnormalidad', function () {
     /*return view('main');*/
