@@ -8,7 +8,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col text-center">
-                    <h1>Te compartimos nuestra experiencia</h1>
+                    <h1>Compartimos nuestras experiencias</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb breadcrumb-custom">
                             <li class="breadcrumb-item"><a href="/">Inicio</a></li>
