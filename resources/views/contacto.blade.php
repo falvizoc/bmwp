@@ -57,7 +57,9 @@
                             <button type="submit" id="btnenviar" class="btn btn-skype px-5 " >Enviar</button>
                         </div>
                     </div>
-
+                    <div style="visibility: hidden;">
+                        <x-field name="empresa" ></x-field>
+                    </div>
                 </x-form>
             </div>
         </div>
@@ -94,7 +96,6 @@
 @endsection
 
 @section('map-script')
-
     <script>
         function initMap() {
             // Styles a map in night mode.
@@ -312,5 +313,4 @@
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCEYUBdLp0Z4iGm0lSitHNMl4WmNIxpmog&callback=initMap"
             async defer></script>
-
 @endsection
