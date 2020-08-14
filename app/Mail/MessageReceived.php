@@ -11,7 +11,7 @@ class MessageReceived extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public $subject = 'Mensaje desde Nueva Normalidad';
+    public $subject = 'Mensaje Bitmovil';
 
     public $msg;
 

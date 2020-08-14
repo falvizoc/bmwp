@@ -31,7 +31,7 @@
         </div>
         <div class="row">
             <div class="col">
-                <x-form method="POST" class=" " :action="url('contacto')">
+                <x-form method="POST" class=" " action="{{ url('contacto') }}">
                     <div class="form-row mb-1">
                         <div class="col">
                             <x-field name="nombre" value="{{ old('nombre') }}" ></x-field>
