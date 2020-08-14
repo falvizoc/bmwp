@@ -7,7 +7,6 @@ use Illuminate\Support\Facades\Mail;
 
 class MessagesController extends Controller
 {
-
     public function store(){
 
         $msg = request()->validate([

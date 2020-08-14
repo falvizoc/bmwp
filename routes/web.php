@@ -13,13 +13,14 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+use GuzzleHttp\Client;
+
 
 Route::get('/', function () {
     return view('main');
 });
-Route::get('/controldeacceso', function () {
-    return view('main');
-});
+Route::get('/controldeacceso', 'SyscomRequestAccess@gettingToken');
+
 Route::get('/videovigilancia', function () {
     return view('main');
 });
