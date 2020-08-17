@@ -30,8 +30,8 @@
                                 <!-- Seguridad -->
                                 <li><span><ion-icon name="lock-closed-outline"></ion-icon> Seguridad</span></li>
                                 <div class="dropdown-divider"></div>
-                                <li><a class="text-dark" href="{{ url('/') }}">Control de acceso <p>Torniquetes | Chapas | Biométricos</p></a></li>
-                                <li><a class="text-dark" href="{{ url('/') }}">Videovigilancia <p>Cámaras | Video Wall | VMS </p></a></li>
+                                <li><a class="text-dark" href="{{ url('/controldeacceso') }}">Control de acceso <p>Torniquetes | Chapas | Biométricos</p></a></li>
+                                <li><a class="text-dark" href="{{ url('/videovigilancia') }}">Videovigilancia <p>Cámaras | Video Wall | VMS </p></a></li>
                             </ul>
                         </div>
                         <div class="col">
@@ -39,17 +39,8 @@
                                 <!-- Redes -->
                                 <li><span><ion-icon name="git-network-outline"></ion-icon> Redes</span></li>
                                 <div class="dropdown-divider"></div>
-                                <li><a class="text-dark" href="{{ url('/') }}">Redes inalámbricas<p> Redes unificadas | Enlaces </p></a></li>
+                                <li><a class="text-dark" href="{{ url('/redesinalambricas') }}">Redes inalámbricas<p> Redes unificadas | Enlaces</p></a></li>
                                 <li><a class="text-dark" href="{{ url('/') }}">Networking<p>Switches | Routers | Firewalls</p></a></li>
-                            </ul>
-                        </div>
-                        <div class="col">
-                            <ul class="mega-list">
-                                <!-- Cableado -->
-                                <li><span><ion-icon name="analytics-outline"></ion-icon> Cableado</span></li>
-                                <div class="dropdown-divider"></div>
-                                <li><a class="text-dark" href="{{ url('/') }}">Cableado Estructurado<p>Cat 5e | Cat 6 | Cat 6A</p></a></li>
-                                <li><a class="text-dark" href="{{ url('/') }}">Fibra óptica <p>Para servicios de Video, Voz y Datos</p></a></li>
                             </ul>
                         </div>
                         <div class="col">
@@ -61,7 +52,15 @@
                                 <li><a class="text-dark" href="{{ url('/') }}">Plantas automatizadas <p>Tableros de transferencia</p></a></li>
                             </ul>
                         </div>
-
+                        <div class="col">
+                            <ul class="mega-list">
+                                <!-- Fuego -->
+                                <li><span><ion-icon name="flame-outline"></ion-icon> Detección de Fuego </span></li>
+                                <div class="dropdown-divider"></div>
+                                <li><a class="text-dark" href="{{ url('/deteciondefuego') }}">Honeywell<p>Páneles | Sistemas de alarma</p></a></li>
+                            <!-- li><a class="text-dark" href="{{ url('/') }}">Plantas automatizadas <p>Tableros de transferencia</p></a></li -->
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </li>
@@ -91,10 +90,19 @@
                         <span><ion-icon name="hardware-chip-outline"></ion-icon>  Servidores y cómputo</span>
                         <p>HP | Lenovo | Dell</p>
                     </a>
-
                     <div class="dropdown-divider"></div>
                     <a href="{{ url('/') }}" class="dropdown-item">
                         <span><ion-icon name="server-outline"></ion-icon> Almacenamiento</span>
+                        <p>Synology</p>
+                    </a>
+                    <div class="dropdown-divider"></div>
+                    <a href="{{ url('/cableadoestructurado') }}" class="dropdown-item">
+                        <span><ion-icon name="analytics-outline"></ion-icon> Cableado Estructurado</span>
+                        <p>Synology</p>
+                    </a>
+                    <div class="dropdown-divider"></div>
+                    <a href="{{ url('/') }}" class="dropdown-item">
+                        <span><ion-icon name="locate-outline"></ion-icon> Fibra óptica</span>
                         <p>Synology</p>
                     </a>
                 </div>
@@ -120,7 +128,7 @@
                     </a>
                     <div class="dropdown-divider"></div>
                     <a href="{{ url('/') }}" class="dropdown-item">
-                        <span><ion-icon name="code-outline"></ion-icon> Desarrollo Web</span>
+                        <span><ion-icon name="code-slash-outline"></ion-icon> Desarrollo Web</span>
                         <p>Sitios y Aplicaciones Web</p>
                     </a>
 
