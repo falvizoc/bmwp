@@ -2,8 +2,6 @@
 
 
 namespace App\Repositories;
-
-
 use GuzzleHttp\Client;
 
 class Syscom
@@ -24,7 +22,6 @@ class Syscom
             // You can set any number of default request options.
             'timeout'  => 2.0,
         ]);
-
         $res = $client->request('POST','/oauth/token',[
             'form_params' => [
                 'client_id'     => 'mdFNWIEpbngep4ucEN1pqR57svWqj8XM',
@@ -38,16 +35,14 @@ class Syscom
     public function subcategorias($id){
         $client = new Client([
             // Base URI is used with relative requests
-            'base_uri' => 'https://developers.syscom.mx/api/v1/categorias/',
+            'base_uri' => 'https://developers.syscom.mx/api/v1/',
             // You can set any number of default request options.
             'timeout'  => 2.0,
         ]);
-
-        $response = $client->request('GET',$id,[
+        $response = $client->request('GET',"categorias/{$id}",[
             'headers' => [
                 'Authorization' => 'Bearer '.$this->token->access_token,
             ]]);
-
         return json_decode($response->getBody()->getContents());
     }
 
