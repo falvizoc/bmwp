@@ -20,6 +20,7 @@ class CreateSupplierAccessTokensTable extends Migration
             $table->string('token_type');
             $table->string('expires_in');
             $table->mediumText('access_token');
+            $table->date('expiring_date');
             $table->boolean('is_valid');
         });
     }

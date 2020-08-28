@@ -13,9 +13,9 @@ class supplierSeeder extends Seeder
     {
         supplier::create([
             'name' => 'SYSCOM',
-            'clientID' => 'mdFNWIEpbngep4ucEN1pqR57svWqj8XM',
-            'clientSecret' => '4AnHaRxosOQVvsG4OBNVQcvwQSkTXSLs4XETOXRd',
-            'grantType'=>'client_credentials',
+            'client_id' => 'mdFNWIEpbngep4ucEN1pqR57svWqj8XM',
+            'client_secret' => '4AnHaRxosOQVvsG4OBNVQcvwQSkTXSLs4XETOXRd',
+            'grant_type'=>'client_credentials',
             'created_at' => now(),
             'updated_at' => now()
         ]);

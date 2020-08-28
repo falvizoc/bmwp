@@ -18,7 +18,8 @@ class SatSeeder extends Seeder
                 'supplier_id' => '1',
                 'created_at' => now(),
                 'updated_at' => now(),
-                'is_valid' => 'True'
+                'expiring_date' => now()->addYear(),
+                'is_valid' => True
             ]);
     }
 }
