@@ -17,9 +17,9 @@ class CreateSuppliersTable extends Migration
             $table->id();
             $table->timestamps();
             $table->string('name');
-            $table->string('clientId');
-            $table->string('clientSecret');
-            $table->string('grantType');
+            $table->string('client_id');
+            $table->string('client_secret');
+            $table->string('grant_type');
         });
     }
 

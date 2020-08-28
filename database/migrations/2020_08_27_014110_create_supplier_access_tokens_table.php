@@ -16,10 +16,11 @@ class CreateSupplierAccessTokensTable extends Migration
         Schema::create('supplier_access_tokens', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
-            $table->string('supplierId');
-            $table->string('tokenType');
-            $table->string('expiresIn');
-            $table->mediumText('accessToken');
+            $table->string('supplier_id');
+            $table->string('token_type');
+            $table->string('expires_in');
+            $table->mediumText('access_token');
+            $table->boolean('is_valid');
         });
     }
 

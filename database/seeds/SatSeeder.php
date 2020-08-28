@@ -12,12 +12,13 @@ class SatSeeder extends Seeder
     public function run()
     {
         supplierAccessToken::create([
-                'tokenType' => 'Bearer',
-                'expiresIn' => '31536000',
-                'accessToken' => 'VALOR_DEL_TOKEN',
-                'supplierId' => '1',
+                'token_type' => 'Bearer',
+                'expires_in' => '31536000',
+                'access_token' => 'VALOR_DEL_TOKEN',
+                'supplier_id' => '1',
                 'created_at' => now(),
-                'updated_at' => now()
+                'updated_at' => now(),
+                'is_valid' => 'True'
             ]);
     }
 }
