@@ -19,7 +19,7 @@ Route::get('/', function () {
 });
 Route::get('/controldeacceso', 'SyscomController@acceso');
 
-Route::get('/videovigilancia', 'SyscomController@videov');
+Route::get('/videovigilancia', 'SyscomController@video');
 
 Route::get('/redesinalambricas', 'SyscomController@redes');
 

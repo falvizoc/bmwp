@@ -19,34 +19,33 @@ class SyscomController extends Controller
 
     public function acceso(){
         $subcategorias = $this->syscom->subcategorias('37'); //Control de acceso
-        return dd($subcategorias);
-        //return view('acceso',compact('categorias'));
+        //return dd($subcategorias);
+        return view('categorias',compact('subcategorias'));
     }
-
-    public function videov(){
+    public function video(){
         $subcategorias = $this->syscom->subcategorias('22'); //Video Vigilancia
-        return dd($subcategorias);
-        //return view('acceso',compact('categorias'));
+        //return dd($subcategorias);
+        return view('categorias',compact('subcategorias'));
     }
     public function redes(){
         $subcategorias = $this->syscom->subcategorias('26'); //Redes
-        return dd($subcategorias);
-        //return view('acceso',compact('categorias'));
+        //return dd($subcategorias);
+        return view('categorias',compact('subcategorias'));
     }
     public function cableado(){
         $subcategorias = $this->syscom->subcategorias('65811'); //Cableado
-        return dd($subcategorias);
-        //return view('acceso',compact('categorias'));
+        //return dd($subcategorias);
+        return view('categorias',compact('subcategorias'));
     }
     public function energia(){
         $subcategorias = $this->syscom->subcategorias('30'); //energia
-        return dd($subcategorias);
-        //return view('acceso',compact('categorias'));
+        //return dd($subcategorias);
+        return view('categorias',compact('subcategorias'));
     }
     public function fuego(){
         $subcategorias = $this->syscom->subcategorias('38'); //fuego
-        return dd($subcategorias);
-        //return view('acceso',compact('categorias'));
+        //return dd($subcategorias);
+        return view('categorias',compact('subcategorias'));
     }
 
 
