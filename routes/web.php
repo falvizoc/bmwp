@@ -17,18 +17,20 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('main');
 });
-Route::get('/controldeacceso', 'SyscomController@acceso');
+//Route::get('/controldeacceso/{id}','SyscomController@productos');
 
-Route::get('/videovigilancia', 'SyscomController@video');
+Route::get('controldeacceso', 'SyscomController@acceso')->name('access');
 
-Route::get('/redesinalambricas', 'SyscomController@redes');
+Route::get('videovigilancia', 'SyscomController@video')->name('video');
 
-Route::get('/networking', function () {
+Route::get('redesinalambricas', 'SyscomController@redes')->name('wireless');
+
+Route::get('networking', function () {
     return view('main');
 });
-Route::get('/cableadoestructurado', 'SyscomController@cableado');
+Route::get('cableadoestructurado', 'SyscomController@cableado')->name('swire');
 
-Route::get('/deteciondefuego', 'SyscomController@fuego');
+Route::get('deteciondefuego', 'SyscomController@fuego')->name('fire');
 
 Route::get('/fibraoptica', function () {
     return view('main');

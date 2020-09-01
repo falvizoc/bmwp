@@ -15,7 +15,7 @@
                                 <li><a href="{{ url('https://facebook.com/bitmovilmx') }}" target="_blank" class="icon-facebook fs-20"></a></li>
                                 <!-- <li><a href="" class="icon-instagram fs-20"></a></li>
                                 <li><a href="" class="icon-twitter fs-20"></a></li> -->
-                                <li><a href="{{url('https://linkedin.com/company/bitmovil')}}" target="_blank" class="icon-linkedin fs-20"></a> </li>
+                                <li><a href="{{ url('https://linkedin.com/company/bitmovil') }}" target="_blank" class="icon-linkedin fs-20"></a> </li>
                             </ul>
                         </div>
                     </div>
@@ -40,7 +40,7 @@
                     </div>
                     <div class="col col-lg-2">
                         <ul class="list-group list-group-minimal">
-                            <li class="list-group-item"><a href="">Contacto</a></li>
+                            <li class="list-group-item"><a href="{{ url('/contacto') }}">Contacto</a></li>
                             <li class="list-group-item"><a href="">Nosotros</a></li>
                             <li class="list-group-item"><a href="{{ url('/assets/docs/AvisoPrivacidad.pdf') }}" target="_blank">Aviso de privacidad</a></li>
                         </ul>
