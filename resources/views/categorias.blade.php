@@ -31,7 +31,7 @@
                                         </li>
                                         <li class="list-group-item">
                                             <small class="text-gray">{{ $producto->modelo }}</small><br>
-                                            <small class="text-gray">{{ strlen($producto->marca) > 20 ? substr($producto->marca, 0, 17):$producto->marca }}</small><br>
+                                            <small class="text-twitter">{{ strlen($producto->marca) > 20 ? substr($producto->marca, 0, 17):$producto->marca }}</small><br>
                                         </li>
                                         <li class="list-group-item d-flex">
                                             <del class="ml-auto text-black-50">${{ number_format( round($producto->precios->precio_lista * $tipocambio->normal * 1.1 * 1.16), 2,'.',',' ) }}</del>
@@ -44,7 +44,7 @@
                                             <small class="ml-auto text-danger">Envío $99.00</small>
                                         </li>
                                         <li class="list-group-item d-flex">
-                                            <small class="ml-auto text-gray">Disponible <span style="padding: .3rem .3rem .3rem; height: 20px;" class="badge badge-success justify-content-start" style="
+                                            <small class="ml-auto text-gray">Disponible <span style="padding: .3rem .3rem .3rem; height: 20px;" class="badge badge-green justify-content-start" style="
                                             padding-top: 4px;
                                             width: 50px;
                                             height: 19px;
