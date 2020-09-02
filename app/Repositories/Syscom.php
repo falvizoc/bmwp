@@ -79,7 +79,7 @@ class Syscom
             // Base URI is used with relative requests
             'base_uri' => 'https://developers.syscom.mx/api/v1/',
             // You can set any number of default request options.
-            'timeout'  => 8.0,
+            'timeout'  => 20.0,
         ]);
         $response = $client->request('GET',"categorias/{$id}",[
             'headers' => [
@@ -93,14 +93,28 @@ class Syscom
             // Base URI is used with relative requests
             'base_uri' => 'https://developers.syscom.mx/api/v1/',
             // You can set any number of default request options.
-            'timeout'  => 8.0,
+            'timeout'  => 20.0,
         ]);
         $response = $client->request('GET',"productos",[
             'headers' => [
                 'Authorization' => 'Bearer '.$this->token,
-                        ],
+                ],
             'query' => [
                 'categoria' => $id,
+            ]]);
+        return json_decode($response->getBody()->getContents());
+    }
+
+    public function tipocambio(){
+        $client = new Client([
+            // Base URI is used with relative requests
+            'base_uri' => 'https://developers.syscom.mx/api/v1/',
+            // You can set any number of default request options.
+            'timeout'  => 20.0,
+        ]);
+        $response = $client->request('GET',"tipocambio",[
+            'headers' => [
+                'Authorization' => 'Bearer '.$this->token,
             ]]);
         return json_decode($response->getBody()->getContents());
     }

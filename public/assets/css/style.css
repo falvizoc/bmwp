@@ -3229,7 +3229,7 @@ input[type="button"].btn-block {
 
 .card-body {
   flex: 1 1 auto;
-  padding: 1.875rem; }
+  padding: .3rem; }
 
 .card-title {
   margin-bottom: 0.9375rem; }
@@ -3526,7 +3526,7 @@ input[type="button"].btn-block {
   background-color: #4829B2; }
   a.badge-primary:hover, a.badge-primary:focus {
     color: #fff;
-    background-color: #371f89; }
+    background-color: #0A4C98; }
 
 .badge-secondary {
   color: #151515;
