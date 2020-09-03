@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('main');
 });
-//Route::get('/controldeacceso/{id}','SyscomController@productos');
+
 
 Route::get('controldeacceso', 'SyscomController@acceso')->name('access');
 
@@ -25,9 +25,14 @@ Route::get('videovigilancia', 'SyscomController@video')->name('video');
 
 Route::get('redesinalambricas', 'SyscomController@redes')->name('wireless');
 
+Route::get('categorias/{id_cat}', 'SyscomController@productbycat');
+
+Route::get('productos/{product_id}', 'SyscomController@product');
+
 Route::get('networking', function () {
     return view('main');
 });
+
 Route::get('cableadoestructurado', 'SyscomController@cableado')->name('swire');
 
 Route::get('deteciondefuego', 'SyscomController@fuego')->name('fire');
@@ -64,5 +69,5 @@ Route::get('/nnormalidad', function () {
     return view('nuevanormalidad');
 });
 
-//  -->  POST
+//  --> Métodos POST
 Route::post('contacto','MessagesController@store');

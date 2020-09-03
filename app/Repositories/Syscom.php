@@ -88,7 +88,7 @@ class Syscom
         return json_decode($response->getBody()->getContents());
     }
 
-   public function productos($id){
+   public function productos($id_cat){
         $client = new Client([
             // Base URI is used with relative requests
             'base_uri' => 'https://developers.syscom.mx/api/v1/',
@@ -100,10 +100,24 @@ class Syscom
                 'Authorization' => 'Bearer '.$this->token,
                 ],
             'query' => [
-                'categoria' => $id,
+                'categoria' => $id_cat,
             ]]);
         return json_decode($response->getBody()->getContents());
     }
+    public function producto($id_product){
+            $client = new Client([
+                // Base URI is used with relative requests
+                'base_uri' => 'https://developers.syscom.mx/api/v1/',
+                // You can set any number of default request options.
+                'timeout'  => 20.0,
+            ]);
+            $response = $client->request('GET',"productos/$id_product",[
+                'headers' => [
+                    'Authorization' => 'Bearer '.$this->token,
+                    ],
+                ]);
+            return json_decode($response->getBody()->getContents());
+        }
 
     public function tipocambio(){
         $client = new Client([

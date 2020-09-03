@@ -8,7 +8,7 @@
         <i class="pr-6 mb-2 text-white navbar-toggler-icon"></i>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto right">
+        <ul class="navbar-nav mr-auto left">
             <li class="nav-item">
                 <a href="{{ url('/nnormalidad') }}" class="nav-link btn btn-google-plus " style="
                     position: relative;
@@ -137,8 +137,15 @@
             <li class="nav-item"><a href="{{ url('/foros') }}" class="nav-link text-white">Foros</a></li>
             <li class="nav-item"><a href="{{ url('/contacto') }}" class="nav-link text-white">Contacto</a></li>
         </ul>
-        <div class="col-md-3 text-lg-right">
-            <a href="tel:+528332272527" class="btn btn-sm btn-skype btn-rounded px-5"><ion-icon name="call-outline"></ion-icon>  83 3227 2527</a>
-        </div>
+        <ul class="navbar-nav mr-1">
+            <li class="nav-item">
+                <div class=" ">
+                    <a href="tel:+528332272527" class="badge badge-pill badge-success"><small class="text-white"><ion-icon name="call-outline"></ion-icon>  83 3227 2527</small></a>
+                </div>
+            </li>
+        </ul>
+
     </div>
+
+
 </nav>

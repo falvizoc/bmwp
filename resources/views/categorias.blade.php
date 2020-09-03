@@ -1,16 +1,16 @@
 @extends('layout.categorieslayout')
-@section('content')
 @section('title', $subcategorias->nombre) <!--Personaliza el título del conenido de la página-->
-<!-- contenido html aquí -->
+@section('content')
+    <!-- contenido html aquí -->
     <section class="bg-light">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <aside class="col-md-2 col-lg-2 pl-lg-3">
+                <aside class="col-md-2 col-lg-2 pl-lg-1 col-xl-2">
                     <div class="widget">
                         <span class="mt-4 widget-title">Categorías</span>
                         <div class="list-group list-group-categories list-group-minimal">
                             @foreach($subcategorias->subcategorias as $subgategoria)
-                                <a href="/{{ $subgategoria->id }}" class="small list-group-item d-flex justify-content-between align-items-center">
+                                <a href=" {{ url("categorias/$subgategoria->id") }}" class="small list-group-item d-flex justify-content-between align-items-center">
                                     {{ $subgategoria->nombre }}
                                     <span class="badge">{{ $productos->paginas }}</span>
                                 </a>
@@ -19,44 +19,127 @@
                     </div>
                 </aside>
                 <div class="col-md-9 pt-3">
-                    <ul class="masonry gutter-1">
-                        @foreach($productos->productos as $producto)
-                        <li class="col-md-4 col-lg-3 col-xl-3">
-                            <div class="card">
-                                <img class="card-img-top" src="{{ $producto->img_portada }}" alt="Producto" >
-                                <div class="card-body ">
-                                    <ul class="list-group list-group-minimal">
-                                        <li class="list-group-item" style="height: 73px;">
-                                            <a href="#"><small class="text-black" data-placement="top" title="{{ $producto->titulo }}">{{ strlen($producto->titulo) > 78 ? substr($producto->titulo, 0, 75).' ...':$producto->titulo }}</small></a>
-                                        </li>
-                                        <li class="list-group-item">
-                                            <small class="text-gray">{{ $producto->modelo }}</small><br>
-                                            <small class="text-twitter">{{ strlen($producto->marca) > 20 ? substr($producto->marca, 0, 17):$producto->marca }}</small><br>
-                                        </li>
-                                        <li class="list-group-item d-flex">
-                                            <del class="ml-auto text-black-50">${{ number_format( round($producto->precios->precio_lista * $tipocambio->normal * 1.1 * 1.16), 2,'.',',' ) }}</del>
-                                        </li>
-                                        <li class="list-group-item d-flex">
-                                            <a href="#" class="btn btn-warning btn-sm ml-0 text-wrap" style="padding: 1.5px .3rem .3rem; height: 23px; font-size: 12px;">Añade<ion-icon name="cart" style="padding-top: 3px;"></ion-icon></a>
-                                            <h5 class="text-blue-bm font-weight-normal ml-auto"> ${{ number_format( round($producto->precios->precio_descuento * $tipocambio->normal * 1.1 * 1.16), 2,'.',',' ) }} </h5>
-                                        </li>
-                                        <li class="list-group-item d-flex">
-                                            <small class="ml-auto text-danger">Envío $99.00</small>
-                                        </li>
-                                        <li class="list-group-item d-flex">
-                                            <small class="ml-auto text-gray">Disponible <span style="padding: .3rem .3rem .3rem; height: 20px;" class="badge badge-green justify-content-start" style="
-                                            padding-top: 4px;
-                                            width: 50px;
-                                            height: 19px;
-                                            font-size: 11px;">{{ $producto->existencia->nuevo == '500'? '+'.$producto->existencia->nuevo: $producto->existencia->nuevo }}</span></small>
-                                        </li>
-                                    </ul>
+                    <div class="row">
+                        <div class="boxed bg-white p-5">
+                            <div class="row justify-content-between align-items-center text-center text-md-left">
+                                <div class="col-md-3">
+                                    <h3>Get in touch.</h3>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                                <div class="col-md-3 text-lg-right">
+                                    <a href="" class="btn btn-primary btn-rounded px-5">Write Us</a>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    @foreach($productos->productos as $producto)
+                        <div class="boxed gutter-1 bg-white rising">
+                            <div class="row justify-content-between align-items-center text-center text-md-left">
+                                <div class="col-lg-3 col-xl-2">
+                                    <img src="{{ $producto->img_portada }}" alt="Producto" >
+                                </div>
+                                <div class="col-lg-9 col-xl-10">
+                                    <div class="pr-5">
+                                        <a href="/productos/{{ $producto->producto_id }}"><h5 class="text-black" data-placement="top" title="{{ str_replace(" / ",", ",$producto->titulo) }}">{{ strlen(str_replace(" / ",", ",$producto->titulo)) > 110 ? substr(str_replace(" / ",", ",$producto->titulo), 0, 107).' ...':str_replace(" / ",", ",$producto->titulo) }}</h5></a>
+                                    </div>
+                                    <div class="row pt-1">
+                                        <!-- Seección 1 -->
+                                        <div class="col-lg-6 col-xl-8">
+                                            <ul class="list-group list-group-minimal">
+                                                <li class="list-group-item d-flex">
+                                                    <small class="text-gray">{{ $producto->modelo }}</small>
+                                                </li>
+                                                <li class="list-group-item d-flex">
+                                                    <small class="text-twitter">{{ strlen($producto->marca) > 20 ? substr($producto->marca, 0, 17):$producto->marca }}</small>
+                                                </li>
+                                                <li class="list-group-item d-flex ">
+                                                    <a href="">
+                                                        <p class="text-yellow icon-star"></p>
+                                                        <p class="text-yellow icon-star"></p>
+                                                        <p class="text-yellow icon-star"></p>
+                                                        <p class="text-yellow icon-star"></p>
+                                                        <p class="text-yellow icon-star-half-empty pl-0"></p>
+                                                    </a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <!-- Seección 2 -->
+                                        <div class="col-sm text-lg-right">
+                                            <ul class="list-group list-group-minimal">
+                                                <li class="list-group-item d-flex">
+                                                    <del class="ml-auto text-black-50">${{ number_format( round($producto->precios->precio_lista * $tipocambio->normal * 1.1 * 1.16), 2,'.',',' ) }}</del>
+                                                </li>
+                                                <li class="list-group-item d-flex">
+                                                    <h5 class="text-blue-bm font-weight-normal ml-auto"> ${{ number_format( round($producto->precios->precio_descuento * $tipocambio->normal * 1.1 * 1.16), 2,'.',',' ) }} </h5>
+                                                </li>
+                                                <li class="list-group-item d-flex">
+                                                    <small class="ml-auto text-danger">Envío $149.00</small>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!-- Seección 3 -->
+                                        <div class="col-sm">
+                                            <ul class="list-group list-group-minimal">
+                                                <li class="list-group-item d-flex">
+                                                    <a href="#" class="btn btn-warning btn-sm ml-0 text-wrap" style="padding: .1rem .1rem .1rem; height: 25px; font-size: 15px;">Añade<ion-icon name="cart" style="padding-top: 1px;"></ion-icon></a>
+                                                </li>
+                                                <li class="list-group-item d-block">
+                                                    <small class="ml-auto text-gray"> <span style="padding: .3rem .3rem .3rem; height: 20px;" class="badge badge-green justify-content-start" style="
+                                                        padding-top: 4px;
+                                                        width: 50px;
+                                                        height: 19px;
+                                                        font-size: 11px;">{{ $producto->existencia->nuevo == '500'? '+'.$producto->existencia->nuevo: $producto->existencia->nuevo }}</span> Disponibles</small>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                    @endforeach
+                    <ul class="masonry gutter-2">
+                        @foreach($productos->productos as $producto)
+                        <li class="col-md-4 col-lg-3 col-xl-2">
+                            <a href="{{ url("productos/$producto->producto_id") }}">
+                                <div class="card rising">
+                                    <img class="card-img-top" src="{{ $producto->img_portada }}" alt="Producto" >
+                                    <div class="card-body ">
+                                        <ul class="list-group list-group-minimal">
+                                            <li class="list-group-item" style="height: 73px;">
+                                                <a href="productos/{{ $producto->producto_id }}"><small class="text-black" data-placement="top" title="{{ str_replace(" / ",", ",$producto->titulo) }}">{{ strlen(str_replace(" / ",", ",$producto->titulo)) > 78 ? substr(str_replace(" / ",", ",$producto->titulo), 0, 75).' ...':str_replace(" / ",", ",$producto->titulo) }}</small></a>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <small class="text-gray">{{ $producto->modelo }}</small><br>
+                                                <small class="text-twitter">{{ strlen($producto->marca) > 20 ? substr($producto->marca, 0, 17):$producto->marca }}</small>
+                                            </li>
+                                            <li class="list-group-item d-flex">
+                                                <del class="ml-auto text-black-50">${{ number_format( round($producto->precios->precio_lista * $tipocambio->normal * 1.1 * 1.16), 2,'.',',' ) }}</del>
+                                            </li>
+                                            <li class="list-group-item d-flex">
+                                                <a href="#" class="btn btn-warning btn-sm ml-0 text-wrap" style="padding: .1rem .1rem .1rem; height: 23px; font-size: 11px;">Añade<ion-icon name="cart" style="padding-top: 3px;"></ion-icon></a>
+                                                <h5 class="text-blue-bm font-weight-normal ml-auto"> ${{ number_format( round($producto->precios->precio_descuento * $tipocambio->normal * 1.1 * 1.16), 2,'.',',' ) }} </h5>
+                                            </li>
+                                            <li class="list-group-item d-flex">
+                                                <small class="ml-auto text-danger">Envío $149.00</small>
+                                            </li>
+                                            <li class="list-group-item d-flex">
+                                                <small class="ml-auto text-gray">Disponibles <span style="padding: .3rem .3rem .3rem; height: 20px;" class="badge badge-green justify-content-start" style="
+                                                    padding-top: 4px;
+                                                    width: 50px;
+                                                    height: 19px;
+                                                    font-size: 11px;">{{ $producto->existencia->nuevo == '500'? '+'.$producto->existencia->nuevo: $producto->existencia->nuevo }}</span></small>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
                         </li>
                         @endforeach
                     </ul>
-
                 </div>
             </div>
         </div>
