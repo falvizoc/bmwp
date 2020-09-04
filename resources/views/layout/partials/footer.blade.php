@@ -25,7 +25,7 @@
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="mb-1">
-                            <img href="#" src="{{asset('assets/img/Bitmovil-LOGO-03.png')}}" alt="" style="height: 4.3em; float: left; padding-bottom: 7px; padding-right: 2px;">
+                            <a href="{{ url('/') }}"> <img  src="{{asset('assets/img/Bitmovil-LOGO-03.png')}}" alt="" style="height: 4.3em; float: left; padding-bottom: 7px; padding-right: 2px;"> </a>
                         </div>
                         <span class="copyright-text">©Derechos Reservados 2020</span>
                     </div>

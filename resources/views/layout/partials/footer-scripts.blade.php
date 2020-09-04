@@ -1,9 +1,9 @@
 <!-- scripts -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+<script src="{{ url('https://code.jquery.com/jquery-3.5.1.slim.min.js') }}" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
 <script src="{{asset('assets/js/vendor.js')}}"></script>
 <script src="{{asset('assets/js/app.js')}}"></script>
-<script type="module" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule="" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.js"></script>
+<script type="module" src="{{ url('https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js') }}"></script>
+<script nomodule="" src="{{ url('https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.js') }}"></script>
 <script>
     $(function(){
         $('.carousel').carousel({
@@ -48,5 +48,19 @@
                 $('#contacto').modal('show');
             }
         });
+    });
+</script>
+<script>
+    //Habilita la vista de tarjetas en pantallas con resolución menor a 1024px
+    $(function (){
+        if(screen.width < 1024) {
+            $('#component-1-2').addClass('active');
+            $('#component-1-1').removeClass('active');
+            $('#vista').hide();
+        }else if (screen.width >= 1024){
+            $('#component-1-2').removeClass('active');
+            $('#component-1-1').addClass('active');
+            $('#vista').show();
+        }
     });
 </script>
