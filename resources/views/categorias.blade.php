@@ -26,14 +26,19 @@
                                 </a>
                             @endforeach
                         </div>
+                        <hr class="mb-1 style11">
+                        <h3 class="widget-title">Marcas</h3>
+                        <div class="list-group list-group-categories list-group-minimal">
+
+                        </div>
                     </div>
                 </aside>
                 <!--  Panel Central -->
                 <div class="col-md-8 col-lg-8 pt-3">
                     <!-- Banner Superior para promos -->
                     <div class="row pl-1 pr-1">
-                        <div class="boxed bg-white p-5">
-                            <div class="bg-dark row justify-content-between align-items-center text-center text-md-left">
+                        <div class="boxed bg-orange p-5">
+                            <div class=" row justify-content-between align-items-center text-center text-md-left">
                                 <div class="col-md-3">
                                     <h4>Get in touch.</h4>
                                 </div>
@@ -152,7 +157,7 @@
                                                     <del class="ml-auto text-black-50">${{ number_format( round($producto->precios->precio_lista * $tipocambio->normal * 1.1 * 1.16), 2,'.',',' ) }}</del>
                                                 </li>
                                                 <li class="list-group-item d-flex">
-                                                    <a href="#" class="btn btn-warning btn-sm ml-0 text-wrap" style="padding: .1rem .1rem .1rem; height: 23px; font-size: 11px;">Añade<ion-icon name="cart" style="padding-top: 3px;"></ion-icon></a>
+                                                    <a href="#" class="btn btn-warning btn-sm ml-0 text-wrap" style="padding: .1rem .1rem .1rem; height: 25px; font-size: 15px;">Añade<ion-icon name="cart" style="padding-top: 1px;"></ion-icon></a>
                                                     <h5 class="text-blue-bm font-weight-normal ml-auto"> ${{ number_format( round($producto->precios->precio_descuento * $tipocambio->normal * 1.1 * 1.16), 2,'.',',' ) }} </h5>
                                                 </li>
                                                 <li class="list-group-item d-flex">
@@ -187,7 +192,7 @@
                     </div>
                 </div>
                 <!-- Baner lateral para promos -->
-                <div class="col-2 pt-3 card">
+                <div class="bg-orange col-2 pt-3 card">
                     Promoción
                 </div>
             </div>
