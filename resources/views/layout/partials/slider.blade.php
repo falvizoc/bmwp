@@ -1,5 +1,5 @@
 <div class="container">
-    <div class="gallery " style="padding-top: 105px;">
+    <div class="gallery " style="padding-top: 0px;">
         <div class="gallery-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">

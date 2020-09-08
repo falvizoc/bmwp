@@ -1,7 +1,6 @@
 @extends('layout.mainlayout')
 @section('title', 'Transformación Digital') <!--Personaliza el título del conenido de la página-->
 @section('content')
-
     <section class="bg-light pt-8 ">
         <div class="container">
             <div class="row justify-content-center">

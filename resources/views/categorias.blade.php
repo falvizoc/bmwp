@@ -1,40 +1,9 @@
 @extends('layout.categorieslayout')
 @section('title', $subcategorias->nombre) <!--Personaliza el título del conenido de la página-->
 @section('content')
-    <!-- contenido html aquí -->
-    <section class="bg-light">
-        <div class="container-fluid">
-            <div class="row">
-                <!--  Panel lateral -->
-                <aside class="col-md-3 col-lg-2 card">
-                    <div class=" widget">
-                        <div class="d-none d-lg-block" id="vista">
-                            <hr class=" mb-1 style11 ">
-                            <div class="nav nav-docs nav-lavalamp" >
-                                <h6 class="mb-0 text-black-50">Panel</h6>
-                                <a class="nav-item nav-link active show icon-menu " title="Vista extendida" data-toggle="tab" href="#component-1-1"></a>
-                                <a class="nav-item nav-link icon-grid " title="Vista condensada" data-toggle="tab" href="#component-1-2"></a>
-                            </div>
-                            <hr class=" mb-1 style11">
-                        </div>
-                        <h3 class="widget-title">Categorías</h3>
-                        <div class="list-group list-group-categories list-group-minimal">
-                            @foreach($subcategorias->subcategorias as $subgategoria)
-                                <a href=" {{ url("categorias/$subgategoria->id") }}" class="small list-group-item d-flex justify-content-between align-items-center">
-                                    {{ $subgategoria->nombre }}
-                                    <span class="badge">{{ $productos->paginas }}</span>
-                                </a>
-                            @endforeach
-                        </div>
-                        <hr class="mb-1 style11">
-                        <h3 class="widget-title">Marcas</h3>
-                        <div class="list-group list-group-categories list-group-minimal">
-
-                        </div>
-                    </div>
-                </aside>
+    <div class="container-fluid bg-light">
                 <!--  Panel Central -->
-                <div class="col-md-8 col-lg-8 pt-3">
+                <div class="mt-4 col-lg-10 pt-3">
                     <!-- Banner Superior para promos -->
                     <div class="row pl-1 pr-1">
                         <div class="boxed bg-orange p-5">
@@ -196,7 +165,5 @@
                     Promoción
                 </div>
             </div>
-        </div>
-    </section>
 @endsection
 

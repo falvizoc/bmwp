@@ -1,8 +1,7 @@
-<!--  BARRA DE NAVEGACIÓN  -->
-<nav class=" navbar navbar-expand-lg navbar-dark fixed-top bg-blue-bm">
-    <a class="navbar-brand text-white pl-3 pb-7 align-self-center" href="{{ url('/') }}">
-    <!-- <h2 class="font-weight-bold"><img src="{{asset('img/isotipo-stroke-2.png')}}" alt="" class="img-fluid bm-isotype " style="height: 1.3em; float: left; padding-bottom: 7px; padding-right: 2px;">Bitmovil</h2>-->
-        <img src="{{asset('assets/img/Bitmovil-LOGO-03.png')}}" alt="Logo" style="height: 4.3em; float: left; padding-bottom: 7px; padding-right: 2px;">
+<!--  Navbar  -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-blue-bm">
+    <a class="align-self-center" href="{{ url('/') }}" style="margin: 0px 50px 0px 15px">
+        <img src="{{asset('assets/img/Bitmovil-LOGO-03.png')}}" alt="Logo" style="height: 2.5rem" >
     </a>
     <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <i class="pr-6 mb-2 text-white navbar-toggler-icon"></i>
@@ -19,11 +18,11 @@
                     font-size: 11px;
                     color: white;" >Nueva Normalidad</a>
             </li>
-            <li class="nav-item  dropdown-mega show">
+            <li class="nav-item dropdown-mega show">
                 <a href="" class="nav-link text-white dropdown-toggle" id="softwareMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Soluciones
                 </a>
-                <div class="dropdown-menu container" aria-labelledby="navbarDropdown-1">
+                <div class="dropdown-menu container" aria-labelledby="navbarDropdown-1" style="top:48px;">
                     <div class="row">
                         <div class="col">
                             <ul class="mega-list">
@@ -144,8 +143,6 @@
                 </div>
             </li>
         </ul>
-
     </div>
-
-
 </nav>
+<!-- /Navbar
