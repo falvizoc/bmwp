@@ -18,6 +18,7 @@ Route::get('/', function () {
     return view('main');
 });
 
+Route::get('pruebas/{id}','SyscomController@pruebas');
 
 Route::get('controldeacceso', 'SyscomController@acceso')->name('access');
 
@@ -25,7 +26,7 @@ Route::get('videovigilancia', 'SyscomController@video')->name('video');
 
 Route::get('redesinalambricas', 'SyscomController@redes')->name('wireless');
 
-Route::get('categorias/{id_cat}', 'SyscomController@productbycat');
+Route::get('categorias/{cat_id}', 'SyscomController@productbycat');
 
 Route::get('productos/{product_id}', 'SyscomController@product');
 

@@ -17,8 +17,8 @@ class SyscomController extends Controller
         $this->syscom = $syscom;
     }
 
-    public function product($id_product){
-        $product = $this->syscom->producto($id_product);
+    public function product($product_id){
+        $product = $this->syscom->producto($product_id);
         return dd($product);
     }
 
@@ -33,7 +33,8 @@ class SyscomController extends Controller
         $subcategorias = $this->syscom->categorias('37'); //Control de acceso
         $productos = $this->syscom->productos('37'); //productos por subcategoría
         $tipocambio = $this->syscom->tipocambio();
-        return view('categorias',compact('subcategorias','productos', 'tipocambio'));
+        $todasSubCategorias = $this->syscom->todas_subcategorias('37');
+        return view('categorias',compact('subcategorias','productos', 'tipocambio', 'todasSubCategorias'));
     }
     public function video(){
         $subcategorias = $this->syscom->categorias('22'); //video vigilancia
@@ -68,6 +69,10 @@ class SyscomController extends Controller
         $tipocambio = $this->syscom->tipocambio();
         //return dd($subcategorias);
         return view('categorias',compact('subcategorias','productos', 'tipocambio'));
+    }
+
+    public function pruebas($id){
+        return dd($this->syscom->todas_subcategorias($id));
     }
 
 
