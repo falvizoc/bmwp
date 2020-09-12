@@ -2,9 +2,7 @@
 
 
 namespace App\Repositories;
-use App\Models\supplierAccessToken;
-use GuzzleHttp\Client;
-use Illuminate\Support\Facades\DB;
+
 
 class Syscom extends GuzzleHttpRequest_Syscom
 {
