@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use GuzzleHttp\Client;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -13,7 +14,14 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->singleton('GuzzleHttp\Client', function (){
+            return new Client([
+                'base_uri' => 'https://developers.syscom.mx',
+                // You can set any number of default request options.
+                'timeout'  => 8.0,
+            ]);
+
+        });
     }
 
     /**
@@ -23,8 +31,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->app->singleton('GuzzleHttp\Client', function (){
 
-        });
     }
 }

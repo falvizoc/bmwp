@@ -4487,6 +4487,15 @@ a.close.disabled {
 .align-text-top {
   vertical-align: text-top !important; }
 
+.bg-panel {
+    background-color: #f7f7fc !important; }
+
+a.bg-panel:hover, a.bg-panel:focus,
+button.bg-panel:hover,
+button.bg-panel:focus {
+    background-color: #f7f7fc !important; }
+    /*background-color: #2c3a4a !important; }*/
+
 .bg-primary {
   background-color: #4829B2 !important; }
 
@@ -21313,3 +21322,4 @@ pre[class*="language-"] {
         margin-left: -15rem;
     }
 }
+
