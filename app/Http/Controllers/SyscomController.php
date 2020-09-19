@@ -33,8 +33,7 @@ class SyscomController extends Controller
         $subcategorias = $this->syscom->categorias('37'); //Control de acceso
         $productos = $this->syscom->productos('37'); //productos por subcategoría
         $tipocambio = $this->syscom->tipocambio();
-        $todasSubCategorias = $this->syscom->todas_subcategorias('37');
-        return view('categorias',compact('subcategorias','productos', 'tipocambio', 'todasSubCategorias'));
+        return view('categorias',compact('subcategorias','productos', 'tipocambio'));
     }
     public function video(){
         $subcategorias = $this->syscom->categorias('22'); //video vigilancia

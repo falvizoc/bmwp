@@ -10,7 +10,7 @@ class Syscom extends GuzzleHttpRequest_Syscom
     public function categorias($id){
         return $this->get("categorias/$id");
     }
-
+/*
     public function todas_subcategorias($id){
         $a=[];
         $subcategorias=$this->get("categorias/$id");
@@ -20,6 +20,7 @@ class Syscom extends GuzzleHttpRequest_Syscom
         }
         return $a;
     }
+*/
 
     /** Devuelve los productos de una categoría */
     public function productos($id_cat){

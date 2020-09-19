@@ -1,7 +1,7 @@
 @extends('layout.categorieslayout')
 @section('title', $subcategorias->nombre) <!--Personaliza el título del conenido de la página-->
 @section('content')
-    <div class="container-fluid bg-transparent-white">
+    <div class="container-fluid bg-panel">
         <div class="row">
             <div class="mt-4 col-lg-10 col-xl-9 pt-3">
                 <!-- Banner Superior para promos -->
@@ -163,7 +163,12 @@
                 </div>
             </div>
             <!-- Panel lateral derecho -->
-            <div class="mt-4 col-lg-2 col-xl-3 pt-3">
+            <div class="mt-4 col-lg-2 col-xl-3 pt-3 " style="position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: .5rem;
+    overflow-x: hidden;
+    overflow-y: auto; ">
                 <div class="card bg-panel"> HOLA </div>
             </div>
             <!-- / Panel lateral derecho -->
