@@ -21219,6 +21219,27 @@ pre[class*="language-"] {
 
 /*# sourceMappingURL=style.css.map */
 
+/**
+* Personales
+ */
+
+#disponibles-card{
+    padding: .3rem .3rem .3rem;
+    height: 20px;
+    width: 50px;
+    font-size: 11px;
+}
+
+#nnormalidad{
+    position: relative;
+    top: 5px;
+    padding-top: 1px;
+    width: 120px;
+    height: 19px;
+    font-size: 11px;
+    color: white;
+}
+
 /*
  * Sidebar
  */
@@ -21275,6 +21296,27 @@ pre[class*="language-"] {
 .sidebar-heading {
     font-size: .75rem;
     text-transform: uppercase;
+}
+
+
+.rightbar{
+    position: fixed;
+    right: -40px;
+    top: 56px;
+    bottom: 0px;
+    background-color: white;
+    height: calc(100vh - 48px);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.rightbar .nav-link.active {
+    color: #007bff;
+}
+
+.rightbar .nav-link .feather {
+    margin-right: 4px;
+    color: #999;
 }
 
 #wrapper {

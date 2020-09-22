@@ -2,20 +2,21 @@
 @section('title', $subcategorias->nombre) <!--Personaliza el título del conenido de la página-->
 @section('content')
     <div class="container-fluid bg-panel">
+        <!-- Panel Central -->
         <div class="row">
-            <div class="mt-4 col-lg-10 col-xl-9 pt-3">
+            <div class="mt-4 col-lg-10 col-xl-8 pt-3">
                 <!-- Banner Superior para promos -->
                 <div class="row pl-1 pr-1">
-                    <div class="boxed bg-orange p-5">
+                    <div class="boxed bg-yellow p-5">
                         <div class=" row justify-content-between align-items-center text-center text-md-left">
                             <div class="col-md-3">
-                                <h4>Get in touch.</h4>
+                                <h4>Muy pronto.</h4>
                             </div>
-                            <div class="col-md-6">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <div class="col-md-6 text-gray-dark bold">
+                                <strong>Estaremos liberando nuestra tienda en línea. ¡Espérala!</strong>
                             </div>
                             <div class="col-md-3 text-lg-right">
-                                <a href="" class="btn btn-danger btn-rounded px-5">Contáctanos</a>
+                                <a href="" class="btn-google-plus btn- btn-sm btn-rounded px-5">Contáctanos</a>
                             </div>
                         </div>
                     </div>
@@ -48,10 +49,11 @@
                                                     </li>
                                                     <li class="list-group-item ">
                                                         <a href="" >
-                                                            <small class="text-tumblr mt-0">¿Preguntas?</small>
+                                                            <!--<small class="text-tumblr mt-0">¿Preguntas?</small>-->
                                                         </a>
                                                     </li>
                                                     <li class="list-group-item d-flex ">
+                                                        <!--
                                                         <a href="">
                                                             <small>Opiniones</small><br>
                                                             <p class="text-yellow icon-star"></p>
@@ -60,6 +62,7 @@
                                                             <p class="text-yellow icon-star"></p>
                                                             <p class="text-yellow icon-star-half-empty pl-0"></p>
                                                         </a>
+                                                        -->
                                                     </li>
 
                                                 </ul>
@@ -78,7 +81,7 @@
                                                         <h5 class="text-blue-bm font-weight-normal ml-auto"> ${{ number_format( round($producto->precios->precio_descuento * $tipocambio->normal * 1.1 * 1.16), 2,'.',',' ) }} </h5>
                                                     </li>
                                                     <li class="list-group-item d-flex">
-                                                        <small class="ml-auto text-danger">Envío $149.00</small>
+                                                       <!-- <small class="ml-auto text-danger">Envío $149.00</small> -->
                                                     </li>
                                                 </ul>
                                             </div>
@@ -86,7 +89,9 @@
                                             <div class="col-sm text-sm-left">
                                                 <ul class="list-group list-group-minimal">
                                                     <li class="list-group-item d-flex">
+                                                        <!--
                                                         <a href="#" class="btn btn-warning btn-sm ml-0 text-wrap" style="padding: .1rem .1rem .1rem; height: 25px; font-size: 15px;">Añade<ion-icon name="cart" style="padding-top: 1px;"></ion-icon></a>
+                                                        -->
                                                     </li>
                                                     <li class="list-group-item d-block">
                                                         <small class="ml-auto text-gray"> <span style="padding: .3rem .3rem .3rem; height: 20px;" class="badge badge-green justify-content-start" style="
@@ -127,20 +132,21 @@
                                                         <del class="ml-auto text-black-50">${{ number_format( round($producto->precios->precio_lista * $tipocambio->normal * 1.1 * 1.16), 2,'.',',' ) }}</del>
                                                     </li>
                                                     <li class="list-group-item d-flex">
-                                                        <a href="#" class="btn btn-warning btn-sm ml-0 text-wrap" style="padding: .1rem .1rem .1rem; height: 25px; font-size: 15px;">Añade<ion-icon name="cart" style="padding-top: 1px;"></ion-icon></a>
+                                                        <!--<a href="#" class="btn btn-warning btn-sm ml-0 text-wrap" style="padding: .1rem .1rem .1rem; height: 25px; font-size: 15px;">Añade<ion-icon name="cart" style="padding-top: 1px;"></ion-icon></a>-->
                                                         <h5 class="text-blue-bm font-weight-normal ml-auto"> ${{ number_format( round($producto->precios->precio_descuento * $tipocambio->normal * 1.1 * 1.16), 2,'.',',' ) }} </h5>
                                                     </li>
                                                     <li class="list-group-item d-flex">
+                                                        <!--
                                                         <a href="">
                                                             <small class="text-tumblr" style="font-size: 11px">¿Preguntas?</small>
                                                         </a>
-                                                        <small class="ml-auto text-gray">Disponibles <span style="padding: .3rem .3rem .3rem; height: 20px;" class="badge badge-green justify-content-start" style="
-                                                padding-top: 4px;
-                                                width: 50px;
-                                                height: 19px;
-                                                font-size: 11px;">{{ $producto->existencia->nuevo == '500'? '+'.$producto->existencia->nuevo: $producto->existencia->nuevo }}</span></small>
+                                                        -->
+                                                        <small class="ml-auto text-gray">Disponibles
+                                                            <span id="disponibles-card" class="badge badge-green justify-content-start">{{ $producto->existencia->nuevo == '500'? '+'.$producto->existencia->nuevo: $producto->existencia->nuevo }}</span>
+                                                        </small>
                                                     </li>
                                                     <li class="list-group-item d-flex">
+                                                        <!--
                                                         <a href="">
                                                             <small style="font-size: 11px">Opiniones</small><br>
                                                             <p class="text-yellow icon-star"></p>
@@ -150,6 +156,7 @@
                                                             <p class="text-yellow icon-star-half-empty pl-0"></p>
                                                         </a>
                                                         <small class="ml-auto text-danger">Envío $149.00</small>
+                                                        -->
                                                     </li>
                                                 </ul>
                                             </div>
@@ -163,18 +170,15 @@
                 </div>
             </div>
             <!-- Panel lateral derecho -->
-            <div class="mt-4 col-lg-2 col-xl-3 pt-3 " style="position: relative;
-    top: 0;
-    height: calc(100vh - 48px);
-    padding-top: .5rem;
-    overflow-x: hidden;
-    overflow-y: auto; ">
-                <div class="card bg-panel"> HOLA </div>
+            <div class=" col-lg-2 col-xl-3 rightbar">
+                    <div class="nav nav-docs nav-lavalamp" >
+                        <a class="nav-item nav-link active show icon-menu " title="Vista extendida" data-toggle="tab" href="#component-1-1"></a>
+                        <a class="nav-item nav-link icon-grid " title="Vista condensada" data-toggle="tab" href="#component-1-2"></a>
+                    </div>
             </div>
             <!-- / Panel lateral derecho -->
         </div>
         <!--  Panel Central -->
-
     </div>
 @endsection
 
