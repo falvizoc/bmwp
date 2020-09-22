@@ -35,7 +35,8 @@
                                     <!-- Contenido de la ficha -->
                                     <div class="col-lg-9 col-xl-10">
                                         <div class="pr-5">
-                                            <a href="{{ url("/productos/$producto->producto_id") }}"><h5 class="text-black" data-placement="top" title="{{ str_replace(" / ",", ",$producto->titulo) }}">{{ strlen(str_replace(" / ",", ",$producto->titulo)) > 85 ? substr(str_replace(" / ",", ",$producto->titulo), 0, 82).' ...':str_replace(" / ",", ",$producto->titulo) }}</h5></a>
+                                            <!-- <a href="{{ url("/productos/$producto->producto_id") }}"></a>  Link deshabilitado temporalmente-->
+                                                <h5 class="text-black" data-placement="top" title="{{ str_replace(" / ",", ",$producto->titulo) }}">{{ strlen(str_replace(" / ",", ",$producto->titulo)) > 85 ? substr(str_replace(" / ",", ",$producto->titulo), 0, 82).' ...':str_replace(" / ",", ",$producto->titulo) }}</h5>
                                         </div>
                                         <div class="row pt-1">
                                             <!-- Seección 1 -->
@@ -116,13 +117,15 @@
                         <ul class="masonry gutter-2">
                             @foreach($productos->productos as $producto)
                                 <li class="col-md-6 col-lg-4 col-xl-3">
-                                    <a href="{{ url("productos/$producto->producto_id") }}">
+                                    <!-- link  -> {{ url("productos/$producto->producto_id") }} -->
+                                    <a href="">
                                         <div class="card rising">
                                             <img class="card-img-top" src="{{ $producto->img_portada }}" alt="Producto" >
                                             <div class="card-body ">
                                                 <ul class="list-group list-group-minimal">
                                                     <li class="list-group-item" style="height: 73px;">
-                                                        <a href="productos/{{ $producto->producto_id }}"><small class="text-black" data-placement="top" title="{{ str_replace(" / ",", ",$producto->titulo) }}">{{ strlen(str_replace(" / ",", ",$producto->titulo)) > 78 ? substr(str_replace(" / ",", ",$producto->titulo), 0, 75).' ...':str_replace(" / ",", ",$producto->titulo) }}</small></a>
+                                                        <!-- link -> productos/{{ $producto->producto_id }} -->
+                                                        <a href=""><small class="text-black" data-placement="top" title="{{ str_replace(" / ",", ",$producto->titulo) }}">{{ strlen(str_replace(" / ",", ",$producto->titulo)) > 78 ? substr(str_replace(" / ",", ",$producto->titulo), 0, 75).' ...':str_replace(" / ",", ",$producto->titulo) }}</small></a>
                                                     </li>
                                                     <li class="list-group-item">
                                                         <small class="text-gray">{{ $producto->modelo }}</small><br>
