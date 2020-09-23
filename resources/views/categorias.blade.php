@@ -13,10 +13,10 @@
                                 <h4>Muy pronto.</h4>
                             </div>
                             <div class="col-md-6 text-gray-dark bold">
-                                <strong>Estaremos liberando nuestra tienda en línea. ¡Espérala!</strong>
+                                <strong>Estará disponible nuestra tienda en línea. Mientras tanto...</strong>
                             </div>
                             <div class="col-md-3 text-lg-right">
-                                <a href="" class="btn-google-plus btn- btn-sm btn-rounded px-5">Contáctanos</a>
+                                <a href="{{ url('/contacto') }}" class="btn-google-plus btn- btn-sm btn-rounded px-5">¡Contáctanos!</a>
                             </div>
                         </div>
                     </div>
