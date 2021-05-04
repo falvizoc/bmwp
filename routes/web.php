@@ -18,25 +18,49 @@ Route::get('/', function () {
     return view('main');
 });
 
-Route::get('pruebas/{id}','SyscomController@pruebas');
+//Route::get('pruebas/{id}','SyscomController@pruebas');
+Route::get('pruebas/{id}',function () {
+    return view('main');
+});
 
-Route::get('controldeacceso', 'SyscomController@acceso')->name('access');
+//Route::get('controldeacceso', 'SyscomController@acceso')->name('access');
+Route::get('controldeacceso', function () {
+    return view('main');
+});
 
-Route::get('videovigilancia', 'SyscomController@video')->name('video');
+//Route::get('videovigilancia', 'SyscomController@video')->name('video');
+Route::get('videovigilancia', function () {
+    return view('main');
+});
 
-Route::get('redesinalambricas', 'SyscomController@redes')->name('wireless');
+//Route::get('redesinalambricas', 'SyscomController@redes')->name('wireless');
+Route::get('redesinalambricas', function () {
+    return view('main');
+});
 
-Route::get('categorias/{cat_id}', 'SyscomController@productbycat');
+//Route::get('categorias/{cat_id}', 'SyscomController@productbycat');
+Route::get('categorias/{cat_id}', function () {
+    return view('main');
+});
 
-Route::get('productos/{product_id}', 'SyscomController@product');
+//::get('productos/{product_id}', 'SyscomController@product');
+Route::get('productos/{product_id}', function () {
+    return view('main');
+});
 
 Route::get('networking', function () {
     return view('main');
 });
 
-Route::get('cableadoestructurado', 'SyscomController@cableado')->name('swire');
+//Route::get('cableadoestructurado', 'SyscomController@cableado')->name('swire');
+Route::get('cableadoestructurado', function () {
+    return view('main');
+});
 
-Route::get('deteciondefuego', 'SyscomController@fuego')->name('fire');
+//Route::get('deteciondefuego', 'SyscomController@fuego')->name('fire');
+Route::get('deteciondefuego',function () {
+    return view('main');
+});
 
 Route::get('/fibraoptica', function () {
     return view('main');
