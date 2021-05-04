@@ -8,10 +8,10 @@
 @section('content')
     <section class="bg-light mt-6">
         <div class="container-fluid separator-bottom">
-            <div class="row justify-content-center">
-                <div class="col-md-10 text-center">
+            <div class="row  ">
+                <div class="col-md-10 ">
                     <!--<h5>Adapta tu negocio a la <b>Nueva Normalidad</b></h5>-->
-                    <h2>Cumple con los lineamientos de la autoridad y <br><b class="text-success"> devuélvele la confianza a tus clientes.</b></h2>
+                    <h2 class="pt-8 text-center">Cumple con los lineamientos de la autoridad y <br><b class="text-success"> devuélvele la confianza a tus clientes.</b></h2>
                 </div>
             </div>
             <div class="row justify-content-between">
