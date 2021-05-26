@@ -4,15 +4,30 @@
         <li data-target="#carouselControlsIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselControlsIndicators" data-slide-to="1"></li>
         <li data-target="#carouselControlsIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselControlsIndicators" data-slide-to="3"></li>
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
+            <img class="d-block w-100 img-adjust img-adjust-h500" src="{{asset('assets/img/carousel-cisco.jpeg')}}" alt="Fourth slide">
+            <div class=" container-fluid">
+                <div class="row align-items-start">
+                    <div class="carousel-caption " style="background-color: rgba(-70,-70,-70,0.5); border-radius: 15px; ">
+                        <h4 class="text-white "> Soluciones  en</h4>
+                        <h1 class="display-4">Redes, Nube y Ciberseguridad </h1>
+                        <img src="{{asset('assets/img/partners/logo-22.png')}}" alt="Cisco" style="height: 100px; width: auto;">
+                        <br><br>
+                        <a href="{{ url('/cisco') }}" class="btn btn-yellow btn-sm">Más información</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item ">
             <img class="d-block w-100 img-adjust img-adjust-h500" src="{{asset('assets/img/carousel-ms.jpg')}}" alt="First slide">
             <div class="container">
                 <div class="row align-items-start">
                     <div class="carousel-caption " style="background-color: rgba(0,0,0,0.5); border-radius: 15px; ">
                         <img src="{{asset('assets/img/microsoft.png')}}" alt="" class="Microsoft" style="height: 100px; width: auto;">
-                        <h1 class=>Licencias por volumen para
+                        <h1 class="">Licencias por volumen para
                         <span id="typed" class="text-warning"></span></h1>
                         <div id="typed-strings">
                             <p>empresas.</p>
