@@ -12,11 +12,11 @@
             <div class=" container-fluid">
                 <div class="row align-items-start">
                     <div class="carousel-caption " style="background-color: rgba(-70,-70,-70,0.5); border-radius: 15px; ">
-                        <h4 class="text-white "> Soluciones  en</h4>
-                        <h1 class="display-4">Redes, Nube y Ciberseguridad </h1>
-                        <img src="{{asset('assets/img/partners/logo-22.png')}}" alt="Cisco" style="height: 100px; width: auto;">
+                        <h3 class="text-white "> La solución completa para su empresa </h3>
+                        <h1 class="display-4 text-skype">Redes, Nube y Ciberseguridad </h1>
+                        <img src="{{asset('assets/img/logo-cisco-bco.png')}}" alt="Cisco" style="height: 100px; width: auto;">
                         <br><br>
-                        <a href="{{ url('/cisco') }}" class="btn btn-yellow btn-sm">Más información</a>
+                        <a href="{{ url('/cisco') }}" class="btn btn-skype btn-sm">Más información</a>
                     </div>
                 </div>
             </div>
