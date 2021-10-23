@@ -9,7 +9,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto left">
                 <li class="nav-item">
-                    <a href="{{ url('/nnormalidad') }}" class="nav-link btn btn-google-plus " id="nnormalidad" >Nueva Normalidad</a>
+                    <a href="{{ url('https://store.bitmovil.mx') }}" class="badge badge-pill badge-orange " ><small class="text-white"><ion-icon name="cart"></ion-icon>  Tienda en línea</small></a>
                 </li>
                 <li class="nav-item dropdown-mega show">
                     <a href="" class="nav-link text-white dropdown-toggle" id="softwareMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -154,7 +154,7 @@
             <ul class="navbar-nav mr-1">
                 <li class="nav-item">
                     <div class=" ">
-                        <a href="tel:+528332272527" class="badge badge-pill badge-success"><small class="text-white"><ion-icon name="call-outline"></ion-icon>  83 3227 2527</small></a>
+                        <a href="tel:+528332272527" class="badge badge-pill badge-success"><small class="text-white"><ion-icon name="call"></ion-icon>  83 3227 2527</small></a>
                     </div>
                 </li>
             </ul>

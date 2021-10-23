@@ -21230,13 +21230,13 @@ pre[class*="language-"] {
     font-size: 11px;
 }
 
-#nnormalidad{
+#bitmovilStore{
     position: relative;
     top: 5px;
-    padding-top: 1px;
-    width: 120px;
-    height: 19px;
-    font-size: 11px;
+    padding-top: 0px;
+    width: 125px;
+    height: 25px;
+    font-size: 13px;
     color: white;
 }
 
