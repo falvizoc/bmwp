@@ -10,6 +10,9 @@
             <div class="col partners align-items-center">
                 <div class="owl-carousel" data-items="[6,4,2]" data-loop="true" data-autoplay="true">
                     <div class="logo">
+                        <img src="{{asset('assets/img/partners/logo-27.png')}}" alt="Logo">
+                    </div>
+                    <div class="logo">
                         <img src="{{asset('assets/img/partners/logo-1.png')}}" style="height: 50px; width: auto" alt="Logo">
                     </div>
                     <div class="logo">
