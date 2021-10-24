@@ -66,7 +66,7 @@
                 <div class="row align-items-start">
                     <div class="carousel-caption " style="background-color: rgba(10,10,10,0.5); border-radius: 15px; ">
                         <img src="{{asset('assets/img/logo-cisco-bco.png')}}" alt="Cisco" style="height: 100px; width: auto;">
-                        <h1 class="text-white"> La solución completa <br> <span id="typed2" class="text-twitter display-3"></span></h1>
+                        <h1 class="text-white"> La solución completa en <br> <span id="typed2" class="text-twitter display-3"></span></h1>
                         <div id="typed2-strings">
                             <p class="display-3"> Cloud</p>
                             <p class="display-3"> Redes</p>
@@ -116,7 +116,7 @@
                     <div class="carousel-caption " style="background-color: rgba(200,200,200,0.5); border-radius: 15px; ">
                         <!-- <img src="{{asset('assets/img/microsoft.png')}}" alt="" class="Microsoft" style="height: 100px; width: auto;"> -->
 
-                            <h1 class="text-dark"> Video vigilancia para  <br> Hogar o Empresa</h1>
+                            <h1 class="text-dark"> Video vigilancia para<br>Hogar o Empresa</h1>
 
                         <a href="{{ url('/microsoft') }}" class="btn btn-yellow btn-sm">Más información</a>
                     </div>
