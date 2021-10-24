@@ -10,8 +10,8 @@
         <div class="container">
             <div class="row vh-50 align-items-end">
                 <div class="col-md-10">
-                    <h1 class="mb-0">Tampico</h1>
-                    <p>Ave. Hidalgo 5005 Ofna 208 <br> Fracc. Petrolera Chairel </p>
+                    <h1 class="mb-0">Tampico, Tam, Mx.</h1>
+                    <p>Ave. Hidalgo 5004 - 208 Altos <br> Fracc. Petrolera Chairel </p>
                 </div>
             </div>
         </div>
