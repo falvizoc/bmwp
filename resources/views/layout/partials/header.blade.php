@@ -51,22 +51,17 @@
                 </div>
             </div>
         </div>
-        <!-----     Energía    -->
+        <!-----     Fortinet    -->
         <div class="carousel-item ">
-            <img class="d-block w-100 img-adjust img-adjust-h500" src="{{asset('assets/img/carousel-ms.jpg')}}" alt="First slide">
+            <img class="d-block w-100 img-adjust img-adjust-h500" src="{{asset('assets/img/carousel-fortinet.png')}}" alt="First slide">
             <div class="container">
                 <div class="row align-items-start">
-                    <div class="carousel-caption " style="background-color: rgba(0,0,0,0.5); border-radius: 15px; ">
-                        <img src="{{asset('assets/img/microsoft.png')}}" alt="" class="Microsoft" style="height: 100px; width: auto;">
-                        <h1 class="">Licencias por volumen para
-                            <span id="typed" class="text-warning"></span></h1>
-                        <div id="typed-strings">
-                            <p>empresas.</p>
-                            <p>gobierno.</p>
-                            <p>escuelas.</p>
-                        </div>
-                        <br>
-                        <a href="{{ url('/microsoft') }}" class="btn btn-success btn-sm">Más información</a>
+                    <div class="carousel-caption " style="background-color: rgba(180,180,180,0.5); border-radius: 15px; ">
+                        <br><br><br><br>
+                        <img src="{{asset('assets/img/logo-fortinet-partner.png')}}" alt="" class="Microsoft" style="height: 100px; width: auto;">
+                        <!-- <h5 class="display-4 text-dark">Proteja la información de su empresa </h5> -->
+                        <br><br><br><br>
+                        <a href="{{ url('/microsoft') }}" class="btn btn-red btn-sm">Más información</a>
                     </div>
                 </div>
             </div>
