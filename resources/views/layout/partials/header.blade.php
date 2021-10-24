@@ -8,29 +8,7 @@
         <li data-target="#carouselControlsIndicators" data-slide-to="4"></li>
     </ol>
     <div class="carousel-inner">
-        <!-----   Cisco    -->
-        <div class="carousel-item active">
-            <img class="d-block w-100 img-adjust img-adjust-h500" src="{{asset('assets/img/carousel-cisco.jpeg')}}" alt="Fourth slide">
-            <div class=" container-fluid">
-                <div class="row align-items-start">
-                    <div class="carousel-caption " style="background-color: rgba(80,80,80,0.5); border-radius: 15px; ">
-                        <h3 class="text-white  "> La solución más completa para su empresa</h3>
-                        <span id="typed2" class="text-twitter display-3"></span>
-                        <div id="typed2-strings">
-                            <p class="display-4">Redes</p>
-                            <p class="display-4">Nube</p>
-                            <p class="display-4">Ciberseguridad</p>
-                        </div>
-                        <!-- <h1 class="display-4 text-twitter">Redes, Nube y Ciberseguridad </h1> -->
-                        <br>
-                        <br>
-                        <img src="{{asset('assets/img/logo-cisco-bco.png')}}" alt="Cisco" style="height: 100px; width: auto;">
-                        <br><br>
-                        <a href="{{ url('/cisco') }}" class="btn btn-skype btn-sm">Más información</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+
         <!-----     Microsoft   -->
         <div class="carousel-item ">
             <img class="d-block w-100 img-adjust img-adjust-h500" src="{{asset('assets/img/carousel-ms.jpg')}}" alt="First slide">
@@ -39,44 +17,63 @@
                     <div class="carousel-caption " style="background-color: rgba(0,0,0,0.5); border-radius: 15px; ">
                         <img src="{{asset('assets/img/microsoft.png')}}" alt="" class="Microsoft" style="height: 100px; width: auto;">
                         <h1 class="">Licencias por volumen para
-                        <span id="typed" class="text-warning"></span></h1>
+                        <span id="typed" class="text-green"></span></h1>
                         <div id="typed-strings">
-                            <p>empresas.</p>
-                            <p>gobierno.</p>
-                            <p>escuelas.</p>
+                            <p>empresas</p>
+                            <p>gobierno</p>
+                            <p>escuelas</p>
                         </div>
                         <br>
-                        <a href="{{ url('/microsoft') }}" class="btn btn-success btn-sm">Más información</a>
+                        <a href="{{ url('/microsoft') }}" class="btn btn-green btn-sm">Más información</a>
                     </div>
                 </div>
             </div>
         </div>
         <!-----     Fortinet    -->
-        <div class="carousel-item ">
+        <div class="carousel-item active ">
             <img class="d-block w-100 img-adjust img-adjust-h500" src="{{asset('assets/img/carousel-fortinet.png')}}" alt="First slide">
             <div class="container">
                 <div class="row align-items-start">
                     <div class="carousel-caption " style="background-color: rgba(180,180,180,0.5); border-radius: 15px; ">
-                        <br><br><br><br>
+                        <h2 class="text-dark"> Transformación Digital con enfoque en Seguridad de la Información </h2>
                         <img src="{{asset('assets/img/logo-fortinet-partner.png')}}" alt="" class="Microsoft" style="height: 100px; width: auto;">
-                        <!-- <h5 class="display-4 text-dark">Proteja la información de su empresa </h5> -->
-                        <br><br><br><br>
+                        <br><br>
                         <a href="{{ url('/microsoft') }}" class="btn btn-red btn-sm">Más información</a>
                     </div>
                 </div>
             </div>
         </div>
-
         <!-----     Autodek     -->
         <div class="carousel-item">
             <img class="d-block w-100 img-adjust img-adjust-h500" src="{{asset('assets/img/carousel-ac.jpg')}}" alt="Second slide">
             <div class="container">
                 <div class="row align-items-start ">
                     <div class="carousel-caption" style="background-color: rgba(255,255,255,0.4); border-radius: 15px; ">
-                        <h5 class="display-4 text-dark">Contamos con toda la línea de productos </h5>
-                        <img src="{{asset('assets/img/autodesk.png')}}" alt="Autodesk" class="" style="height: 80px; width: auto;">
                         <br>
+                        <h2 class="text-dark">Diseño 3D para Ingeniería y Construcción </h2>
+                        <br>
+                        <img src="{{asset('assets/img/autodesk.png')}}" alt="Autodesk" class="" style="height: 80px; width: auto;">
+                        <br><br>
                         <a href="{{ url('/microsoft') }}" class="btn btn-skype btn-sm">Más información</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-----   Cisco    -->
+        <div class="carousel-item">
+            <img class="d-block w-100 img-adjust img-adjust-h500" src="{{asset('assets/img/carousel-cisco.jpeg')}}" alt="Fourth slide">
+            <div class=" container-fluid">
+                <div class="row align-items-start">
+                    <div class="carousel-caption " style="background-color: rgba(10,10,10,0.5); border-radius: 15px; ">
+                        <img src="{{asset('assets/img/logo-cisco-bco.png')}}" alt="Cisco" style="height: 100px; width: auto;">
+                        <h1 class="text-white"> La solución completa para toda empresa <span id="typed2" class="text-twitter display-3"></span></h1>
+                        <div id="typed2-strings">
+                            <p class="display-3"> Cloud</p>
+                            <p class="display-3"> Redes</p>
+                            <p class="display-3"> Cyberseguridad</p>
+                        </div>
+                        <br>
+                        <a href="{{ url('/cisco') }}" class="btn btn-skype btn-sm">Más información</a>
                     </div>
                 </div>
             </div>
@@ -111,20 +108,15 @@
                 </div>
             </div>
         </div> -->
-        <!-----     Fibra óptica y Cableado   -->
+        <!-----  CCTV   -->
         <div class="carousel-item ">
-            <img class="d-block w-100 img-adjust img-adjust-h500" src="{{asset('assets/img/carousel-ms.jpg')}}" alt="First slide">
+            <img class="d-block w-100 img-adjust img-adjust-h500" src="{{asset('assets/img/carousel-cctv.png')}}" alt="cctv" style="margin-bottom: 300px">
             <div class="container">
                 <div class="row align-items-start">
                     <div class="carousel-caption " style="background-color: rgba(0,0,0,0.5); border-radius: 15px; ">
                         <img src="{{asset('assets/img/microsoft.png')}}" alt="" class="Microsoft" style="height: 100px; width: auto;">
                         <h1 class="">Licencias por volumen para
                             <span id="typed" class="text-warning"></span></h1>
-                        <div id="typed-strings">
-                            <p>empresas.</p>
-                            <p>gobierno.</p>
-                            <p>escuelas.</p>
-                        </div>
                         <br>
                         <a href="{{ url('/microsoft') }}" class="btn btn-success btn-sm">Más información</a>
                     </div>
