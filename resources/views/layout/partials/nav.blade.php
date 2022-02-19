@@ -9,7 +9,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto left">
             <li class="nav-item">
-                <a href="{{ url('https://store.bitmovil.mx') }}" class="badge badge-pill badge-red " ><small class="text-white"> <i class="icon-shopping-cart"></i> Tienda en línea</small></a>
+                <a href="{{ url('https://store.bitmovil.mx') }}" target="_blank" class="badge badge-pill badge-red " ><small class="text-white"> <i class="icon-shopping-cart"></i> Tienda en línea</small></a>
             </li>
             <li class="nav-item dropdown-mega show">
                 <a href="" class="nav-link text-white dropdown-toggle" id="softwareMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -154,15 +154,31 @@
         <ul class="navbar-nav mr-1">
             <li class="nav-item">
                 <div class=" ">
-                   <!-- <a href="tel:+528332272527" class="badge badge-pill badge-orange"><small class="text-white"><ion-icon name="call"></ion-icon>  83 3227 2527</small></a> -->
-                    <a href="tel:+528332272527" class="badge badge-pill badge-orange"><small class="text-white"> <i class="icon-phone"></i>  83 3227 2527</small></a>
+                   <!-- <a href="tel:+528332272527" class="badge badge-pill badge-orange"><small class="text-white"><ion-icon name="call"></ion-icon>  83 3227 2527</small></a>
+                    <a href="{{'tel:+528332272527'}}" target="_blank" class="badge badge-pill badge-orange"><small class="text-white"> <i class="icon-phone-call"></i>  83 3227 2527</small></a>-->
+                    <a href="{{'tel:+528332272527'}}" target="_blank" class="btn btn-ico btn-sm btn-rounded btn-orange" ><small class="text-white lead"> <i class="icon-phone"></i> </small></a>
+                    <small class="tooltip">hola</small>
                 </div>
             </li>
         </ul>
         <ul class="navbar-nav mr-1">
             <li class="nav-item">
                 <div class=" ">
-                    <a href="https://wa.link/bitmovil" class="btn btn-ico btn-sm btn-rounded btn-teal"><span class="text-white lead"><i class="icon-whatsapp"></i></span> </a>
+                    <a href="{{'https://wa.link/bitmovil'}}" target="_blank" class="btn btn-ico btn-sm btn-rounded btn-teal"><span class="text-white lead"><i class="icon-whatsapp"></i></span> </a>
+                </div>
+            </li>
+        </ul>
+        <ul class="navbar-nav mr-1">
+            <li class="nav-item">
+                <div class=" ">
+                    <a href="{{'https://facebook.com/bitmovilmx'}}" target="_blank" class="btn btn-ico btn-sm btn-rounded btn-dark-blue"><span class="text-white lead"><i class="icon-facebook"></i></span> </a>
+                </div>
+            </li>
+        </ul>
+        <ul class="navbar-nav mr-1">
+            <li class="nav-item">
+                <div class=" ">
+                    <a href="{{ url('https://linkedin.com/company/bitmovil') }}" target="_blank" class="btn btn-ico btn-sm btn-rounded btn-outline-transparent-white"><span class="text-white lead"><i class="icon-linkedin"></i></span></a>
                 </div>
             </li>
         </ul>

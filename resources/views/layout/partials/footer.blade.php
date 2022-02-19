@@ -12,10 +12,10 @@
                         </div>
                         <div class="col-md-6 text-md-right">
                             <ul class="socials">
-                                <li><a href="{{ url('https://facebook.com/bitmovilmx') }}" target="_blank" class="icon-facebook fs-20"></a></li>
-                                <!-- <li><a href="" class="icon-instagram fs-20"></a></li>
-                                <li><a href="" class="icon-twitter fs-20"></a></li> -->
-                                <li><a href="{{ url('https://linkedin.com/company/bitmovil') }}" target="_blank" class="icon-linkedin fs-20"></a> </li>
+                            <!--  <li><a href="{{ url('https://facebook.com/bitmovilmx') }}" target="_blank" class="icon-facebook fs-20"></a></li>
+                                <li><a href="" class="icon-instagram fs-20"></a></li>
+                                <li><a href="" class="icon-twitter fs-20"></a></li>
+                                <li><a href="{{ url('https://linkedin.com/company/bitmovil') }}" target="_blank" class="icon-linkedin fs-20"></a> </li>-->
                             </ul>
                         </div>
                     </div>
@@ -45,9 +45,9 @@
                             <li class="list-group-item"><a href="{{ url('/assets/docs/AvisoPrivacidad.pdf') }}" target="_blank">Aviso de privacidad</a></li>
                         </ul>
                     </div>
-                    <div class="col-lg-4 text-lg-right">
+                    <!-- <div class="col-lg-4 text-lg-right">
                         <a href="tel:+52 83 3227 2527" class="phone bordered">+52 83 3227 2527</a>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </footer>
