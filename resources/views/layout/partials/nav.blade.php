@@ -1,6 +1,6 @@
 <!--  Navbar  -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-blue-bm">
-    <a class="align-self-center" href="{{ url('/') }}" style="margin: 0px 50px 0px 15px">
+    <a class="align-self-center" href="{{ url('/') }}" style="margin: 0 50px 0 15px">
             <img src="{{asset('assets/img/Bitmovil-LOGO-03.png')}}" alt="Logo" style="height: 2.5rem" >
         </a>
     <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -74,8 +74,8 @@
                         <p>Contra Virus o Malware</p>
                     </a>
                 </div>
-
-            </li> <li class="nav-item dropdown show">
+            </li>
+            <li class="nav-item dropdown show">
                 <a href="" class="nav-link dropdown-toggle text-white" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                     <span class="text-white">Infraestructura</span>
                 </a>
@@ -152,14 +152,19 @@
         </ul>
         -->
         <ul class="navbar-nav mr-1">
-            <li class="nav-item">
-                <div class=" ">
-                   <!-- <a href="tel:+528332272527" class="badge badge-pill badge-orange"><small class="text-white"><ion-icon name="call"></ion-icon>  83 3227 2527</small></a>
-                    <a href="{{'tel:+528332272527'}}" target="_blank" class="badge badge-pill badge-orange"><small class="text-white"> <i class="icon-phone-call"></i>  83 3227 2527</small></a>-->
-                    <a href="{{'tel:+528332272527'}}" target="_blank" class="btn btn-ico btn-sm btn-rounded btn-orange" ><small class="text-white lead"> <i class="icon-phone"></i> </small></a>
-                    <small class="tooltip">hola</small>
+            <li class="nav-item dropdown ">
+                <a href="" class="nav-link dropdown-toggle text-white" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <button class="btn btn-ico btn-sm btn-rounded btn-orange" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <small class="text-white lead"> <i class="icon-phone"></i> </small>
+                    </button>
+                </a>
+                <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                    <a href="{{ url('tel:+528332272527') }}" class="dropdown-item">
+                        <span><i class="icon-phone"></i> 83 3227 2527</span>
+                    </a>
                 </div>
             </li>
+
         </ul>
         <ul class="navbar-nav mr-1">
             <li class="nav-item">
