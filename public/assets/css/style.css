@@ -16282,7 +16282,7 @@ footer {
     padding: .5rem 0; }
     .navbar-nav .nav-item .btn {
       display: block;
-      background-color: #4829B2;
+      /* background-color: #4829B2; */
       color: #fff; } }
 
 .overlay-active .headroom {
