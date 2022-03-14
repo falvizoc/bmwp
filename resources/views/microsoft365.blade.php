@@ -22,7 +22,7 @@
                                                     <div id="typed-strings" style="display: none;">
                                                         <p>en la escuela</p>
                                                         <p>en el trabajo</p>
-                                                        <p>en la Vida</p>
+                                                        <p>en la vida</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -33,7 +33,7 @@
                                     <div class="container">
                                         <div class="row align-items-center">
                                             <div class="col text-center">
-                                                <div class="mouse"></div>
+                                                <div class="mouse" style="border-color: lightsteelblue; background: lightsteelblue"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -48,8 +48,8 @@
                             <div class="row justify-content-between">
                                 <div class="col-12 col-lg-8">
                                     <div class="row">
-                                        <div class="col-lg-10">
-                                            <h2 class="display-3">Encuentra el mejor plan.<br></h2>
+                                        <div class="col-lg-8">
+                                            <h2 class="display-3">Elije el mejor plan para ti.<br></h2>
                                         </div>
                                     </div>
                                     <div class="row gutter-0">
@@ -83,9 +83,51 @@
                                     <img class="top-0" src="{{asset('assets/img/chica.png')}}" alt="Decoration">
                                 </div>
                             </div>
+                            <div class="decorated-bottom text-light">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 40" preserveAspectRatio="none">
+
+                                </svg>
+                            </div>
                         </div>
                     </section>
                     <!-- / presentación -->
+                    <section>
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-md-10 text-center">
+                                    <h1 class="display-4 pb-0">Somos orgullosamente</h1>
+                                    <img  src="{{asset('assets/img/MSPartner.png')}}" alt="Microsoft Partner" class="pt-0 top-0">
+                                    <p class="">con nosotros obitenes</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row align-items-center justify-content-center">
+                                <div class="col-md-4 aos-init aos-animate" data-aos="zoom-in" data-aos-anchor-placement="top-center">
+                                    <div class="presentation-circle">
+                                        <figure style="background-image: url('../../assets/images/demo/app/app-3.svg')"></figure>
+                                    </div>
+                                </div>
+                                <div class="col-md-5 pl-md-10 text-center">
+                                    <h2><b>La mejor asesoría en licenciamiento</b></h2>
+                                    <p>Nuestros consultores están listos para brindarte el mejor servicio.</p>
+                                    <a href="{{url('/contacto')}}" class="link">Contáctanos</a>
+                                </div>
+                            </div>
+                            <div class="row align-items-center justify-content-center">
+                                <div class="col-md-5 pr-md-10 text-center">
+                                    <h2><b>Take control</b><br>of your app.</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <a href="" class="link">Learn More</a>
+                                </div>
+                                <div class="col-md-4 aos-init" data-aos="zoom-in" data-aos-anchor-placement="top-center">
+                                    <div class="presentation-circle">
+                                        <figure style="background-image: url('../../assets/images/demo/app/app-4.svg')"></figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </div>
             </div>
         </div>
