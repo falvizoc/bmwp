@@ -10,7 +10,7 @@
                         <div class="swiper-container text-white swiper-container-fade swiper-container-horizontal skrollable skrollable-between" data-top-top="transform: translateY(0px);" data-top-bottom="transform: translateY(250px);" style="transform: translateY(0px);">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide vh-100 swiper-slide-active" style="width: 1348px; transform: translate3d(0px, 0px, 0px);">
-                                    <div class="image image-zoom" style="background-image:url(../assets/img/M365.jpg)"></div>
+                                    <div class="image image-zoom" style="background-image:url(../assets/img/ms/M365.jpg)"></div>
                                     <div class="caption aos-init aos-animate" data-aos="fade-up">
                                         <div class="container">
                                             <div class="row align-items-center vh-100">
@@ -46,41 +46,156 @@
                     <section>
                         <div class="container">
                             <div class="row justify-content-between">
-                                <div class="col-12 col-lg-8">
+                                <div class="col-12 col-lg-9">
                                     <div class="row">
-                                        <div class="col-lg-8">
-                                            <h2 class="display-3">Elije el mejor plan para ti.<br></h2>
+                                        <div class="col-lg-12">
+                                            <h2 class="display-3 fs-50">Elije el mejor plan para ti.<br></h2>
                                         </div>
                                     </div>
-                                    <div class="row gutter-0">
-                                        <div class="col-sm-5 col-lg-3 aos-init aos-animate" data-aos="fade-up">
-                                            <div class="bordered rising p-3 bg-white">
-                                                <i class="icon-home text-primary text-red fs-50 mb-2"></i>
-                                                <p>Personal y Familiar</p>
+                                    <div class="row gutter-1">
+                                        <div class="col-md-6 col-lg-5 ">
+                                            <div class="accordion-group accordion-group-feature" data-accordion-group="">
+                                                <div class="accordion aos-init aos-animate" data-accordion="" data-aos="fade-up">
+                                                    <div class="accordion-control" data-control="">
+                                                        <i class="icon-home text-google-plus fs-50 fw-25"></i>
+                                                        <h4 class="fs-16">Personal &amp; Familiar</h4>
+                                                    </div>
+                                                    <div class="accordion-content" data-content="" style="max-height: 180px; overflow: hidden; transition: max-height 300ms ease 0s;">
+                                                        <div class="accordion-content-wrapper">
+                                                            <ul class="list-group list-group-minimal">
+                                                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                                    Aplicaciones
+                                                                </li>
+                                                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                                    <img class="ml-0" data-toggle="tooltip" data-placement="top" title="Word" src="{{asset("assets/img/ms/wd.png")}}"  width="25" height="25" alt="">
+                                                                    <img class="ml-0" data-toggle="tooltip" data-placement="top" title="Excel" src="{{asset("assets/img/ms/xl.png")}}"  width="25" height="25" alt="">
+                                                                    <img class="ml-0" data-toggle="tooltip" data-placement="top" title="PowerPoint" src="{{asset("assets/img/ms/pp.png")}}"  width="25" height="25" alt="">
+                                                                    <img class="ml-0" data-toggle="tooltip" data-placement="top" title="Outlook" src="{{asset("assets/img/ms/ol.png")}}"  width="25" height="25" alt="">
+                                                                    <img class="ml-0" data-toggle="tooltip" data-placement="top" title="Teams" src="{{asset("assets/img/ms/tm.png")}}"  width="25" height="25" alt="">
+                                                                    <img class="ml-0" data-toggle="tooltip" data-placement="top" title="OneDrive" src="{{asset("assets/img/ms/od.png")}}"  width="25" height="25" alt="">
+                                                                    <img class="ml-0" data-toggle="tooltip" data-placement="top" title="Editor" src="{{asset("assets/img/ms/ed.png")}}"  width="25" height="25" alt="">
+                                                                </li>
+                                                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                                    Dispositivos
+                                                                </li>
+                                                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                                    <i class="text-gray icon-monitor fs-30"></i>
+                                                                    <i class="text-gray icon-laptop fs-30"></i>
+                                                                    <i class="text-gray icon-tablet fs-30"></i>
+                                                                    <i class="text-gray icon-mobile-phone fs-30"></i>
+                                                                </li>
+                                                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                                    Compatibilidad
+                                                                </li>
+                                                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                                    <i class="text-gray icon-windows fs-30"></i>
+                                                                    <i class="text-gray icon-apple fs-30"></i>
+                                                                    <i class="text-gray icon-android fs-30"></i>
+                                                                </li>
+                                                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                                    Hasta 6 usuarios
+                                                                </li>
+                                                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                                    <br>
+                                                                    <a href="{{url('/')}}" class="btn btn-skype btn-sm btn-rounded align-items-center">Más información</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion aos-init aos-animate" data-accordion="" data-aos="fade-up">
+                                                    <div class="accordion-control" data-control="">
+                                                        <i class="icon-book text-skype fs-50 fw-25"></i>
+                                                        <h4 class="fs-16">Educación</h4>
+                                                    </div>
+                                                    <div class="accordion-content" data-content="" style="max-height: 180px; overflow: hidden; transition: max-height 300ms ease 0s;">
+                                                        <div class="accordion-content-wrapper">
+                                                            <ul class="list-group list-group-minimal">
+                                                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                                    Bidet <i class="icon-check2 fs-20"></i>
+                                                                </li>
+                                                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                                    Bathroom <i class="icon-check2 fs-20"></i>
+                                                                </li>
+                                                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                                    Toilet <i class="icon-check2 fs-20"></i>
+                                                                </li>
+                                                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                                    Free toiletries <i class="icon-check2 fs-20"></i>
+                                                                </li>
+                                                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                                    Hairdryer <i class="icon-check2 fs-20"></i>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-5 col-lg-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="150">
-                                            <div class="bordered rising p-3 bg-white">
-                                                <i class="icon-briefcase text-primary text-green fs-50 mb-2"></i>
-                                                <p>Negocios <br><br></p>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-5 col-lg-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
-                                            <div class="bordered rising p-3 bg-white">
-                                                <i class="icon-building text-primary text-yellow fs-50 mb-2"></i>
-                                                <p>Empresas <br><br></p>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-5 col-lg-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="600">
-                                            <div class="bordered rising p-3 bg-white">
-                                                <i class="icon-book text-primary text-blue fs-50 mb-2"></i>
-                                                <p>Educación <br><br></p>
+                                        <div class="col-md-6 col-lg-5 ">
+                                            <div class="accordion-group accordion-group-feature" data-accordion-group="">
+                                                <div class="accordion aos-init aos-animate" data-accordion="" data-aos="fade-up">
+                                                    <div class="accordion-control" data-control="">
+                                                        <i class="icon-building text-success fs-50 fw-25"></i>
+                                                        <h4 class="fs-16">Negocios &amp; Empresas</h4>
+                                                    </div>
+                                                    <div class="accordion-content" data-content="" style="max-height: 180px; overflow: hidden; transition: max-height 300ms ease 0s;">
+                                                        <div class="accordion-content-wrapper">
+                                                            <ul class="list-group list-group-minimal">
+                                                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                                    Bidet <i class="icon-check2 fs-20"></i>
+                                                                </li>
+                                                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                                    Bathroom <i class="icon-check2 fs-20"></i>
+                                                                </li>
+                                                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                                    Toilet <i class="icon-check2 fs-20"></i>
+                                                                </li>
+                                                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                                    Free toiletries <i class="icon-check2 fs-20"></i>
+                                                                </li>
+                                                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                                    Hairdryer <i class="icon-check2 fs-20"></i>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                               <!--
+                                                <div class="accordion aos-init aos-animate" data-accordion="" data-aos="fade-up">
+                                                    <div class="accordion-control" data-control="">
+                                                        <i class="icon-bank text-warning fs-50 fw-25"></i>
+                                                        <h4 class="fs-16">Gobierno</h4>
+                                                    </div>
+                                                    <div class="accordion-content" data-content="" style="max-height: 180px; overflow: hidden; transition: max-height 300ms ease 0s;">
+                                                        <div class="accordion-content-wrapper">
+                                                            <ul class="list-group list-group-minimal">
+                                                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                                    Bidet <i class="icon-check2 fs-20"></i>
+                                                                </li>
+                                                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                                    Bathroom <i class="icon-check2 fs-20"></i>
+                                                                </li>
+                                                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                                    Toilet <i class="icon-check2 fs-20"></i>
+                                                                </li>
+                                                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                                    Free toiletries <i class="icon-check2 fs-20"></i>
+                                                                </li>
+                                                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                                    Hairdryer <i class="icon-check2 fs-20"></i>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                -->
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-10 col-lg-3 presentation presentation-responsive aos-init aos-animate" data-aos="zoom-in-left">
-                                    <img class="top-0" src="{{asset('assets/img/chica.png')}}" alt="Decoration">
+                                    <img class="top-0" src="{{asset('assets/img/ms/chica.png')}}" alt="Girl">
                                 </div>
                             </div>
                             <div class="decorated-bottom text-light">
@@ -91,13 +206,12 @@
                         </div>
                     </section>
                     <!-- / presentación -->
-                    <section>
+                    <!-- / Sección Partner -->
+                    <section class="bg-light">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-md-10 text-center">
-                                    <h1 class="display-4 pb-0">Somos orgullosamente</h1>
-                                    <img  src="{{asset('assets/img/MSPartner.png')}}" alt="Microsoft Partner" class="pt-0 top-0">
-                                    <p class="">con nosotros obitenes</p>
+                                    <img  src="{{asset('assets/img/ms/MSPartner.png')}}" alt="Microsoft Partner" class="mt-0">
                                 </div>
                             </div>
                         </div>
@@ -110,7 +224,9 @@
                                 </div>
                                 <div class="col-md-5 pl-md-10 text-center">
                                     <h2><b>La mejor asesoría en licenciamiento</b></h2>
-                                    <p>Nuestros consultores están listos para brindarte el mejor servicio.</p>
+                                    <p>Nuestros consultores están listos para brindarte el mejor servicio,
+                                        ofreciendote asesoría personalizada para el diseño del mejor esquema
+                                        de licencias.</p>
                                     <a href="{{url('/contacto')}}" class="link">Contáctanos</a>
                                 </div>
                             </div>
@@ -128,6 +244,7 @@
                             </div>
                         </div>
                     </section>
+                    <!-- / Sección Partner-->
                 </div>
             </div>
         </div>
