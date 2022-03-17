@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use GuzzleHttp\Client;
+use Illuminate\Pagination\Paginator;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -31,6 +32,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-
+        Paginator::useBootstrap();
     }
 }
