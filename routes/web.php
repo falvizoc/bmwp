@@ -65,8 +65,8 @@ Route::get('deteciondefuego',function () {
 Route::get('/fibraoptica', function () {
     return view('main');
 });
-Route::get('/microsoft/365empresas', function () {
-    return view('microsoft365empresas');
+Route::get('/microsoft365', function () {
+    return view('microsoft365');
 });
 Route::get('/antivirus', function () {
     return view('main');

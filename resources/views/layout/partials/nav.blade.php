@@ -64,7 +64,7 @@
                     <span class="text-white">Software</span>
                 </a>
                 <div class="dropdown-menu " aria-labelledby="navbarDropdown">
-                    <a href="{{ url('/') }}" class="dropdown-item">
+                    <a href="{{ url('/microsoft365') }}" class="dropdown-item">
                         <span><ion-icon name="logo-windows"></ion-icon> Microsoft</span>
                         <p>Licenciamiento para Empresas, Escuelas y Hogares</p>
                     </a>
