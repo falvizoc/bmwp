@@ -17,7 +17,7 @@
         "axios": "^0.26.1",
         "cross-env": "^7.0",
         "gulp": "^4.0.2",
-        "laravel-mix": "^6.0.43",np
+        "laravel-mix": "^6.0.43",
         "lodash": "^4.17.21",
         "minimatch": "^5.0.1",
         "resolve-url-loader": "^5.0.0",
