@@ -1,6 +1,7 @@
 {
     "private": true,
     "scripts": {
+        "preinstall": "npx npm-force-resolutions",
         "dev": "npm run development",
         "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
         "watch": "npm run development -- --watch",
@@ -9,18 +10,22 @@
         "prod": "npm run production",
         "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
     },
+    "resolutions": {
+        "minimatch": "5.0.1"
+    },
     "devDependencies": {
         "axios": "^0.26.1",
         "cross-env": "^7.0",
-        "laravel-mix": "^6.0.43",
+        "gulp": "^4.0.2",
+        "laravel-mix": "^6.0.43",np
         "lodash": "^4.17.21",
+        "minimatch": "^5.0.1",
         "resolve-url-loader": "^5.0.0",
         "sass": "^1.49.9",
         "sass-loader": "^12.6.0"
     },
     "dependencies": {
         "ansi-html": "^0.0.9",
-        "gulp": "^3.9.1",
         "updates": "^13.0.4",
         "upgrade": "^1.1.0"
     }
