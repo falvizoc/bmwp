@@ -15,7 +15,6 @@
     },
     "devDependencies": {
         "axios": "^0.26.1",
-        "braces": "^3.0.2",
         "cross-env": "^7.0",
         "glob-parent": "^6.0.2",
         "laravel-mix": "^6.0.43",
@@ -26,6 +25,7 @@
     },
     "dependencies": {
         "ansi-html": "^0.0.9",
+        "braces": "^3.0.2",
         "glob-watcher": "^5.0.5",
         "gulp": "^4.0.2",
         "laravel-mix": "^6.0.43",
