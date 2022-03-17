@@ -16,6 +16,7 @@
     "devDependencies": {
         "axios": "^0.26.1",
         "cross-env": "^7.0",
+        "glob-watcher": "^5.0.5",
         "gulp": "^4.0.2",
         "laravel-mix": "^6.0.43",
         "lodash": "^4.17.21",
@@ -26,7 +27,9 @@
     },
     "dependencies": {
         "ansi-html": "^0.0.9",
+        "lodash": "^4.17.21",
         "updates": "^13.0.4",
-        "upgrade": "^1.1.0"
+        "upgrade": "^1.1.0",
+        "vinyl-fs": "^3.0.3"
     }
 }
