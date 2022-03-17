@@ -16,7 +16,7 @@
     "devDependencies": {
         "axios": "^0.26.1",
         "cross-env": "^7.0",
-<<<<<<< HEAD
+        <<<<<<< HEAD
         "laravel-mix": "^6.0.43",
         "lodash": "^4.17.13",
         "resolve-url-loader": "^3.1.0",
@@ -25,7 +25,7 @@
     },
     "dependencies": {
         "gulp": "^3.9.1"
-=======
+        =======
         "glob-watcher": "^5.0.5",
         "gulp": "^4.0.2",
         "laravel-mix": "^6.0.43",
@@ -41,6 +41,6 @@
         "updates": "^13.0.4",
         "upgrade": "^1.1.0",
         "vinyl-fs": "^3.0.3"
->>>>>>> laravel8
+        >>>>>>> laravel8
     }
 }
