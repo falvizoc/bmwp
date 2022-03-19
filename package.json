@@ -15,14 +15,14 @@
     },
     "devDependencies": {
         "axios": "^0.26.1",
+        "braces": "^3.0.2",
         "cross-env": "^7.0",
+        "glob-parent": "^6.0.2",
         "laravel-mix": "^6.0.43",
         "lodash": "^4.17.13",
         "resolve-url-loader": "^3.1.4",
         "sass": "^1.15.2",
-        "sass-loader": "^8.0.2",
-        "glob-parent": "^6.0.2",
-        "braces": "^3.0.2"
+        "sass-loader": "^8.0.2"
     },
     "dependencies": {
         "ansi-html": "^0.0.9",
