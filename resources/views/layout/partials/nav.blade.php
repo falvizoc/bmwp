@@ -151,7 +151,7 @@
 
             </li>
         </ul>
-        -->
+
         <ul class="navbar-nav mr-1">
             <li class="nav-item dropdown ">
                 <a href="" class="nav-link dropdown-toggle text-white" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
@@ -165,7 +165,20 @@
                     </a>
                 </div>
             </li>
-
+        </ul>
+        -->
+        <ul class="navbar-nav mr-1">
+            <li class="nav-item">
+                <div class=" ">
+                    <a href="{{ url('tel:+528332272527') }}" class="btn btn-ico btn-sm btn-rounded btn-orange"
+                       data-toggle="tooltip"
+                       data-html="true"
+                       data-placement="bottom"
+                       title="<em>83 3227 2527</em>">
+                            <span class="text-white lead"><i class="icon-phone"></i></span>
+                    </a>
+                </div>
+            </li>
         </ul>
         <ul class="navbar-nav mr-1">
             <li class="nav-item">
