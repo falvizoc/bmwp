@@ -4,22 +4,6 @@
     {!! htmlScriptTagJsApi(['action' => 'homepage']) !!}
 @endsection
 @section('content')
-<!-- map -->
-<section class="hero hero-with-header text-white">
-    <div class="map">
-        <div class="container">
-            <div class="row vh-50 align-items-end">
-                <div class="col-md-10">
-                    <h1 class="mb-0">Tampico, Tam, Mx.</h1>
-                    <p>Ave. Hidalgo 5004 - 208 Altos <br> Fracc. Petrolera Chairel </p>
-                </div>
-            </div>
-        </div>
-        <div id="map" class="map-area"></div>
-    </div>
-</section>
-<!-- / map -->
-
 <!-- formulario de contacto -->
 <section>
     <div class="container">
@@ -90,7 +74,21 @@
 </div>
 <!-- / modal -->
 
-
+<!-- map -->
+<section class="hero hero-with-header text-white">
+    <div class="map">
+        <div class="container">
+            <div class="row vh-50 align-items-end">
+                <div class="col-md-10">
+                    <h1 class="mb-0">Tampico, Tam, Mx.</h1>
+                    <p>Ave. Hidalgo 5004 - 208 Altos <br> Fracc. Petrolera Chairel </p>
+                </div>
+            </div>
+        </div>
+        <div id="map" class="map-area"></div>
+    </div>
+</section>
+<!-- / map -->
 
 
 @endsection
