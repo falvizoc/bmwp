@@ -1,0 +1,1 @@
+docker build -f app/Dockerfile -t bmwp/site:latest ./app
