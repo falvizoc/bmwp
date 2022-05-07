@@ -5,8 +5,8 @@
 @endsection
 @section('content')
 <!-- formulario de contacto -->
-<section>
-    <div class="container">
+<section class="pb-0">
+    <div class="container-fluid">
         <div class="row justify-content-left">
             <div class="col-lg-12 text-white text-left">
                 <h1 class="display-4 text-blue-bm">Contáctanos</h1>
@@ -47,7 +47,6 @@
                 </x-form>
             </div>
         </div>
-
     </div>
 </section>
 <!-- / formulario de contacto -->
@@ -68,7 +67,6 @@
             <div class="modal-footer">
                 <button type="button" class="btn btn-success btn-block" data-dismiss="modal">Aceptar</button>
             </div>
-
         </div>
     </div>
 </div>
