@@ -4,6 +4,7 @@
     @include('layout.partials.head')
 </head>
 <body>
+    @include('cookie-consent::index')
     @include('layout.partials.nav')
     @include('layout.partials.header')
     @include('layout.partials.engineering')
