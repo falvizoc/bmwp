@@ -85,12 +85,6 @@
             </div>
         </div>
     </section>
-<script>
-    $( document ).ready(function() {
-        $('#cookies').modal('toggle')
-    });
-</script>
-
 
 @endsection
 
