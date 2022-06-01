@@ -89,9 +89,9 @@ Route::get('/foros', function () {
 Route::get('/contacto', function () {
     return view('contacto');
 });
-Route::get('/nnormalidad', function () {
+Route::get('/hp', function () {
     /*return view('main');*/
-    return view('nuevanormalidad');
+    return view('computohp');
 });
 
 //  --> Métodos POST

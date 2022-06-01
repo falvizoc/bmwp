@@ -132,41 +132,18 @@
             <li class="nav-item"><a href="{{ url('/foros') }}" class="nav-link text-white"><span class="text-white">Foros</span></a></li>
             <li class="nav-item"><a href="{{ url('/contacto') }}" class="nav-link text-white"><span class="text-white">Contacto</span></a></li>
         </ul>
-        <!--
-        <ul class="navbar-nav ml-auto ml-md-0">
-            <li class="nav-item dropdown">
-
-                <a class="nav-link dropdown-toggle text-white" id="userDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <span class="icon-user text-white"></span>
-                </a>
-
-                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-                    <a class="dropdown-item" href="#">Ingresar</a>
-
-                    <a class="dropdown-item" href="#">Activity Log</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Logout</a>
-
-                </div>
-
-            </li>
-        </ul>
-
         <ul class="navbar-nav mr-1">
-            <li class="nav-item dropdown ">
-                <a href="" class="nav-link dropdown-toggle text-white" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                    <button class="btn btn-ico btn-sm btn-rounded btn-orange" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <small class="text-white lead"> <i class="icon-phone"></i> </small>
-                    </button>
+            <li class="nav-item">
+                <a href="{{ url('/hp') }}" class="nav-link text-white"
+                   data-toggle="tooltip"
+                   data-html="true"
+                   data-placement="bottom"
+                   title="Conoce nuestra propuesta HP">
+                    <img src="{{asset('assets/img/partners/HP_White.png')}}" alt="hp" style="height: 2.1rem" >
                 </a>
-                <div class="dropdown-menu " aria-labelledby="navbarDropdown">
-                    <a href="{{ url('tel:+528332272527') }}" class="dropdown-item">
-                        <span><i class="icon-phone"></i> 83 3227 2527</span>
-                    </a>
-                </div>
             </li>
+            <li class="nav-item"><a href="{{ url('/hp') }}" class="nav-link"><span class="text-white"> </span></a></li>
         </ul>
-        -->
         <ul class="navbar-nav mr-1">
             <li class="nav-item">
                 <div class=" ">
@@ -203,4 +180,4 @@
         </ul>
     </div>
 </nav>
-<!-- /Navbar
+<!-- /Navbar-->
