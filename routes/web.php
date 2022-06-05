@@ -94,5 +94,10 @@ Route::get('/hp', function () {
     return view('computohp');
 });
 
+Route::get('/mailing/presentacion', function () {
+    /*return view('main');*/
+    return view('presentacion');
+});
+
 //  --> Métodos POST
 Route::post('contacto','MessagesController@store');
