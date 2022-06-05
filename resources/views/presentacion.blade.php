@@ -11,7 +11,7 @@
     <link rel="shortcut icon" sizes="192x192" href="{{ asset('/assets/img/favicon_192x192.png') }}">
 </head>
 <body>
-<table style="max-width: 200px; padding: 10px; margin: 0 auto; border-collapse: collapse;">
+<table style="max-width: 550px; padding: 10px; margin: 0 auto; border-collapse: collapse;">
     <!-- Encabezado -->
     <tr>
         <td colspan="2" style="background-color: #0a4c98; text-align: center; padding: 0;">
@@ -122,7 +122,7 @@
     <tr>
         <td colspan="2" style="background-color: #ecf0f1">
             <div style=" margin: 4% 10% 4%; text-align: center;font-family: sans-serif">
-                <h2>¿Ya conoces nuestra tienda en línea?</h2>
+                <h2 style="color:#fc2c38 ;">Visita nuestra tienda en línea</h2>
                 <a href="https://store.bitmovil.mx" target="_blank">
                     <img style="width: 45%;" src="https://i.postimg.cc/Vkg7sH30/Bitmovil-Store.png" alt="Store">
                 </a>
