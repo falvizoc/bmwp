@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Bitmovil - Presentación</title>
 </head>
 <body>
 <table style="max-width: 600px; padding: 10px; margin: 0 auto; border-collapse: collapse;">
@@ -44,14 +44,12 @@
         </td>
         <td>
             <div  style="margin: 1% 5% 1% 10%; text-align: justify;">
-                <p style="font-size: 15px">
                 <h2>Integraciones</h2>
-                <ul>
-                    <li>Redes</li>
-                    <li>Seguridad</li>
-                    <li>CCTV</li>
-                </ul>
-                </p>
+                    <ul  style="font-size: 16px">
+                        <li>Redes</li>
+                        <li>Seguridad</li>
+                        <li>CCTV</li>
+                    </ul>
             </div>
         </td>
     </tr>
@@ -61,20 +59,17 @@
     <tr style="background-color: #ecf0f1; font-family: sans-serif">
         <td>
             <div style="margin: 1% 0 1% 9%; text-align: justify;">
-                <p style="font-size: 15px">
                 <h2>Infraestructura</h2>
-                <ul>
-                    <li>Almacenamiento de datos</li>
-                    <li>Computadoras y Servidores</li>
-                    <li>Cableado estructurado</li>
-                    <li>Fibra óptica</li>
-                </ul>
-                </p>
+                     <ul style="font-size: 16px">
+                        <li>Almacenamiento de datos</li>
+                        <li>Computadoras y Servidores</li>
+                        <li>Cableado estructurado</li>
+                        <li>Fibra óptica</li>
+                    </ul>
             </div>
-
         </td>
         <td>
-            <div style="color: #34495e; margin: 4% 5% 2%; text-align: center;font-family: sans-serif">
+            <div style="color: #34495e; text-align: center;font-family: sans-serif">
                 <img style="height: 11em;" src="https://i.postimg.cc/x8TNtcFC/2.png" alt="Soluciones">
             </div>
         </td>
@@ -84,14 +79,14 @@
     <!--Licenciamiento -->
     <tr style="background-color: #ecf0f1; font-family: sans-serif">
         <td>
-            <div style="color: #34495e; margin: 4% 5%% 2%; text-align: center;font-family: sans-serif">
+            <div style="color: #34495e; margin: 4% 5% 2%; text-align: center;font-family: sans-serif">
                 <img style="height: 11em;" src="https://i.postimg.cc/3wmGRMvK/3.png" alt="Soluciones">
             </div>
         </td>
         <td>
             <div style="margin: 1% 5% 1% 10%; text-align: justify;">
-                <p style="font-size: 15px">
                 <h2>Licenciamiento</h2>
+                <p style="font-size: 15px">
                 Todas las herramientas de software que necesitas para que tu empresa alcance el éxito.
                 </p>
             </div>
@@ -103,19 +98,17 @@
     <tr style="background-color: #ecf0f1; font-family: sans-serif">
         <td>
             <div style="margin: 1% 0 1% 9%; text-align: justify;">
-                <p style="font-size: 15px">
                 <h2>Servicios</h2>
-                <ul>
+                <ul style="font-size: 16px">
                     <li>Pólizas de soporte</li>
                     <li>Monitoreo CCTV 24/7</li>
                     <li>Servicios financieros</li>
                     <li>Desarrollo web</li>
                 </ul>
-                </p>
             </div>
         </td>
         <td>
-            <div style="margin: 4% 10% 2%; text-align:center">
+            <div style="text-align:center">
                 <img style="height: 11em;" src="https://i.postimg.cc/1tSqVWGD/4.png" alt="Soluciones">
             </div>
         </td>
@@ -126,10 +119,7 @@
     <tr>
         <td colspan="2" style="background-color: #ecf0f1">
             <div style=" margin: 4% 10% 4%; text-align: center;font-family: sans-serif">
-                <p style="margin: 2px; font-size: 15px">
                 <h2>¿Ya conoces nuestra tienda en línea?</h2>
-
-                </p>
                 <a href="https://store.bitmovil.mx" target="_blank">
                     <img style="width: 45%;" src="https://i.postimg.cc/Vkg7sH30/Bitmovil-Store.png" alt="Store">
                 </a>
@@ -144,11 +134,11 @@
         <td colspan="2">
             <div style="width: 100%;margin:20px 0; display: inline-block;text-align: center; font-family: sans-serif;">
                 <p>Sígenos en nuestras redes sociales</p>
-                <a href="https://wa.link/bitmovil" target="_blank"><img style="padding: 0; width: 40px; margin: 5px" src="https://i.postimg.cc/fbrksDC2/733585.png"></a>
-                <a href="https://facebook.com/bitmovilmx" target="_blank"><img style="padding: 0; width: 40px; margin: 5px" src="https://i.postimg.cc/zv1zDBgj/5968764.png"></a>
-                <a href="https://linkedin.com/company/bitmovil" target="_blank"><img style="padding: 0; width: 40px; margin: 5px" src="https://i.postimg.cc/Bnt00Dz3/145807.png"></a>
-                <a href="mailto:contacto@bitmovil.mx" target="_blank"><img style="padding: 0; width: 40px; margin: 5px" src="https://i.postimg.cc/RVS3wsWT/4059271.png"></a>
-                <a href="tel:+528332272527" target="_blank"><img style="padding: 0; width: 40px; margin: 5px" src="https://i.postimg.cc/XvCKtHcC/3059590.png"></a>
+                <a href="https://wa.link/bitmovil" target="_blank"><img style="padding: 0; width: 40px; margin: 5px" src="https://i.postimg.cc/fbrksDC2/733585.png" alt="icon"></a>
+                <a href="https://facebook.com/bitmovilmx" target="_blank"><img style="padding: 0; width: 40px; margin: 5px" src="https://i.postimg.cc/zv1zDBgj/5968764.png" alt="icon"></a>
+                <a href="https://linkedin.com/company/bitmovil" target="_blank"><img style="padding: 0; width: 40px; margin: 5px" src="https://i.postimg.cc/Bnt00Dz3/145807.png" alt="icon"></a>
+                <a href="mailto:contacto@bitmovil.mx" target="_blank"><img style="padding: 0; width: 40px; margin: 5px" src="https://i.postimg.cc/RVS3wsWT/4059271.png" alt="icon"></a>
+                <a href="tel:+528332272527" target="_blank"><img style="padding: 0; width: 40px; margin: 5px" src="https://i.postimg.cc/XvCKtHcC/3059590.png" alt="icon"></a>
             </div>
             <div style="width: 100%; text-align: center">
                 <a style="font-family: sans-serif; text-decoration: none; border-radius: 5px; padding: 11px 23px; color: white; background-color: #fc2c38" href="https://bitmovil.mx/contacto" target="_blank">Contáctanos</a>
