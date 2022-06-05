@@ -8,7 +8,7 @@
     <title>Bitmovil - Presentación</title>
 </head>
 <body>
-<table style="max-width: 600px; padding: 10px; margin: 0 auto; border-collapse: collapse;">
+<table style="max-width: 200px; padding: 10px; margin: 0 auto; border-collapse: collapse;">
     <!-- Encabezado -->
     <tr>
         <td colspan="2" style="background-color: #0a4c98; text-align: center; padding: 0;">
@@ -24,11 +24,11 @@
         <td colspan="2" style="background-color: #ecf0f1">
             <div style="color: #34495e; margin: 4% 5% 2%; text-align: justify;font-family: sans-serif">
                 <!--  Título -->
-                <h2 style="color: #fc2c38; margin: 0 0 15px"> Nuestro Portafolio de Soluciones</h2>
+                <h1 style="color: #fc2c38; margin: 0 0 15px; text-align: center"> ¡C o n ó c e n o s!</h1>
 
                 <!-- Texto -->
                 <p style="margin: 2px; font-size: 20px">
-                    Conoce las <b> Soluciones Tencológicas </b> que te llevarán a alcanzar la <b>Transformación Digital</b> en tu negocio.
+                    Estas son las <b> Soluciones Tencológicas </b> que te llevarán a alcanzar la <b>Transformación Digital</b> en tu negocio.
                 </p>
             </div>
         </td>
@@ -39,7 +39,7 @@
     <tr style="background-color: #ecf0f1; font-family: sans-serif">
         <td>
             <div style="color: #34495e; margin: 4%; text-align: center;">
-                <img style="height: 11em;" src="https://i.postimg.cc/13L6sR4C/1.png" alt="Soluciones">
+                <img style="height: 11em;" src="https://i.postimg.cc/52YRL3Xy/1.png" alt="Soluciones">
             </div>
         </td>
         <td>
@@ -70,7 +70,7 @@
         </td>
         <td>
             <div style="color: #34495e; text-align: center;font-family: sans-serif">
-                <img style="height: 11em;" src="https://i.postimg.cc/x8TNtcFC/2.png" alt="Soluciones">
+                <img style="height: 11em;" src="https://i.postimg.cc/FRZWNCBW/2.png" alt="Soluciones">
             </div>
         </td>
     </tr>
@@ -80,7 +80,7 @@
     <tr style="background-color: #ecf0f1; font-family: sans-serif">
         <td>
             <div style="color: #34495e; margin: 4% 5% 2%; text-align: center;font-family: sans-serif">
-                <img style="height: 11em;" src="https://i.postimg.cc/3wmGRMvK/3.png" alt="Soluciones">
+                <img style="height: 11em;" src="https://i.postimg.cc/dVpgxfbG/3.png" alt="Soluciones">
             </div>
         </td>
         <td>
@@ -109,7 +109,7 @@
         </td>
         <td>
             <div style="text-align:center">
-                <img style="height: 11em;" src="https://i.postimg.cc/1tSqVWGD/4.png" alt="Soluciones">
+                <img style="height: 11em;" src="https://i.postimg.cc/9fygNQtj/4.png" alt="Soluciones">
             </div>
         </td>
     </tr>
