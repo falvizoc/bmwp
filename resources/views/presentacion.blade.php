@@ -6,6 +6,9 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bitmovil - Presentación</title>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-43225952-3"></script>
+    <link rel="shortcut icon" type="image/png" href="{{ asset('/assets/img/favicon_192x192.png') }}">
+    <link rel="shortcut icon" sizes="192x192" href="{{ asset('/assets/img/favicon_192x192.png') }}">
 </head>
 <body>
 <table style="max-width: 200px; padding: 10px; margin: 0 auto; border-collapse: collapse;">
