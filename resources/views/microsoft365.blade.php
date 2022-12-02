@@ -1,10 +1,9 @@
 @extends('layout.layout')
 @section('title', 'Planes Microsoft 365 para Empresas') <!--Personaliza el título del conenido de la página-->
 @section('content')
-    <section class="bg-light mt-6">
-        <div class="container-fluid separator-bottom">
-            <div class="row  ">
-                <div class="col-md-10 ">
+    <section class="bg-light">
+
+
                     <!-- cover -->
                     <section class="p-0">
                         <div class="swiper-container text-white swiper-container-fade swiper-container-horizontal skrollable skrollable-between" data-top-top="transform: translateY(0px);" data-top-bottom="transform: translateY(250px);" style="transform: translateY(0px);">
@@ -245,9 +244,8 @@
                         </div>
                     </section>
                     <!-- / Sección Partner-->
-                </div>
-            </div>
-        </div>
+
+
     </section>
 
 
