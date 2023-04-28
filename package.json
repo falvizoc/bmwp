@@ -15,7 +15,7 @@
     "minimatch": "6.0.0"
   },
   "devDependencies": {
-    "axios": "^0.27.2",
+    "axios": "^1.4.0",
     "braces": "^3.0.2",
     "cross-env": "^7.0",
     "glob-parent": "6.0.2",
@@ -23,7 +23,7 @@
     "lodash": "^4.17.21",
     "resolve-url-loader": "^5.0.0",
     "sass": "^1.51.0",
-    "sass-loader": "^12.6.0"
+    "sass-loader": "^13.2.2"
   },
   "dependencies": {
     "ansi-html": "^0.0.9",
@@ -32,13 +32,11 @@
     "glob-watcher": "^5.0.5",
     "gulp": "^4.0.2",
     "lodash": "^4.17.21",
-    "minimatch": "6.0.0",
+    "minimatch": "^9.0.0",
     "sass": "^1.51.0",
-    "sass-loader": "^12.6.0",
-    "updates": "^13.0.5",
+    "updates": "^14.1.0",
     "upgrade": "^1.1.0",
-    "vinyl-fs": "^2.4.1"
-
+    "vinyl-fs": "^3.0.3"
   },
   "name": "bmwp",
   "description": "<p align=\"center\"><img src=\"https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg\" width=\"400\"></p>",
