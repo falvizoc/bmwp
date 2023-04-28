@@ -13,8 +13,7 @@
 
 .js-cookie-consent-agree {
   height: 7px;
-  border: 1px solid #0a4c98;
-  /*anchura, estilo y color borde*/
+  border: 1px solid #0a4c98; /*anchura, estilo y color borde*/
   text-autospace: punctuation;
   padding-right: 3rem !important;
   padding-left: 3rem !important;
