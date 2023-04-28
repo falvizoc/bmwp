@@ -28,6 +28,7 @@
     "dependencies": {
         "ansi-html": "^0.0.9",
         "braces": "^3.0.2",
+        "chokidar": "^3.5.3",
         "glob-watcher": "^5.0.5",
         "gulp": "^4.0.2",
         "lodash": "^4.17.21",
