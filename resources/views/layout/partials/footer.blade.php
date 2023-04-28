@@ -7,7 +7,7 @@
                     <div class="row justify-content-center align-items-center">
                         <div class="col-md-6">
                             <p class="h2">
-                                Ayudamos a nuestros clientes a obtener el mayor valor de sus recursos de TI.
+                                Soluciones en tecnología para impulsar las operaciones de tu empresa.
                             </p>
                         </div>
                         <div class="col-md-6 text-md-right">
