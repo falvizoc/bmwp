@@ -10,7 +10,6 @@
         "production": "mix --production"
     },
     "preinstall": "npx npm-force-resolutions",
-    npm
     "resolutions": {
         "minimatch": "6.0.0",
         "glob-parent": "^6.0.2"
@@ -32,7 +31,7 @@
         "glob-watcher": "^5.0.5",
         "gulp": "^4.0.2",
         "lodash": "^4.17.21",
-        "minimatch": "^5.0.1",
+        "minimatch": "6.0.0",
         "sass": "^1.51.0",
         "sass-loader": "^12.6.0",
         "updates": "^13.0.5",
