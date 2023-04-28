@@ -86,9 +86,7 @@ Route::get('/financieros', function () {
 Route::get('/foros', function () {
     return view('main');
 });
-Route::get('/contacto', function () {
-    return view('contacto');
-});
+
 Route::get('/hp', function () {
     /*return view('main');*/
     return view('computohp');
