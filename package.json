@@ -10,9 +10,10 @@
         "production": "mix --production"
     },
     "preinstall": "npx npm-force-resolutions",
+
     "resolutions": {
-        "minimatch": "6.0.0",
-        "glob-parent": "^6.0.2"
+        "glob-parent": "^6.0.2",
+        "minimatch": "6.0.0"
     },
     "devDependencies": {
         "axios": "^0.27.2",
