@@ -9,9 +9,10 @@
         "prod": "npm run production",
         "production": "mix --production"
     },
-
+    "preinstall": "npx npm-force-resolutions",
     "resolutions": {
-        "minimatch": "5.0.1"
+        "minimatch": "5.0.1",
+        "glob-parent": "^6.0.1"
     },
     "devDependencies": {
         "axios": "^0.27.2",
@@ -35,6 +36,6 @@
         "sass-loader": "^12.6.0",
         "updates": "^13.0.5",
         "upgrade": "^1.1.0",
-        "vinyl-fs": "^3.0.3"
+        "vinyl-fs": "^2.4.1"
     }
 }
