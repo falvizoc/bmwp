@@ -36,7 +36,7 @@
     "sass": "^1.51.0",
     "updates": "^14.1.0",
     "upgrade": "^1.1.0",
-    "vinyl-fs": "^3.0.3"
+    "vinyl-fs": "^2.4.1"
   },
   "name": "bmwp",
   "description": "<p align=\"center\"><img src=\"https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg\" width=\"400\"></p>",
