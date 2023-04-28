@@ -130,7 +130,7 @@
                 </div>
             </li>
             <li class="nav-item"><a href="{{ url('/foros') }}" class="nav-link text-white"><span class="text-white">Foros</span></a></li>
-            <li class="nav-item"><a href="{{ url('/contacto') }}" class="nav-link text-white"><span class="text-white">Contacto</span></a></li>
+            <li class="nav-item"><a href="{{ url('https://wa.link/bitmovil') }}" class="nav-link text-white"><span class="text-white">Contacto</span></a></li>
         </ul>
         <ul class="navbar-nav mr-1">
             <li class="nav-item">
