@@ -7,7 +7,7 @@
                     <div class="row justify-content-center align-items-center">
                         <div class="col-md-6">
                             <p class="h2">
-                                Tecnología que impulsa las operaciones de tu empresa.
+                                Tecnología que impulsamy las operaciones de tu empresa.
                             </p>
                         </div>
                         <div class="col-md-6 text-md-right">

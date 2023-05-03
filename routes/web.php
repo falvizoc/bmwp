@@ -94,6 +94,10 @@ Route::get('/hp', function () {
     return view('computohp');
 });
 
+Route::get('/promociones', function () {
+    return view('promociones');
+});
+
 Route::get('/mailing/presentacion', function () {
     /*return view('main');*/
     return view('presentacion');
