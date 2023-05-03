@@ -7,7 +7,7 @@
                     <div class="row justify-content-center align-items-center">
                         <div class="col-md-6">
                             <p class="h2">
-                                Tecnología que impulsamy las operaciones de tu empresa.
+                                Tecnología que impulsa las operaciones de tu empresa.
                             </p>
                         </div>
                         <div class="col-md-6 text-md-right">
@@ -31,16 +31,16 @@
                     </div>
                     <div class="col col-lg-2">
                         <ul class="list-group bg-blue-bm list-group-minimal">
-                            <li class="list-group-item"><a href="">CCTV Manager</a></li>
-                            <li class="list-group-item"><a href="">Catálogos</a></li>
-                            <li class="list-group-item"><a href="">Oportunidades de mejora</a></li>
-                            <li class="list-group-item"><a href="">Eventos</a></li>
-                            <li class="list-group-item"><a href=""></a></li>
+                            <li class="list-group-item"><a href="{{ url('/promociones') }}" target="_blank">Promociones</a></li>
+                            <li class="list-group-item"><a href="{{ url('/') }}">Catálogos</a></li>
+                            <li class="list-group-item"><a href="{{ url('/') }}">Oportunidades de mejora</a></li>
+                            <li class="list-group-item"><a href="{{ url('/') }}">Eventos</a></li>
+                            <li class="list-group-item"><a href="{{ url('/') }}"></a></li>
                         </ul>
                     </div>
                     <div class="col col-lg-2">
                         <ul class="list-group list-group-minimal">
-                            <li class="list-group-item"><a href="{{ url('/contacto') }}">Contacto</a></li>
+                            <li class="list-group-item"><a href="{{ url('https://wa.link/bitmovil') }}">Contacto</a></li>
                             <li class="list-group-item"><a href="">Nosotros</a></li>
                             <li class="list-group-item"><a href="{{ url('/assets/docs/AvisoPrivacidad.pdf') }}" target="_blank">Aviso de privacidad</a></li>
                         </ul>
