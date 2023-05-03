@@ -2,8 +2,8 @@
 @section('title', 'Promociones') <!--Personaliza el título del conenido de la página-->
 @section('content')
          <!--carousel-->
-    <section class="bg-light">
-            <div class="container">
+    <section class="pt-10 bg-light">
+            <div class="container ">
                 <div class="row">
                     <div class="col-md-6">
                         <h2>Promociones <b>Mayo 2023</b></h2>
