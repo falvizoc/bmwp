@@ -47,13 +47,15 @@
                             </figure>
 
                             <figure class="user">
-                                <img src="{{asset('assets/img/promos/4.png')}}" alt="Promo">
-                                <figcaption class="user-caption">
-                                   <ul class="socials bordered">
-                                        <li><a href="{{url('https://www.productos-info.com/s/mx/es/25440/b6e33c59fc0af34db9d4112dcd48b248/x/ODU1MDA=-MX$/DS-96128NI-I16-HIKVISION-157240.html')}}" target="_blank" class="icon-info2 fs-20"></a></li>
+                                <a href="{{url('https://www.productos-info.com/s/mx/es/25440/b6e33c59fc0af34db9d4112dcd48b248/x/ODU1MDA=-MX$/DS-96128NI-I16-HIKVISION-157240.html')}}" target="_blank">
+                                    <img src="{{asset('assets/img/promos/4.png')}}" alt="Promo">
+                                    <figcaption class="user-caption">
+                                    <ul class="socials bordered">
                                         <li><a href="{{url('https://wa.link/bitmovil')}}" class="icon-whatsapp fs-20"></a></li>
                                     </ul>
-                                </figcaption>
+                                    </figcaption>
+                                </a>
+
                             </figure>
                         </div>
                     </div>
