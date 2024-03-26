@@ -58,6 +58,71 @@
                     </div>
                 </div>
             </li>
+            <li class="nav-item dropdown-mega show">
+                <a href="" class="nav-link text-white dropdown-toggle" id="softwareMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="text-white">Nuestro Portafolio</span>
+                </a>
+                <div class="dropdown-menu container" aria-labelledby="navbarDropdown-1" style="top:45px;">
+                    <div class="row">
+                        <div class="col">
+                            <ul class="mega-list">
+                                <!-- Cableado Estructurado -->
+                                <li><span><ion-icon name="lock-closed-outline"></ion-icon> Infraestructura Física de Redes</span></li>
+                                <div class="dropdown-divider"></div>
+                                <li><a class="text-dark" href="{{ url('/controldeacceso') }}">Control de acceso <p>Torniquetes | Chapas | Biométricos</p></a></li>
+                                <li><a class="text-dark" href="{{ url('/videovigilancia') }}">Videovigilancia <p>Cámaras | Video Wall | VMS </p></a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul class="mega-list">
+                                <!-- Cableado Estructurado -->
+                                <li><span><ion-icon name="lock-closed-outline"></ion-icon> Soluciones de Seguridad Patrimonial</span></li>
+                                <div class="dropdown-divider"></div>
+                                <li><a class="text-dark" href="{{ url('/controldeacceso') }}">Control de acceso <p>Torniquetes | Chapas | Biométricos</p></a></li>
+                                <li><a class="text-dark" href="{{ url('/videovigilancia') }}">Videovigilancia <p>Cámaras | Video Wall | VMS </p></a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul class="mega-list">
+                                <!-- Cableado Estructurado -->
+                                <li><span><ion-icon name="lock-closed-outline"></ion-icon>Soluciones Avanzadas</span></li>
+                                <div class="dropdown-divider"></div>
+                                <li><a class="text-dark" href="{{ url('/controldeacceso') }}">Control de acceso <p>Torniquetes | Chapas | Biométricos</p></a></li>
+                                <li><a class="text-dark" href="{{ url('/videovigilancia') }}">Videovigilancia <p>Cámaras | Video Wall | VMS </p></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <ul class="mega-list">
+                                <!-- Cableado Estructurado -->
+                                <li><span><ion-icon name="lock-closed-outline"></ion-icon>Soluciones de energía</span></li>
+                                <div class="dropdown-divider"></div>
+                                <li><a class="text-dark" href="{{ url('/controldeacceso') }}">Control de acceso <p>Torniquetes | Chapas | Biométricos</p></a></li>
+                                <li><a class="text-dark" href="{{ url('/videovigilancia') }}">Videovigilancia <p>Cámaras | Video Wall | VMS </p></a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul class="mega-list">
+                                <!-- Cableado Estructurado -->
+                                <li><span><ion-icon name="lock-closed-outline"></ion-icon>Suministros</span></li>
+                                <div class="dropdown-divider"></div>
+                                <li><a class="text-dark" href="{{ url('/controldeacceso') }}">Control de acceso <p>Torniquetes | Chapas | Biométricos</p></a></li>
+                                <li><a class="text-dark" href="{{ url('/videovigilancia') }}">Videovigilancia <p>Cámaras | Video Wall | VMS </p></a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul class="mega-list">
+                                <!-- Cableado Estructurado -->
+                                <li><span><ion-icon name="lock-closed-outline"></ion-icon>Servicio Técnico</span></li>
+                                <div class="dropdown-divider"></div>
+                                <li><a class="text-dark" href="{{ url('/controldeacceso') }}">Control de acceso <p>Torniquetes | Chapas | Biométricos</p></a></li>
+                                <li><a class="text-dark" href="{{ url('/videovigilancia') }}">Videovigilancia <p>Cámaras | Video Wall | VMS </p></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </li>
 
             <li class="nav-item dropdown show">
                 <a href="" class="nav-link dropdown-toggle text-white" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
