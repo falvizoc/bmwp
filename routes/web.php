@@ -18,8 +18,8 @@ Route::get('/', function () {
     return view('main');
 });
 //*************        Rutas del portafolio
-Route::get('cableadoEFibra', function () {
-    return view('cableadoEFibra');
+Route::get('cableadoFibra', function () {
+    return view('cableadoFibra');
 });
 Route::get('seguridadInformatica', function () {
     return view('seguridadInformatica');
