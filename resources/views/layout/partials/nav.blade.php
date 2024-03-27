@@ -25,7 +25,7 @@
                     <span class="text-white">Portafolio</span>
                 </a>
                 <div class="dropdown-menu container" aria-labelledby="navbarDropdown-1" style="top:45px;">
-                    <div class="row">
+                    <div class="row" style="margin-bottom:0px;">
                         <div class="col">
                             <ul class="mega-list">
                                 <!-- Cableado Estructurado y FO-->
@@ -33,7 +33,7 @@
                                     <a href="" class="nav-link dropdown-toggle text-black" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                                         <span class="text-black lead"><ion-icon name="git-network-outline"></ion-icon>Infaestructura Física de Redes</span>
                                     </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <div class="dropdown-menu mt-0" aria-labelledby="navbarDropdown" style="top:45px;">
                                         <a href="{{ url('/cableadoFibra') }}" class="dropdown-item">
                                             <span>
                                                 <ion-icon name="analytics-outline"></ion-icon>Cableado Estructurado y Fibra Óptica<p>Conexiones sólidas, velocidad superior.</p>
@@ -48,7 +48,7 @@
                                         <div class="dropdown-divider"></div>
                                         <a href="{{ url('/redesInalambricas') }}" class="dropdown-item">
                                             <span>
-                                                <ion-icon name="wifi-outline"></ion-icon>Redes Inalámbricas<p>Conectividad inalambrica </p>
+                                                <ion-icon name="wifi-outline"></ion-icon>Redes Inalámbricas<p>Conectividad confiable y con amplio alcance.</p>
                                             </span>
                                         </a>
                                     </div>
@@ -62,7 +62,7 @@
                                     <a href="" class="nav-link dropdown-toggle text-black" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                                         <span class="text-black lead"><ion-icon name="lock-closed-outline"></ion-icon> Soluciones de Seguridad</span>
                                     </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="top:45px;">
                                         <a href="{{ url('/videoVigilancia') }}" class="dropdown-item">
                                             <span>
                                                 <ion-icon name="videocam-outline"></ion-icon> Video Vigilancia<p>Videovigilancia continua, máxima seguridad</p>
@@ -97,7 +97,7 @@
                                     <a href="" class="nav-link dropdown-toggle text-black" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                                         <span class="text-black lead"><ion-icon name="medal-outline"></ion-icon> Soluciones Avanzadas</span>
                                     </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="top:45px;">
                                         <a href="{{ url('/VoIP') }}" class="dropdown-item">
                                             <span>
                                                 <ion-icon name="call-outline"></ion-icon> VoIP (Voz sobre IP)<p>Comunicación clara, costos reducidos.</p>
@@ -125,7 +125,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row" >
                         <div class="col">
                             <ul class="mega-list">
                                 <!-- Energía -->
@@ -133,7 +133,7 @@
                                     <a href="" class="nav-link dropdown-toggle text-black" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                                         <span class="text-black lead"><ion-icon name="flash-outline"></ion-icon> Soluciones de Energía</span>
                                     </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="top:45px;">
                                         <a href="{{ url('/videoVigilancia') }}" class="dropdown-item">
                                             <span>
                                                 <ion-icon name="battery-charging-outline"></ion-icon> Respaldo de Suministro Eléctrico<p>Continuidad Operativa Garantizada</p>
@@ -156,7 +156,7 @@
                                     <a href="" class="nav-link dropdown-toggle text-black" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                                         <span class="text-black lead"><ion-icon name="sync-outline"></ion-icon> Suministros</span>
                                     </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="top:45px;">
                                         <a href="{{ url('/videoVigilancia') }}" class="dropdown-item">
                                             <span>
                                                 <ion-icon name="desktop-outline"></ion-icon> Equipo de Cómputo y Servidores<p>Hardware de vanguardia, desempeño óptimo.</p>
