@@ -17,89 +17,71 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('main');
 });
-
-//Route::get('pruebas/{id}','SyscomController@pruebas');
-Route::get('pruebas/{id}',function () {
-    return view('main');
+//*************        Rutas del portafolio
+Route::get('cableadoEFibra', function () {
+    return view('cableadoEFibra');
+});
+Route::get('seguridadInformatica', function () {
+    return view('seguridadInformatica');
+});
+Route::get('redesInalambricas', function () {
+    return view('redesInalambricas');
+});
+Route::get('videoVigilancia', function () {
+    return view('videoVigilancia');
+});
+Route::get('controlAcceso', function () {
+    return view('controlAcceso');
+});
+Route::get('automatizacion', function () {
+    return view('automatizacion');
+});
+Route::get('controlIncendio', function () {
+    return view('controlIncendio');
+});
+Route::get('respaldoElectrico', function () {
+    return view('respaldoElectrico');
+});
+Route::get('proteccionElectrica', function () {
+    return view('proteccionElectrica');
+});
+Route::get('VoIP', function () {
+    return view('VoIP');
+});
+Route::get('controlAsistencia', function () {
+    return view('controlAsistencia');
+});
+Route::get('salasVideoConferencia', function () {
+    return view('salasVideoConferencia');
+});
+Route::get('almacenamientoDatos', function () {
+    return view('almacenamientoDatos');
+});
+Route::get('computo', function () {
+    return view('computo');
+});
+Route::get('licenciamiento', function () {
+    return view('licenciamiento');
+});
+Route::get('accesoriosRefacciones', function () {
+    return view('accesoriosRefaccciones');
+});
+Route::get('servicioTecnico', function () {
+    return view('servicioTecnico');
 });
 
-//Route::get('controldeacceso', 'SyscomController@acceso')->name('access');
-Route::get('controldeacceso', function () {
-    return view('main');
-});
 
-//Route::get('videovigilancia', 'SyscomController@video')->name('video');
-Route::get('videovigilancia', function () {
-    return view('main');
-});
-
-//Route::get('redesinalambricas', 'SyscomController@redes')->name('wireless');
-Route::get('redesinalambricas', function () {
-    return view('main');
-});
-
-//Route::get('categorias/{cat_id}', 'SyscomController@productbycat');
-Route::get('categorias/{cat_id}', function () {
-    return view('main');
-});
-
-//::get('productos/{product_id}', 'SyscomController@product');
-Route::get('productos/{product_id}', function () {
-    return view('main');
-});
-
-Route::get('networking', function () {
-    return view('main');
-});
-
-//Route::get('cableadoestructurado', 'SyscomController@cableado')->name('swire');
-Route::get('cableadoestructurado', function () {
-    return view('main');
-});
-
-//Route::get('deteciondefuego', 'SyscomController@fuego')->name('fire');
-Route::get('deteciondefuego',function () {
-    return view('main');
-});
-
-Route::get('/fibraoptica', function () {
-    return view('main');
-});
-/*
-Route::get('/microsoft365', function () {
-    return view('microsoft365');
-});
-*/
-Route::get('/antivirus', function () {
-    return view('main');
-});
-Route::get('/computo', function () {
-    return view('main');
-});
-Route::get('/almacenamiento', function () {
-    return view('main');
-});
-Route::get('/polizas', function () {
-    return view('main');
-});
-Route::get('/financieros', function () {
-    return view('main');
-});
-Route::get('/foros', function () {
-    return view('main');
-});
-
+//******** Ruta para acceso HP
 Route::get('/hp', function () {
     /*return view('main');*/
     return view('computohp');
 });
-
+//*******  Ruta de promociones
 Route::get('/promociones', function () {
     return view('promociones');
 });
-
+//*******  Ruta de Presentación por correo (mailing)
 Route::get('/mailing/presentacion', function () {
-    /*return view('main');*/
     return view('presentacion');
 });
 
