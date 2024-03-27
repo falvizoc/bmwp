@@ -28,58 +28,165 @@
                     <div class="row">
                         <div class="col">
                             <ul class="mega-list">
-                                <!-- Cableado Estructurado -->
-                                <li><span><ion-icon name="git-network-outline"></ion-icon> Infraestructura Física de Redes</span></li>
-                                <div class="dropdown-divider"></div>
-                                <li><a class="text-dark" href="{{ url('/controldeacceso') }}">Control de acceso <p>Torniquetes | Chapas | Biométricos</p></a></li>
-                                <li><a class="text-dark" href="{{ url('/videovigilancia') }}">Videovigilancia <p>Cámaras | Video Wall | VMS </p></a></li>
+                                <!-- Cableado Estructurado y FO-->
+                                <li class="nav-item dropdown">
+                                    <a href="" class="nav-link dropdown-toggle text-black" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                        <span class="text-black lead"><ion-icon name="git-network-outline"></ion-icon>Infaestructura Física de Redes</span>
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a href="{{ url('/cableadoFibra') }}" class="dropdown-item">
+                                            <span>
+                                                <ion-icon name="analytics-outline"></ion-icon>Cableado Estructurado y Fibra Óptica<p>Conexiones sólidas, velocidad superior.</p>
+                                            </span>
+                                        </a>
+                                        <div class="dropdown-divider"></div>
+                                        <a href="{{ url('/seguridadInformatica') }}" class="dropdown-item">
+                                            <span>
+                                                <ion-icon name="layers-outline"></ion-icon>Seguridad Informática<p>Protección avanzada, datos seguros.</p>
+                                            </span>
+                                        </a>
+                                        <div class="dropdown-divider"></div>
+                                        <a href="{{ url('/redesInalambricas') }}" class="dropdown-item">
+                                            <span>
+                                                <ion-icon name="wifi-outline"></ion-icon>Redes Inalámbricas<p>Conectividad inalambrica </p>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </li>
                             </ul>
                         </div>
                         <div class="col">
                             <ul class="mega-list">
-                                <!-- Cableado Estructurado -->
-                                <li><span><ion-icon name="lock-closed-outline"></ion-icon> Soluciones de Seguridad Patrimonial</span></li>
-                                <div class="dropdown-divider"></div>
-                                <li><a class="text-dark" href="{{ url('/controldeacceso') }}">Control de acceso <p>Torniquetes | Chapas | Biométricos</p></a></li>
-                                <li><a class="text-dark" href="{{ url('/videovigilancia') }}">Videovigilancia <p>Cámaras | Video Wall | VMS </p></a></li>
+                                <!-- Seguridad Patrimonial -->
+                                <li class="nav-item dropdown">
+                                    <a href="" class="nav-link dropdown-toggle text-black" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                        <span class="text-black lead"><ion-icon name="lock-closed-outline"></ion-icon> Soluciones de Seguridad</span>
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a href="{{ url('/videoVigilancia') }}" class="dropdown-item">
+                                            <span>
+                                                <ion-icon name="videocam-outline"></ion-icon> Video Vigilancia<p>Videovigilancia continua, máxima seguridad</p>
+                                            </span>
+                                        </a>
+                                        <div class="dropdown-divider"></div>
+                                        <a href="{{ url('/controlAcceso') }}" class="dropdown-item">
+                                            <span>
+                                                <ion-icon name="finger-print-outline"></ion-icon> Sistemas Control de Acceso<p>Accesos Controlados, entornos protegidos </p>
+                                            </span>
+                                        </a>
+                                        <div class="dropdown-divider"></div>
+                                        <a href="{{ url('/automatizacion') }}" class="dropdown-item">
+                                            <span>
+                                                <ion-icon name="git-compare-outline"></ion-icon> Sistemas de Automatización <p>Portones | Barreras Vehiculares | Puertas </p>
+                                            </span>
+                                        </a>
+                                        <div class="dropdown-divider"></div>
+                                        <a href="{{ url('/controlIncendio') }}" class="dropdown-item">
+                                            <span>
+                                                <ion-icon name="flame-outline"></ion-icon> Sistemas de Control de Incendio <p>Detección y respuestas rápidas a incendios </p>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </li>
                             </ul>
                         </div>
                         <div class="col">
                             <ul class="mega-list">
-                                <!-- Cableado Estructurado -->
-                                <li><span><ion-icon name="lock-closed-outline"></ion-icon>Soluciones Avanzadas</span></li>
-                                <div class="dropdown-divider"></div>
-                                <li><a class="text-dark" href="{{ url('/controldeacceso') }}">Control de acceso <p>Torniquetes | Chapas | Biométricos</p></a></li>
-                                <li><a class="text-dark" href="{{ url('/videovigilancia') }}">Videovigilancia <p>Cámaras | Video Wall | VMS </p></a></li>
+                                <!-- Soluciones Avanzadas -->
+                                <li class="nav-item dropdown">
+                                    <a href="" class="nav-link dropdown-toggle text-black" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                        <span class="text-black lead"><ion-icon name="medal-outline"></ion-icon> Soluciones Avanzadas</span>
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a href="{{ url('/VoIP') }}" class="dropdown-item">
+                                            <span>
+                                                <ion-icon name="call-outline"></ion-icon> VoIP (Voz sobre IP)<p>Comunicación clara, costos reducidos.</p>
+                                            </span>
+                                        </a>
+                                        <div class="dropdown-divider"></div>
+                                        <a href="{{ url('/controlAsistencia') }}" class="dropdown-item">
+                                            <span>
+                                                <ion-icon name="people-outline"></ion-icon> Control de Asistencia<p>Gestión eficaz del tiempo laboral.</p>
+                                            </span>
+                                        </a>
+                                        <div class="dropdown-divider"></div>
+                                        <a href="{{ url('/salasVideoConferencia') }}" class="dropdown-item">
+                                            <span>
+                                                <ion-icon name="mic-outline"></ion-icon> Salas de Videoconferencia<p>Reuniones remotas, colaboración sin límites.</p>
+                                            </span>
+                                        </a>
+                                        <div class="dropdown-divider"></div>
+                                        <a href="{{ url('/almacenamientoDatos') }}" class="dropdown-item">
+                                            <span>
+                                                <ion-icon name="cube-outline"></ion-icon> Almacenamiento y Protección de Datos.<p>Datos seguros, acceso rápido.</p>
+                                            </span>
+                                        </a>
+                                    </div>
                             </ul>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col">
                             <ul class="mega-list">
-                                <!-- Cableado Estructurado -->
-                                <li><span><ion-icon name="lock-closed-outline"></ion-icon>Soluciones de energía</span></li>
-                                <div class="dropdown-divider"></div>
-                                <li><a class="text-dark" href="{{ url('/controldeacceso') }}">Control de acceso <p>Torniquetes | Chapas | Biométricos</p></a></li>
-                                <li><a class="text-dark" href="{{ url('/videovigilancia') }}">Videovigilancia <p>Cámaras | Video Wall | VMS </p></a></li>
+                                <!-- Energía -->
+                                <li class="nav-item dropdown mt-0">
+                                    <a href="" class="nav-link dropdown-toggle text-black" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                        <span class="text-black lead"><ion-icon name="flash-outline"></ion-icon> Soluciones de Energía</span>
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a href="{{ url('/videoVigilancia') }}" class="dropdown-item">
+                                            <span>
+                                                <ion-icon name="battery-charging-outline"></ion-icon> Respaldo de Suministro Eléctrico<p>Continuidad Operativa Garantizada</p>
+                                            </span>
+                                        </a>
+                                        <div class="dropdown-divider"></div>
+                                        <a href="{{ url('/controlAcceso') }}" class="dropdown-item">
+                                            <span>
+                                                <ion-icon name="flash-off-outline"></ion-icon> Protección contra Descargas Eléctricas<p>Equipos protegidos, operación segura </p>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </li>
                             </ul>
                         </div>
                         <div class="col">
                             <ul class="mega-list">
-                                <!-- Cableado Estructurado -->
-                                <li><span><ion-icon name="lock-closed-outline"></ion-icon>Suministros</span></li>
-                                <div class="dropdown-divider"></div>
-                                <li><a class="text-dark" href="{{ url('/controldeacceso') }}">Control de acceso <p>Torniquetes | Chapas | Biométricos</p></a></li>
-                                <li><a class="text-dark" href="{{ url('/videovigilancia') }}">Videovigilancia <p>Cámaras | Video Wall | VMS </p></a></li>
+                                <!-- Suministros -->
+                                <li class="nav-item dropdown">
+                                    <a href="" class="nav-link dropdown-toggle text-black" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                        <span class="text-black lead"><ion-icon name="sync-outline"></ion-icon> Suministros</span>
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a href="{{ url('/videoVigilancia') }}" class="dropdown-item">
+                                            <span>
+                                                <ion-icon name="desktop-outline"></ion-icon> Equipo de Cómputo y Servidores<p>Hardware de vanguardia, desempeño óptimo.</p>
+                                            </span>
+                                        </a>
+                                        <div class="dropdown-divider"></div>
+                                        <a href="{{ url('/controlAcceso') }}" class="dropdown-item">
+                                            <span>
+                                                <ion-icon name="shield-checkmark-outline"></ion-icon> Licenciamiento de Software<p>Software legal, funcionalidades completas.</p>
+                                            </span>
+                                        </a>
+                                        <div class="dropdown-divider"></div>
+                                        <a href="{{ url('/automatizacion') }}" class="dropdown-item">
+                                            <span>
+                                                <ion-icon name="headset-outline"></ion-icon> Accesorios, Refacciones y Consumibles<p>Complementos esenciales, mantenimiento eficiente.</p>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </li>
                             </ul>
                         </div>
                         <div class="col">
                             <ul class="mega-list">
-                                <!-- Cableado Estructurado -->
-                                <li><span><ion-icon name="lock-closed-outline"></ion-icon>Servicio Técnico</span></li>
-                                <div class="dropdown-divider"></div>
-                                <li><a class="text-dark" href="{{ url('/controldeacceso') }}">Control de acceso <p>Torniquetes | Chapas | Biométricos</p></a></li>
-                                <li><a class="text-dark" href="{{ url('/videovigilancia') }}">Videovigilancia <p>Cámaras | Video Wall | VMS </p></a></li>
+                                <!-- Servicio Técnico -->
+                                <li class="nav-item dropdown">
+                                    <a href="{{ url('/servicioTecnico') }}" class="dropdown-item">
+                                        <p class="lead text-black"><ion-icon name="build-outline"></ion-icon> Servicio Técnico</p>
+
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
