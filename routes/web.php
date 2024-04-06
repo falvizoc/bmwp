@@ -70,6 +70,9 @@ Route::get('servicioTecnico', function () {
     return view('servicioTecnico');
 });
 
+Route::get('365', function () {
+    return view('microsoft365');
+});
 
 //******** Ruta para acceso HP
 Route::get('/hp', function () {

@@ -14,13 +14,13 @@
             </li>
 -->
             <!-- Nosotros -->
-            <li class="nav-item dropdown-mega show">
+            <li class="nav-item dropdown-mega ">
                 <a href="" class="nav-link text-white" id="softwareMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <span class="text-white">Nosotros</span>
                 </a>
             </li>
             <!-- Portafolio -->
-            <li class="nav-item dropdown-mega show">
+            <li class="nav-item dropdown-mega ">
                 <a href="" class="nav-link text-white dropdown-toggle" id="softwareMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <span class="text-white">Portafolio</span>
                 </a>
@@ -134,13 +134,13 @@
                                         <span class="text-black lead"><ion-icon name="flash-outline"></ion-icon> Soluciones de Energía</span>
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="top:45px;">
-                                        <a href="{{ url('/videoVigilancia') }}" class="dropdown-item">
+                                        <a href="{{ url('/respaldoElectrico') }}" class="dropdown-item">
                                             <span>
                                                 <ion-icon name="battery-charging-outline"></ion-icon> Respaldo de Suministro Eléctrico<p>Continuidad Operativa Garantizada</p>
                                             </span>
                                         </a>
                                         <div class="dropdown-divider"></div>
-                                        <a href="{{ url('/controlAcceso') }}" class="dropdown-item">
+                                        <a href="{{ url('/proteccionElectrica') }}" class="dropdown-item">
                                             <span>
                                                 <ion-icon name="flash-off-outline"></ion-icon> Protección contra Descargas Eléctricas<p>Equipos protegidos, operación segura </p>
                                             </span>
@@ -157,19 +157,19 @@
                                         <span class="text-black lead"><ion-icon name="sync-outline"></ion-icon> Suministros</span>
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="top:45px;">
-                                        <a href="{{ url('/videoVigilancia') }}" class="dropdown-item">
+                                        <a href="{{ url('/computo') }}" class="dropdown-item">
                                             <span>
                                                 <ion-icon name="desktop-outline"></ion-icon> Equipo de Cómputo y Servidores<p>Hardware de vanguardia, desempeño óptimo.</p>
                                             </span>
                                         </a>
                                         <div class="dropdown-divider"></div>
-                                        <a href="{{ url('/controlAcceso') }}" class="dropdown-item">
+                                        <a href="{{ url('/licenciamiento') }}" class="dropdown-item">
                                             <span>
                                                 <ion-icon name="shield-checkmark-outline"></ion-icon> Licenciamiento de Software<p>Software legal, funcionalidades completas.</p>
                                             </span>
                                         </a>
                                         <div class="dropdown-divider"></div>
-                                        <a href="{{ url('/automatizacion') }}" class="dropdown-item">
+                                        <a href="{{ url('/accesoriosRefacciones') }}" class="dropdown-item">
                                             <span>
                                                 <ion-icon name="headset-outline"></ion-icon> Accesorios, Refacciones y Consumibles<p>Complementos esenciales, mantenimiento eficiente.</p>
                                             </span>
@@ -192,23 +192,20 @@
                     </div>
                 </div>
             </li>
-
             <!-- Partners y certificaciones -->
-            <li class="nav-item dropdown show">
+            <li class="nav-item dropdown">
                 <a href="" class="nav-link text-white" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                     <span class="text-white">Certificaciones</span>
                 </a>
             </li>
-
             <!-- Casos de éxito -->
-            <li class="nav-item dropdown show">
+            <li class="nav-item dropdown">
                 <a href="" class="nav-link text-white" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                     <span class="text-white">Casos de éxito</span>
                 </a>
             </li>
-
             <!-- Blog y recursos-->
-            <li class="nav-item dropdown show">
+            <li class="nav-item dropdown">
                 <a href="" class="nav-link text-white" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                     <span class="text-white">Blog y Recursos</span>
                 </a>
@@ -218,20 +215,14 @@
             <li class="nav-item"><a href="{{ url('https://wa.link/bitmovil') }}" target="_blank"  class="nav-link text-white"><span class="text-white">Contacto</span></a></li>
         </ul>
         <ul class="navbar-nav mr-1">
+        <!-- Tienda en línea -->
             <li class="nav-item">
-                <a href="{{ url('/hp') }}" class="nav-link text-white"
-                   data-toggle="tooltip"
-                   data-html="true"
-                   data-placement="bottom"
-                   title="Conoce nuestra propuesta HP">
-                    <img src="{{asset('assets/img/partners/HP_White.png')}}" alt="hp" style="height: 2.1rem" >
-                </a>
+                <a href="{{ url('https://store.bitmovil.mx') }}" target="_blank" class="badge badge-pill badge-red " ><small class="text-white"> <i class="icon-shopping-cart"></i> Tienda en línea</small></a>
             </li>
-            <li class="nav-item"><a href="{{ url('/hp') }}" class="nav-link"><span class="text-white"> </span></a></li>
         </ul>
         <ul class="navbar-nav mr-1">
             <li class="nav-item">
-                <div class=" ">
+                <div class="d-lg-none">
                     <a href="{{ url('tel:+528332272527') }}" class="btn btn-ico btn-sm btn-rounded btn-orange"
                        data-toggle="tooltip"
                        data-html="true"

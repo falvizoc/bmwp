@@ -51,6 +51,11 @@
     });
 </script>
 <script>
+    $('.dropdown-item').click(function() {
+        $(this).closest('.dropdown-menu').removeClass('show');
+    });
+</script>
+<script>
     //Habilita la vista de tarjetas en pantallas con resolución menor a 1024px
     $(function (){
         if(screen.width < 1024) {

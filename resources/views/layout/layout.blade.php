@@ -7,7 +7,6 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
 </head>
 <body>
-
     @include('layout.partials.nav')
     @yield('content')
     @include('layout.partials.footer')
