@@ -8,11 +8,6 @@
         </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto left">
-            <!-- Tienda en línea
-            <li class="nav-item">
-                <a href="{{ url('https://store.bitmovil.mx') }}" target="_blank" class="badge badge-pill badge-red " ><small class="text-white"> <i class="icon-shopping-cart"></i> Tienda en línea</small></a>
-            </li>
--->
             <!-- Nosotros -->
             <li class="nav-item dropdown-mega ">
                 <a href="" class="nav-link text-white" id="softwareMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
