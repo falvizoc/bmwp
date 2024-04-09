@@ -80,7 +80,7 @@
                                 <div class="bordered rising p-3">
                                     <i class="icon-cpu text-green fs-40 mb-3"></i>
                                     <h4 class="mb-0">Rendimiento superior</h4>
-                                    <p>Procesadores para las tareas más exigentes.</p>
+                                    <p>Procesadores Intel<sup>Ⓡ</sup> de última generación.</p>
                                 </div>
                             </div>
                             <div class="col-sm-5 col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-delay="150">
@@ -94,7 +94,7 @@
                                 <div class="bordered rising p-3">
                                     <ion-icon  class="text-green fs-38 mb-3" name="build-outline"></ion-icon>
                                     <h4 class="mb-0">Soporte <br>Premium</h4>
-                                    <p>Asistencia técnica prioritaria y efectiva.</p>
+                                    <p>Planes de soporte y garantía desde 3 hasta 5 años.</p>
                                 </div>
                             </div>
                         </div>
@@ -108,41 +108,23 @@
         <!-- /Sección Beneficios -->
 
         <!-- Sección Partners -->
-    <section class="component">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col">
-                    <h4>Partners</h4>
-                </div>
-            </div>
-        </div>
-        <div class="tab-content" id="component-1">
-
-            <div class="tab-pane show active" id="component-1-1" role="tabpanel" aria-labelledby="component-1-1">
-                <div class="component-example">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col partners align-items-center">
-                                <div class="owl-carousel" data-items="[6,4,2]" data-loop="true" data-autoplay="true">
-                                    <div class="HP">
-                                        <img src="{{ asset('assets/img/partners/logo-1.png') }}" alt="Logo">
-                                    </div>
-                                    <div class="Lenovo">
-                                        <img src="{{ asset('assets/img/partners/logo-3.png') }}" alt="Logo">
-                                    </div>
-                                    <div class="Dell">
-                                        <img src="{{ asset('assets/img/partners/logo-5.png') }}" alt="Logo">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+        <section class="separator-top pt-5 pb-5">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-md-12 text-center">
+                        <h1 class="display-4 mb-2 text-reddit">Partners</h1>
+                        <h3>Los fabricantes de cómputo más importantes.</h3>
                     </div>
                 </div>
+                <div class="row justify-content-between" data-aos="zoom-in">
+                    <div class="col-4 d-flex justify-content-center align-items-center"><img src="{{asset('assets/img/partners/logo-1.png')}}" style="height: 100px; width: auto" alt="HP"></div>
+                    <div class="col-4 d-flex justify-content-center align-items-center"><img src="{{asset('assets/img/partners/logo-3.png')}}" style="width: 200px; height: auto" alt="Lenovo"></div>
+                    <div class="col-4 d-flex justify-content-center align-items-center"><img src="{{asset('assets/img/partners/logo-5.png')}}" style="height: 100px; width: auto" alt="Dell"></div>
+                </div>
             </div>
+        </section>
 
-        </div>
-    </section>
-        <!-- /Sección Nuestras Marcas-->
+    <!-- /Sección Nuestras Marcas-->
 
         <!-- Sección ¿Por qué elegir Bitmovil? -->
         <!-- /Sección ¿Por qué elegir Bitmovil?-->
