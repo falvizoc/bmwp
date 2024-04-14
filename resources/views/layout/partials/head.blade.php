@@ -12,7 +12,6 @@
 
     gtag('config', 'UA-43225952-3');
 </script>
-
 <link rel="shortcut icon" type="image/png" href="{{ asset('/assets/img/favicon_192x192.png') }}">
 <link rel="shortcut icon" sizes="192x192" href="{{ asset('/assets/img/favicon_192x192.png') }}">
 

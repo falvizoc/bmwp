@@ -7,7 +7,7 @@
                     <div class="row justify-content-center align-items-center">
                         <div class="col-md-6">
                             <p class="h2">
-                                Mejoramos todos tus procesos productivos con tecnología.
+                                Mejoramos todos tus <strong>procesos productivos</strong> con <strong>Tecnología</strong>.
                             </p>
                         </div>
                         <div class="col-md-6 text-md-right">
