@@ -11,11 +11,11 @@
             </div>
             <div class="col-lg-7 blockquote-list">
                 <blockquote class="blockquote blockquote-2 boxed" data-aos="fade-up">
-                    <p>El soporte técnico de Bitmovil respondió eficazmente cuando más lo necesitábamos, manteniendo nuestras operaciones fluidas.</p>
+                    <p>El soporte técnico de Bitmovil respondió eficazmente cuando más lo necesitábamos, manteniendo nuestras operaciones fluidas.</p>
                     <footer class="blockquote-footer">Luis García Luna - Megatravel</footer>
                 </blockquote>
                 <blockquote class="blockquote blockquote-2 boxed" data-aos="fade-up">
-                    <p>La solución de videovigilancia de Bitmovil ha fortalecido la seguridad de nuestras instlaciones, dándonos gran tranquilidad.</p>
+                    <p>La solución de videovigilancia de Bitmovil ha fortalecido la seguridad de nuestras instalaciones, dándonos gran tranquilidad.</p>
                     <footer class="blockquote-footer">Enrique Ramírez Aradillas - Glass & Glass</footer>
                 </blockquote>
                 <blockquote class="blockquote blockquote-2 boxed" data-aos="fade-up">

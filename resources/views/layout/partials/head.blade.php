@@ -3,6 +3,9 @@
 
 <title>@yield('title') - Bitmovil</title>
 
+<meta name="description" content="@yield('meta_description', 'Descripción predeterminada')">
+<meta name="keywords" content="@yield('meta_keywords', 'palabras, clave, predeterminadas')">
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-43225952-3"></script>
 <script>
@@ -17,7 +20,6 @@
 
 
 <!-- css -->
-
 <link rel="stylesheet" href="{{asset('assets/css/vendor.css')}}">
 <link rel="stylesheet" href="{{asset('assets/css/app.css')}}">
 <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">

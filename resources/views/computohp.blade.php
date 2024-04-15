@@ -11,6 +11,7 @@
         <script type='text/javascript' src='//syndication.inc.hp.com/inpage/contentid.min.js#Yz1zaG93Y2FzZS9sYXIvZXMmbT1MQSZjYz1teCZwPTk5MTAwMDgyOTg5Mg'></script>
     </div>
     @include('layout.partials.footer')
+    @include('layout.partials.footer-scripts')
 </body>
 </html>
 
