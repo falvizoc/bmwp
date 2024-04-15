@@ -49,7 +49,7 @@
             <div class="col-md-6 col-lg-5 pr-md-7 text-center text-md-right">
                 <span class="eyebrow text-dark-blue mb-1">Enfócate en tu operación.</span>
                 <h3 class="h2">Puesta a punto.</h3>
-                <p class="text-gray-dark">La Puesta a Punto es un <strong>servicio de alto valor</strong> que permite a nuestros clientes concentrarse completamente en sus operaciones centrales, mientras nosotros nos encarga de asegurar que la infraestructura tecnológica esté optimizada, funcional y lista para el uso inmediato. Este servicio es especialmente valioso porque minimiza las interrupciones y maximiza la eficiencia operativa desde el primer día.</p>
+                <p class="text-gray-dark">La Puesta a Punto es un <strong>servicio de alto valor</strong> que permite a nuestros clientes concentrarse completamente en sus operaciones centrales, mientras nosotros nos encargamos de asegurar que la infraestructura tecnológica esté optimizada, funcional y lista para el uso inmediato. Este servicio es especialmente valioso porque minimiza las interrupciones y maximiza la eficiencia operativa desde el primer día.</p>
             </div>
             <div class="col-8 col-md-6 col-lg-4" data-aos="zoom-in">
                 <div class="presentation-circle with-delay">
