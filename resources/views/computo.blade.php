@@ -46,7 +46,7 @@
                                                 <span class="lead text-white">Equipos de alto desempeño para <strong> empresas de todos los tamaños.</strong></span>
                                             </div>
                                             <div class="row">
-                                                <a href="{{url('https://wa.link/bitmovil')}}" class="btn btn-rounded btn-red">Solicita una cotización.</a>
+                                                <a href="{{url('https://wa.link/bitmovil')}}" target="_blank" class="btn btn-rounded btn-red">Solicita una cotización.</a>
                                             </div>
                                         </div>
                                     </div>
