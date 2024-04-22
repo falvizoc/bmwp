@@ -20,7 +20,7 @@ Route::get('/', function () {
 //*************        Rutas del portafolio
 Route::get('cableadoFibra', function () {
     //return view('cableadoFibra');
-    return view('main');
+    return view('cableadoFibra');
 });
 Route::get('seguridadInformatica', function () {
     //return view('seguridadInformatica');

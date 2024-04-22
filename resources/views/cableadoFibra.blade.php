@@ -19,25 +19,18 @@
            style="transform: translateY(0px);">-->
             <div class="swiper-wrapper">
                 <div class="swiper-slide vh-100">
-                    <div class="image image-overlay image-zoom" style="background-image: url('{{ asset('assets/img/hero/computoEmpresarial.png') }}')"></div>
+                    <div class="image image-zoom -overlay-dark " style="background-image: url('{{ asset('assets/img/hero/cableadoEstructurado.png') }}')"></div>
                     <div class="caption">
                         <div class="container">
                             <div class="row align-items-center vh-100">
                                 <div class="col-lg-10" data-swiper-parallax-y="-250%">
-                                    <h1 class="display-2 text-white">Soluciones Tecnológicas <br> Empresariales con</h1>
-                                    <h2 class="display-1 text-white">
-                                        <span class="font-weight-bold text-white" id="typed"></span>
-                                    </h2>
-                                    <div id="typed-strings" style="display: none;">
-                                        <p>HP</p>
-                                        <p>Lenovo</p>
-                                        <p>Dell</p>
+                                        <h1 class="display-2 text-white">Conectividad de<br><strong class="text-white">Alta Velocidad.</strong></h1>
+                                    <div class="row">
+                                        <h2 class="lead text-white">Cableado Estructurado de Cobre y Fibra Óptica,<br>
+                                            <strong>Alto Desempeño</strong> para<strong> Empresas Ágiles</strong>.</h2>
                                     </div>
                                     <div class="row">
-                                        <span class="lead text-white">Equipos de alto desempeño para <strong> empresas de todos los tamaños.</strong></span>
-                                    </div>
-                                    <div class="row">
-                                        <a href="{{url('https://wa.link/bitmovil')}}" class="btn btn-rounded btn-red">Solicita una cotización.</a>
+                                        <a href="{{url('https://wa.link/bitmovil')}}" target="_blank" class="btn btn-rounded btn-dribbble">Solicita una visita técnica.</a>
                                     </div>
                                 </div>
                             </div>
@@ -57,6 +50,48 @@
         </div>
     </section>
     <!-- /Sección Hero -->
+
+    <section class="bg-blue-bm p-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md-7">
+                    <ul class="masonry row gutter-2" data-columns="2">
+                        <li class="col-md-6 text-white" data-aos="fade-up">
+                            <div class="bordered p-4">
+                                <i class="icon-weather_sun fs-50 mb-2"></i>
+                                <h4>Weather</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                            </div>
+                        </li>
+                        <li class="col-md-6 mt-5" data-aos="fade-up">
+                            <div class="boxed p-4">
+                                <i class="icon-basic_globe fs-50 mb-2 text-primary"></i>
+                                <h4>Savings</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                            </div>
+                        </li>
+                        <li class="col-md-6 text-white" data-aos="fade-up">
+                            <div class="bordered p-4">
+                                <i class="icon-ecommerce_cart_content fs-50 mb-2"></i>
+                                <h4>Shopping</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                            </div>
+                        </li>
+                        <li class="col-md-6 text-white" data-aos="fade-up">
+                            <div class="bordered p-4">
+                                <i class="icon-basic_clockwise fs-50 mb-2"></i>
+                                <h4>Quick</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-white">
+                    <h2><b>Exclusive offers</b> from our partner hotels.</h2>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Sección Beneficios -->
     <section class="p-4 " >
